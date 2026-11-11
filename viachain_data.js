@@ -108,9 +108,11 @@ window.VIACHAIN_DATA = {
           "env": "IP69K · IP67 · −20 °C / +70 °C",
           "dims": "197 × 50.8 × 50.8 mm",
           "sku": "SM202659-006",
-          "kits": [
+          "bundles": [
               { "sku": "SM202659-005", "name": "CT 1000 ORBC WHT ATT GS 5 UNITS" },
-              { "sku": "SM202659-003", "name": "CT 1000 ORBC WHT ATT GS 25 UNITS" },
+              { "sku": "SM202659-003", "name": "CT 1000 ORBC WHT ATT GS 25 UNITS" }
+          ],
+          "kits": [
               { "sku": "ST101675-001", "name": "KIT LONG RIVET CT1000 5 UNIT" },
               { "sku": "ST101675-002", "name": "KIT LONG RIVET CT1000 25 UNIT" }
           ],
@@ -288,9 +290,10 @@ window.VIACHAIN_DATA = {
           "env": "IP54 · −40 °C / +85 °C",
           "dims": "172.37 × 81.03 × 25.58 mm",
           "sku": "SM202884-001",
-          "kits": [
+          "bundles": [
               { "sku": "SM202983-001", "name": "CT3600 GL LTE ORBC — kit con cables de interfaz y antena externa" }
           ],
+          "kits": [],
           "memory": ">2 000 mensajes · >5 000 geocercas onboard",
           "certs": "FCC/IC · PTCRB · CE Red · RCM (Australia)",
           "io": [
@@ -375,8 +378,10 @@ window.VIACHAIN_DATA = {
           "env": "IP67 · SAE J1455 · −40 °C / +75 °C",
           "dims": "456 × 106 × 31 mm · 1.3 kg",
           "sku": "CT5300-0120-H",
+          "bundles": [
+              { "sku": "CT5300-0110-H", "name": "CT 5300 DEVICE STUD MOUNT KIT" }
+          ],
           "kits": [
-              { "sku": "CT5300-0110-H", "name": "CT 5300 DEVICE STUD MOUNT KIT" },
               { "sku": "ST101836", "name": "KIT STUD BRACKETS CT5300" }
           ],
           "memory": "",
@@ -465,8 +470,10 @@ window.VIACHAIN_DATA = {
           "env": "IP67 · SAE J1455 · −40 °C / +85 °C",
           "dims": "116 × 89 × 39 mm",
           "sku": "GT1030-1700-S",
+          "bundles": [
+              { "sku": "SM202804-001", "name": "KIT GT1030 + INSTALL KIT + CABLE 12P BLUNT CUT" }
+          ],
           "kits": [
-              { "sku": "SM202804-001", "name": "KIT GT1030 + INSTALL KIT + CABLE 12P BLUNT CUT" },
               { "sku": "ST101280-001", "name": "C/A GT1030 12P OVRMLD BLUNT CUT 3m SHIELDED 3COND" },
               { "sku": "ST101216-001", "name": "C/A GT1030 12P OVRMLD BLNT CUT 3m SHIELDED (HEAVY EQUIP)" },
               { "sku": "ST100900", "name": "VHB BRACKET WITH TETHER (OPTIONAL)" },
@@ -818,7 +825,7 @@ window.VIACHAIN_DATA = {
           "env": "IP67 · −40 °C / +70 °C",
           "dims": "7.5 × 4.3 × 1.5 in",
           "sku": "PT6100-6F03-H",
-          "kits": [
+          "bundles": [
               { "sku": "SM202991-001", "name": "S/K PT6100 + ST2100 CARR S-TMP & VECTOR M-TMP" },
               { "sku": "SM202991-002", "name": "S/K PT6100 + ST2100 OPC CARR S-TEMP" },
               { "sku": "SM202991-003", "name": "S/K PT6100 + ST2100 IBOX TK SR3/SR4" },
@@ -828,7 +835,9 @@ window.VIACHAIN_DATA = {
               { "sku": "SM202992-003", "name": "S/K PT6100 NO PCTRL CARR S-TEMP" },
               { "sku": "SM202992-004", "name": "S/K PT6100 NO PCTRL CARR VECTOR1850 M-TEMP" },
               { "sku": "SM202992-005", "name": "S/K PT6100 NO PCTRL TK SR2" },
-              { "sku": "SM202992-006", "name": "S/K PT6100 IBOX PCTRL TK SR3/SR4" },
+              { "sku": "SM202992-006", "name": "S/K PT6100 IBOX PCTRL TK SR3/SR4" }
+          ],
+          "kits": [
               { "sku": "ST101067-001", "name": "C/A PT6-ST2100 GENERIC MAIN HARNESS" },
               { "sku": "ST101434-001", "name": "DM HARNESS PT6100 DUAL MODE" },
               { "sku": "ST100670-001", "name": "PT6 REEFER MOUNTING BRACKET KIT" },
@@ -1112,9 +1121,9 @@ window.VIACHAIN_DATA = {
               "RS-485"
           ],
           "connector16pin": true,
+          "sku": "ST101213-001",
           "kits": [
               { "sku": "ST101196-001", "name": "C/A GT12 TO CS500 PVC 60FT" },
-              { "sku": "ST101213-001", "name": "KIT CEILING MOUNT CS500 CAMERAWIRED" },
               { "sku": "ST101443-001", "name": "C/A GT12 ST2100 CS500" },
               { "sku": "ST101250-001", "name": "C/A GT12-ST21 CS500 EXT PWR TPMS LIGHT RING/BULL TERM" },
               { "sku": "ST101342-001", "name": "C/A GT12 SHELF ST21 CS500 EXT PWR TPMS LIGHT RING/BULL" }
@@ -1214,8 +1223,8 @@ window.VIACHAIN_DATA = {
           "ports": [
               "BLE 4.0"
           ],
+          "sku": "ST100547-001",
           "kits": [
-              { "sku": "ST100547-001", "name": "DOOR SENSOR DS300" },
               { "sku": "ST100687-003", "name": "KIT DS300 ROLL DOOR GENERIC" },
               { "sku": "MD701328", "name": "DRILL TEMPLATE DOOR SENSOR DS300" }
           ],
@@ -1254,8 +1263,8 @@ window.VIACHAIN_DATA = {
           "ports": [
               "BLE 5.1"
           ],
+          "sku": "ST101746-001",
           "kits": [
-              { "sku": "ST101746-001", "name": "DOOR SENSOR DS310 DRY CONTAINER AND TRAILER" },
               { "sku": "MD702619", "name": "DRILL TEMPLATE DOOR SENSOR DS310" }
           ],
           "featured": true,
@@ -1324,8 +1333,8 @@ window.VIACHAIN_DATA = {
           "ports": [
               "BLE 5.1"
           ],
+          "sku": "ST100643-002",
           "kits": [
-              { "sku": "ST100643-002", "name": "WIRELESS TEMP SENSOR EN12830 TS310" },
               { "sku": "ST101451-001", "name": "KIT TS310 MOUNTING BRACKET" },
               { "sku": "ST101451-002", "name": "KIT TS310 MOUNTING BRACKET VENT GRILLMOUNT" },
               { "sku": "ST101523-001", "name": "KIT TS310 MAGNET KIT" }
@@ -1363,8 +1372,8 @@ window.VIACHAIN_DATA = {
           "ports": [
               "BLE 5.0"
           ],
+          "sku": "IS400-1000",
           "kits": [
-              { "sku": "IS400-1000", "name": "IS400 RADAR STR TRACTOR ID" },
               { "sku": "ST101238-001", "name": "KIT VHB MOUNTING & TETHER IS400" }
           ],
           "featured": true,
@@ -1402,8 +1411,8 @@ window.VIACHAIN_DATA = {
               "OGx · IsatData Pro (IDP)"
           ],
           "connector16pin": true,
+          "sku": "SM202385-001",
           "kits": [
-              { "sku": "SM202385-001", "name": "ST2100 W/NOSE MOUNT BRACKET GT12 ONLY" },
               { "sku": "ST100991-001", "name": "SURFACE MOUNT KIT ST2100" },
               { "sku": "ST101067-001", "name": "C/A PT6-ST2100 GENERIC MAIN HARNESS" }
           ],
@@ -1441,9 +1450,12 @@ window.VIACHAIN_DATA = {
           "ports": [
               "Delphi Standard 150 (3-pin)"
           ],
-          "kits": [
+          "sku": "FS210-001 · FS210-002",
+          "bundles": [
               { "sku": "FS210-001", "name": "FS 210 FUEL SENSOR W/FLANGE KIT 22in" },
-              { "sku": "FS210-002", "name": "FS 210 FUEL SENSOR W/FLANGE KIT 19in" },
+              { "sku": "FS210-002", "name": "FS 210 FUEL SENSOR W/FLANGE KIT 19in" }
+          ],
+          "kits": [
               { "sku": "LK7018", "name": "KIT SVC F8 GASKET & FLANGE" }
           ],
           "datasheet": "assets/accessories/FS210_VIACHAIN.pdf"

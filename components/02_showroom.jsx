@@ -278,6 +278,22 @@ const ShowroomScene = ({ activeProduct, setActiveProduct, setScene }) => {
               );
             })()}
 
+            {Array.isArray(current.bundles) && current.bundles.length > 0 && (
+              <div style={{ marginTop: 32, paddingTop: 24, borderTop: `1px solid ${COLORS.line}` }}>
+                <div style={{ fontFamily: FONT_MONO, fontSize: 10, letterSpacing: 2, color: COLORS.brand, textTransform: 'uppercase', marginBottom: 12 }}>
+                  {t({ es: 'Variantes de pedido', en: 'Ordering variants', pt: 'Variantes de pedido' }, lang)}
+                </div>
+                <div style={{ display: 'flex', flexDirection: 'column', gap: 4 }}>
+                  {current.bundles.map((k, i) => (
+                    <div key={i} style={{ display: 'flex', gap: 10, alignItems: 'baseline' }}>
+                      <span style={{ fontFamily: FONT_MONO, fontSize: 10, color: COLORS.brand, flexShrink: 0, letterSpacing: 0.5 }}>{k.sku}</span>
+                      <span style={{ fontFamily: FONT_SANS, fontSize: 12, color: COLORS.textMut, lineHeight: 1.4 }}>{k.name}</span>
+                    </div>
+                  ))}
+                </div>
+              </div>
+            )}
+
             {Array.isArray(current.kits) && current.kits.length > 0 && (
               <div style={{ marginTop: 32, paddingTop: 24, borderTop: `1px solid ${COLORS.line}` }}>
                 <div style={{ fontFamily: FONT_MONO, fontSize: 10, letterSpacing: 2, color: COLORS.brand, textTransform: 'uppercase', marginBottom: 12 }}>
