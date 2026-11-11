@@ -7,11 +7,16 @@ DirectoryIndex index.php
     Deny from all
 </Files>
 
-# Block direct JSON access
+# Block direct JSON access (credentials, catalog, etc.)
 <FilesMatch "\.json$">
     Order Allow,Deny
     Deny from all
 </FilesMatch>
+# Exception: content.json is portfolio data, not credentials
+<Files "content.json">
+    Order Allow,Deny
+    Allow from all
+</Files>
 
 <IfModule mod_headers.c>
     Header always set X-Robots-Tag "noindex, nofollow"

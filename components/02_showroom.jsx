@@ -37,9 +37,9 @@ const ShowroomScene = ({ activeProduct, setActiveProduct, setScene }) => {
   const gridCols = narrow ? '220px 1fr' : (compact ? '240px 1fr 340px' : '280px 1fr 400px');
 
   return (
-    <div style={{ minHeight: '100vh', paddingTop: 80, background: COLORS.bg }}>
-      <div style={{ display: 'grid', gridTemplateColumns: gridCols, minHeight: 'calc(100vh - 80px)' }}>
-        <aside style={{ borderRight: `1px solid ${COLORS.line}`, padding: '40px 0', background: COLORS.bgAlt }}>
+    <div style={{ ...(narrow ? { minHeight: '100vh' } : { height: '100vh', overflow: 'hidden' }), paddingTop: 80, background: COLORS.bg }}>
+      <div style={{ display: 'grid', gridTemplateColumns: gridCols, ...(narrow ? { minHeight: 'calc(100vh - 80px)' } : { height: 'calc(100vh - 80px)' }) }}>
+        <aside style={{ borderRight: `1px solid ${COLORS.line}`, padding: '40px 0', background: COLORS.bgAlt, overflowY: 'auto' }}>
           <div style={{ padding: '0 32px 24px' }}>
             <Eyebrow>{t({ es: "Seleccionar", en: "Select" }, lang)}</Eyebrow>
           </div>

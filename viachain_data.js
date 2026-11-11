@@ -98,7 +98,7 @@ window.VIACHAIN_DATA = {
               "pt": "O CT 1000 oferece visibilidade de ativos rentável, eficiência de condução e segurança de carga. Gestores de frota podem melhorar a utilização monitorando localização, estado, partidas e paradas em múltiplos tipos de ativos. SIM global com conectividade em 565 redes, 180 países. Instalável em 1 minuto."
           },
           "satellite": "—",
-          "cellular": "4G LTE · 3G/2G global",
+          "cellular": "4G LTE global · 3G/2G fallback",
           "gnss": "GPS · GLONASS · BeiDou · Galileo · QZSS",
           "power": {
               "es": "Solar (panel integrado, sin fuente externa)",
@@ -189,7 +189,7 @@ window.VIACHAIN_DATA = {
               "pt": "O CT 1010 é um dispositivo inteligente de monitoramento de contentores que protege a carga, reduz o risco de incêndio e torna os contentores mais seguros. Seu pod interior detecta temperatura ambiente, movimento, luz e abertura de portas. ATEX Zona 2 certificado. Compatível com CrewView para gestão em tempo real a bordo."
           },
           "satellite": "—",
-          "cellular": "4G LTE · 3G/2G",
+          "cellular": "4G LTE global · 3G/2G fallback",
           "gnss": "GPS · GLONASS · BeiDou · Galileo · QZSS",
           "power": {
               "es": "Li-ion + panel solar (recarga solar)",
@@ -208,12 +208,12 @@ window.VIACHAIN_DATA = {
           "memory": ">2 000 mensajes · 90+ días",
           "certs": "FCC/IC · PTCRB · CE RED 2014/53/EU · ATEX Zone 2 · ROHS",
           "io": [
-              "Near-IR ToF door sensor (open/close)",
-              "Far-IR temperature sensor",
-              "Ambient temperature sensor",
+              "3-axis accelerometer (×2)",
               "Ambient light sensor",
-              "Tamper detection sensor",
-              "3-axis accelerometer (×2)"
+              "Ambient temperature sensor",
+              "Far-IR temperature sensor",
+              "Near-IR ToF door sensor (open/close)",
+              "Tamper detection sensor"
           ],
           "ports": [
               "BLE",
@@ -283,7 +283,7 @@ window.VIACHAIN_DATA = {
               "pt": "O CT 3600 oferece monitoramento, visibilidade e controle completo de contentores reefer com tempo de implantação reduzido. Instalação sem perfuração dentro do gabinete reefer. Monitoramento e correção de temperatura, inspeções pré-viagem remotas e geofencing avançado para otimizar tempos de ciclo."
           },
           "satellite": "—",
-          "cellular": "4G LTE CAT1 · 3G/2G",
+          "cellular": "4G LTE CAT1 global · 3G/2G fallback",
           "gnss": "GPS · GLONASS · BeiDou · Galileo · QZSS",
           "power": {
               "es": "15–36 VAC / 9–32 VDC · batería interna 3.6 Ah",
@@ -377,7 +377,7 @@ window.VIACHAIN_DATA = {
               "pt": "O CT 5300 é um dispositivo abrangente de inteligência de ativos combinando rastreamento com câmera de carga 1MP integrada com FoV de 180° e iluminação IR. Verifique o status da carga e a disponibilidade dos ativos remotamente. Instala em corrugações verticais ou horizontais. Solar 2,5W."
           },
           "satellite": "—",
-          "cellular": "4G LTE · 3G/2G global",
+          "cellular": "4G LTE global · 3G/2G fallback",
           "gnss": "GPS · GLONASS · BeiDou · Galileo",
           "power": {
               "es": "Solar (2.5W) · Li-ion backup",
@@ -399,9 +399,9 @@ window.VIACHAIN_DATA = {
           "io": [
               "1MP 180° FoV cargo camera",
               "2× IR illumination LEDs",
+              "3-axis accelerometer (×2)",
               "Ambient temperature sensor",
               "Tamper detection sensor",
-              "3-axis accelerometer (×2)",
               "Wireless door sensor (optional)"
           ],
           "ports": [
@@ -503,11 +503,11 @@ window.VIACHAIN_DATA = {
           "memory": "",
           "certs": "PTCRB · FCC · IC · CE · HERO · Anatel",
           "io": [
-              "3-axis accelerometer",
-              "2× digital input",
-              "1× GPIO",
+              "1× 12V power output (sensors)",
               "1× analog input",
-              "1× 12V power output (sensors)"
+              "1× GPIO",
+              "2× digital input",
+              "3-axis accelerometer"
           ],
           "ports": [
               "Chogori 12-pin",
@@ -637,13 +637,13 @@ window.VIACHAIN_DATA = {
               "BLE wireless door sensor support"
           ],
           "io_16pin": [
-              "9–32 VDC power input",
-              "4× multipurpose I/O",
-              "Wired door sensor",
-              "TPMS alert light",
-              "Temperature probes",
               "2× analog input",
-              "Wired cargo camera (CS 500 · RS-485)"
+              "4× multipurpose I/O",
+              "9–32 VDC power input",
+              "Temperature probes",
+              "TPMS alert light",
+              "Wired cargo camera (CS 500 · RS-485)",
+              "Wired door sensor"
           ],
           "ports": [
               "BLE 5.0 (dual-integrated)"
@@ -770,21 +770,21 @@ window.VIACHAIN_DATA = {
           "memory": "2KB EEPROM · 16MB Flash · 100 msg S&F (4 000+ extendido)",
           "certs": "CE · FCC · IC · PTCRB · Anatel · RoHS",
           "io": [
-              "Integrated cargo sensor",
-              "Tamper detection seal",
               "Accelerometer",
               "Ambient temperature sensor",
+              "BLE cargo camera support (CS 511)",
               "BLE wireless door sensor support",
-              "BLE cargo camera support (CS 511)"
+              "Integrated cargo sensor",
+              "Tamper detection seal"
           ],
           "io_16pin": [
-              "9–32 VDC power input",
-              "4× multipurpose I/O",
-              "Wired door sensor",
-              "TPMS alert light",
-              "Temperature probes",
               "2× analog input",
-              "Wired cargo camera (CS 500 · RS-485)"
+              "4× multipurpose I/O",
+              "9–32 VDC power input",
+              "Temperature probes",
+              "TPMS alert light",
+              "Wired cargo camera (CS 500 · RS-485)",
+              "Wired door sensor"
           ],
           "ports": [
               "BLE 5.0 (dual-integrated)"
@@ -857,7 +857,7 @@ window.VIACHAIN_DATA = {
               "pt": "O PT 6100 oferece gestão abrangente de combustível e temperatura, manutenção, logística e conformidade regulatória para reboques refrigerados. Compatível com Carrier Transicold e Thermo King. Suporte para até 3 sensores de temperatura. Bateria recarregável com relatório por até 10 dias sem alimentação veicular."
           },
           "satellite": "—",
-          "cellular": "4G LTE · 3G · 2G",
+          "cellular": "4G LTE global · 3G/2G fallback",
           "gnss": {
               "es": "Opcional (sensor externo)",
               "en": "Optional (external sensor)",
@@ -894,11 +894,11 @@ window.VIACHAIN_DATA = {
           "certs": "PTCRB · CE",
           "io": [
               "Carrier Transicold interface",
-              "Thermo King interface",
-              "Up to 3 temperature probes",
               "Door sensor (optional)",
               "Fuel sensor (optional)",
-              "GPS sensor (optional)"
+              "GPS sensor (optional)",
+              "Thermo King interface",
+              "Up to 3 temperature probes"
           ],
           "ports": [
               "RS-232",
@@ -973,7 +973,7 @@ window.VIACHAIN_DATA = {
               "en": "Optional (IDP / OGx)",
               "pt": "Opcional (IDP / OGx)"
           },
-          "cellular": "4G LTE · 3G/2G fallback",
+          "cellular": "4G LTE global · 3G/2G fallback",
           "gnss": "GPS · GLONASS · BeiDou · Galileo",
           "power": {
               "es": "9–32 VDC · batería backup (hasta 30 días)",
@@ -985,12 +985,12 @@ window.VIACHAIN_DATA = {
           "memory": "",
           "certs": "PTCRB · FCC · IC · CE · Inmarsat · RoHS",
           "io": [
-              "3-axis accelerometer",
-              "4× digital input",
-              "2× digital output (pull-up)",
               "2× digital output (pull-down)",
-              "4× analog input",
+              "2× digital output (pull-up)",
+              "3-axis accelerometer",
               "3-Wire",
+              "4× analog input",
+              "4× digital input",
               "CAN Bus (×2)"
           ],
           "ports": [
@@ -1084,8 +1084,8 @@ window.VIACHAIN_DATA = {
           "certs": "FCC/IC · CE RED 2014/53/EU · ATEX Zone 2 · CID2 · Inmarsat · ROHS · WEEE",
           "io": [
               "3-axis accelerometer",
-              "Device temperature sensor",
-              "BLE door sensor support"
+              "BLE door sensor support",
+              "Device temperature sensor"
           ],
           "ports": [
               "BLE 5.2"
