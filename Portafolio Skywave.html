@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+<title>Skywave · Portafolio virtual LATAM 2026</title>
+
+<!-- PWA -->
+<link rel="manifest" href="manifest.webmanifest" />
+<meta name="theme-color" content="#BA0C2F" />
+<meta name="description" content="Portafolio virtual de terminales satelitales SKYWAVE para LATAM." />
+<!-- iOS (iPad trade-show mode) -->
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+<meta name="apple-mobile-web-app-title" content="SKYWAVE" />
+<link rel="apple-touch-icon" href="assets/icon-192.png" />
+<link rel="icon" type="image/png" sizes="192x192" href="assets/icon-192.png" />
+<link rel="icon" type="image/png" sizes="512x512" href="assets/icon-512.png" />
+
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500&family=Roboto+Mono:wght@400;500;600&display=swap" />
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  html, body { background: #FFFFFF; color: #0D0A07; font-family: 'Roboto', sans-serif; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
+  body { overflow-x: hidden; }
+  #root { min-height: 100vh; background: #FFFFFF; }
+
+  /* Safe area for iPad standalone (black-translucent status bar) */
+  :root {
+    --sat: env(safe-area-inset-top, 0px);
+    --sab: env(safe-area-inset-bottom, 0px);
+    --sal: env(safe-area-inset-left, 0px);
+    --sar: env(safe-area-inset-right, 0px);
+  }
+  /* Push fixed header down by the status-bar height */
+  header { padding-top: calc(16px + var(--sat)) !important; }
+  /* Compensate the body top padding so content starts below header */
+  #root > div { padding-top: var(--sat); }
+
+  /* Hotspot pulse */
+  @keyframes pulse {
+    0% { transform: scale(1); opacity: 0.9; }
+    100% { transform: scale(2.4); opacity: 0; }
+  }
+
+  /* Scrollbar */
+  ::-webkit-scrollbar { width: 8px; height: 8px; }
+  ::-webkit-scrollbar-track { background: #F4F4F4; }
+  ::-webkit-scrollbar-thumb { background: #D6D9DE; border-radius: 4px; }
+  ::-webkit-scrollbar-thumb:hover { background: #B8BCC4; }
+
+  button:focus { outline: 1px dashed rgba(11,12,15,0.35); outline-offset: 3px; }
+
+  /* scene fade-in */
+  .scene-fade {
+    animation: fadeIn 0.5s cubic-bezier(.2,.9,.3,1);
+  }
+  @keyframes fadeIn {
+    from { opacity: 0; transform: translateY(8px); }
+    to { opacity: 1; transform: none; }
+  }
+
+  /* product float (showroom idle) */
+  @keyframes productFloat {
+    0%, 100% { transform: translateY(0px); }
+    50%       { transform: translateY(-16px); }
+  }
+
+  /* spec row highlight flash */
+  @keyframes specHighlight {
+    0%   { background: rgba(186,12,47,0.13); }
+    60%  { background: rgba(186,12,47,0.07); }
+    100% { background: transparent; }
+  }
+  .spec-highlighted {
+    animation: specHighlight 1.4s ease-out forwards;
+    border-radius: 4px;
+  }
+</style>
+</head>
+<body>
+
+<div id="root"></div>
+
+<script src="https://unpkg.com/react@18.3.1/umd/react.development.js" integrity="sha384-hD6/rw4ppMLGNu3tX5cjIb+uRZ7UkRJ6BPkLpg4hAu/6onKUg4lLsHAs9EBPT82L" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/react-dom@18.3.1/umd/react-dom.development.js" integrity="sha384-u6aeetuaXnQ38mYT8rp6sbXaQe3NL9t+IBXmnYxwkUI2Hw4bsp2Wvmx4yRQF1uAm" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/@babel/standalone@7.29.0/babel.min.js" integrity="sha384-m08KidiNqLdpJqLq95G/LEi8Qvjl/xUYll3QILypMoQ65QorJ9Lvtp2RXYGBFj1y" crossorigin="anonymous"></script>
+
+<script src="data.js?v=9"></script>
+<script type="text/babel" src="components/00_core.jsx?v=5"></script>
+<script type="text/babel" src="components/01_overview.jsx?v=5"></script>
+<script type="text/babel" src="components/02_showroom.jsx?v=15"></script>
+<script type="text/babel" src="components/03_scenes.jsx?v=8"></script>
+<script type="text/babel" src="components/04_apps.jsx?v=5"></script>
+<script type="text/babel" src="components/05_accessories.jsx?v=2"></script>
+
+<script type="text/babel">
+  const App = () => {
+    const [scene, setScene] = React.useState(() => localStorage.getItem('sw_scene') || 'overview');
+    const [lang, setLang] = React.useState(() => localStorage.getItem('sw_lang') || 'es');
+    const [activeProduct, setActiveProduct] = React.useState(() => localStorage.getItem('sw_prod') || 'st6100');
+
+    React.useEffect(() => { localStorage.setItem('sw_scene', scene); window.scrollTo({ top: 0, behavior: 'instant' }); }, [scene]);
+    React.useEffect(() => { localStorage.setItem('sw_lang', lang); document.documentElement.lang = lang; }, [lang]);
+    React.useEffect(() => { localStorage.setItem('sw_prod', activeProduct); }, [activeProduct]);
+
+    const Scene = {
+      overview:     OverviewScene,
+      showroom:     ShowroomScene,
+      apps:         AppsScene,
+      accessories:  AccessoriesScene,
+      compare:      CompareScene,
+      industries:   IndustriesScene,
+      architecture: ArchitectureScene,
+    }[scene] || OverviewScene;
+
+    return (
+      <LangCtx.Provider value={{ lang, setLang }}>
+        <Header scene={scene} setScene={setScene} />
+        <div key={scene} className="scene-fade">
+          <Scene
+            setScene={setScene}
+            activeProduct={activeProduct}
+            setActiveProduct={setActiveProduct}
+          />
+        </div>
+      </LangCtx.Provider>
+    );
+  };
+
+  // Wait until all Babel-compiled scripts have executed and registered on window
+  const waitForDeps = () => {
+    if (window.OverviewScene && window.ShowroomScene && window.AppsScene && window.AccessoriesScene && window.CompareScene && window.IndustriesScene && window.ArchitectureScene && window.Header && window.LangCtx) {
+      const root = ReactDOM.createRoot(document.getElementById('root'));
+      root.render(<App />);
+    } else {
+      setTimeout(waitForDeps, 30);
+    }
+  };
+  waitForDeps();
+
+  // --- PWA: register service worker (only over http(s), not file://) ---
+  if ('serviceWorker' in navigator && (location.protocol === 'http:' || location.protocol === 'https:')) {
+    window.addEventListener('load', () => {
+      navigator.serviceWorker.register('sw.js').catch(() => {});
+    });
+  }
+</script>
+
+</body>
+</html>

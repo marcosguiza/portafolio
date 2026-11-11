@@ -1,0 +1,44 @@
+Options -Indexes
+DirectoryIndex index.php index.html
+
+# ── Protect sensitive internals ───────────────────────────────────────────────
+<Files "portfolio_auth.php">
+    Order Allow,Deny
+    Deny from all
+</Files>
+
+# Block direct access to raw HTML portfolio files (served via PHP wrappers)
+<Files "index.html">
+    Order Allow,Deny
+    Deny from all
+</Files>
+<Files "Portafolio Skywave.html">
+    Order Allow,Deny
+    Deny from all
+</Files>
+<Files "Portafolio Viachain.html">
+    Order Allow,Deny
+    Deny from all
+</Files>
+
+# Block manager JSON and auth helpers (already in manager/.htaccess, belt-and-suspenders)
+<FilesMatch "\.(json)$">
+    Order Allow,Deny
+    Deny from all
+</FilesMatch>
+
+# ── Rewrite HTML portfolio URLs to PHP wrappers ───────────────────────────────
+RewriteEngine On
+
+# Portafolio Skywave.html → portafolio-skywave.php  (browsers always send %20)
+RewriteRule ^Portafolio%20Skywave\.html$ portafolio-skywave.php [L,NC]
+
+# Portafolio Viachain.html → portafolio-viachain.php
+RewriteRule ^Portafolio%20Viachain\.html$ portafolio-viachain.php [L,NC]
+
+# ── Security headers ──────────────────────────────────────────────────────────
+<IfModule mod_headers.c>
+    Header always set X-Frame-Options "SAMEORIGIN"
+    Header always set X-Content-Type-Options "nosniff"
+    Header always set X-Robots-Tag "noindex, nofollow"
+</IfModule>

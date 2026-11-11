@@ -1,0 +1,18 @@
+Options -Indexes
+DirectoryIndex index.php
+
+# Block direct access to raw HTML (served via index.php wrapper)
+<Files "index.html">
+    Order Allow,Deny
+    Deny from all
+</Files>
+
+# Block direct JSON access
+<FilesMatch "\.json$">
+    Order Allow,Deny
+    Deny from all
+</FilesMatch>
+
+<IfModule mod_headers.c>
+    Header always set X-Robots-Tag "noindex, nofollow"
+</IfModule>

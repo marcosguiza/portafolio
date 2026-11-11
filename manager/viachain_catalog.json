@@ -1,0 +1,1604 @@
+{
+  "hero": {
+    "eyebrow": {
+      "es": "Portafolio CT · GT · PT · SC · Cargo Intelligence",
+      "en": "CT · GT · PT · SC Portfolio · Cargo Intelligence",
+      "pt": "Portfólio CT · GT · PT · SC · Cargo Intelligence"
+    },
+    "title": {
+      "es": [
+        "Visibilidad inteligente",
+        "de carga que se",
+        "paga sola"
+      ],
+      "en": [
+        "Intelligent cargo",
+        "visibility that",
+        "pays for itself"
+      ],
+      "pt": [
+        "Visibilidade inteligente",
+        "de carga que se",
+        "paga sozinha"
+      ]
+    },
+    "sub": {
+      "es": "Un portafolio completo de dispositivos IoT para contenedores, tráilers y activos de transporte — con conectividad global 4G LTE y más de 2 millones de activos conectados.",
+      "en": "A complete IoT device portfolio for containers, trailers and transport assets — with global 4G LTE connectivity and 2 million+ assets connected worldwide.",
+      "pt": "Um portfólio completo de dispositivos IoT para contentores, reboques e ativos de transporte — com conectividade global 4G LTE e mais de 2 milhões de ativos conectados."
+    },
+    "scroll": {
+      "es": "Explorar portafolio",
+      "en": "Explore portfolio",
+      "pt": "Explorar portfólio"
+    }
+  },
+  "closing": {
+    "title": {
+      "es": "Red probada. Carga visible. Siempre.",
+      "en": "Proven network. Cargo visible. Always.",
+      "pt": "Rede comprovada. Carga visível. Sempre."
+    },
+    "sub": {
+      "es": "Más de 2 millones de activos conectados, 1.6 millones bajo gestión activa y la confianza de los más grandes operadores logísticos del mundo.",
+      "en": "More than 2 million assets connected, 1.6 million under active management and the trust of the world's largest logistics operators.",
+      "pt": "Mais de 2 milhões de ativos conectados, 1,6 milhão sob gestão ativa e a confiança dos maiores operadores logísticos do mundo."
+    },
+    "cta": {
+      "es": "Solicitar una demo técnica",
+      "en": "Request a technical demo",
+      "pt": "Solicitar uma demo técnica"
+    },
+    "contact": {
+      "es": "Ingeniero de preventa · VIACHAIN LATAM",
+      "en": "Pre-sales engineer · VIACHAIN LATAM",
+      "pt": "Engenheiro de pré-vendas · VIACHAIN LATAM"
+    }
+  },
+  "products": [
+    {
+      "id": "ct1000",
+      "name": "CT 1000",
+      "category": {
+        "es": "Rastreador de contenedor",
+        "en": "Container tracker",
+        "pt": "Rastreador de contentores"
+      },
+      "role": {
+        "es": "Visibilidad solar de bajo costo para contenedores y tráilers.",
+        "en": "Cost-effective solar visibility for containers and trailers.",
+        "pt": "Visibilidade solar de baixo custo para contentores e reboques."
+      },
+      "img": "assets/products/CT1000-VIACHAIN.png",
+      "hero": {
+        "es": "Simpler tracking. Smarter decisions.",
+        "en": "Simpler tracking. Smarter decisions.",
+        "pt": "Simpler tracking. Smarter decisions."
+      },
+      "description": {
+        "es": "El CT 1000 ofrece visibilidad de activos rentable, eficiencia de conducción y seguridad de carga. Gestores de flota pueden mejorar la utilización monitoreando ubicación, estado, arranques y paradas en múltiples tipos de activos. SIM global con conectividad en 565 redes, 180 países. Instalable en 1 minuto.",
+        "en": "The CT 1000 delivers cost-effective asset visibility, driving efficiency and boosting cargo security. Fleet and intermodal managers can improve utilization by monitoring asset location, status, starts and stops across multiple asset types. Global SIM with connectivity on 565 networks, 180 countries. Installable in 1 minute.",
+        "pt": "O CT 1000 oferece visibilidade de ativos rentável, eficiência de condução e segurança de carga. Gestores de frota podem melhorar a utilização monitorando localização, estado, partidas e paradas em múltiplos tipos de ativos. SIM global com conectividade em 565 redes, 180 países. Instalável em 1 minuto."
+      },
+      "satellite": "—",
+      "cellular": "4G LTE · 3G/2G global",
+      "gnss": "GPS · GLONASS · BeiDou · Galileo · QZSS",
+      "power": {
+        "es": "Solar (panel integrado, sin fuente externa)",
+        "en": "Solar (integrated panel, no external power)",
+        "pt": "Solar (painel integrado, sem fonte externa)"
+      },
+      "env": "IP69K · IP67 · −20 °C / +70 °C",
+      "dims": "197 × 50.8 × 50.8 mm",
+      "memory": ">2 000 mensajes · 90+ días",
+      "certs": "FCC/IC · PTCRB · CE RED 2014/53/EU · ATEX · ROHS · WEEE",
+      "io": [
+        "3-axis accelerometer",
+        "Ambient temperature sensor"
+      ],
+      "ports": [
+        "BLE"
+      ],
+      "prog": {
+        "es": "Configurable OTA",
+        "en": "Configurable OTA",
+        "pt": "Configurável OTA"
+      },
+      "backup": false,
+      "hotspots": [
+        {
+          "x": 48,
+          "y": 30,
+          "t": {
+            "es": "SIM global soldable — 565 redes, 180 países",
+            "en": "Solderable global SIM — 565 networks, 180 countries",
+            "pt": "SIM global soldável — 565 redes, 180 países"
+          }
+        },
+        {
+          "x": 72,
+          "y": 55,
+          "t": {
+            "es": "Acelerómetro 3 ejes para detección de movimiento",
+            "en": "3-axis accelerometer for motion detection",
+            "pt": "Acelerômetro 3 eixos para detecção de movimento"
+          }
+        },
+        {
+          "x": 25,
+          "y": 65,
+          "t": {
+            "es": "Enclosure IP69K + IP67 — resistente a presión de agua",
+            "en": "IP69K + IP67 enclosure — resistant to water pressure",
+            "pt": "Enclosure IP69K + IP67 — resistente à pressão de água"
+          }
+        }
+      ]
+    },
+    {
+      "id": "ct1010",
+      "name": "CT 1010",
+      "category": {
+        "es": "Rastreador de contenedor avanzado",
+        "en": "Advanced container tracker",
+        "pt": "Rastreador de contentores avançado"
+      },
+      "role": {
+        "es": "Visibilidad, seguridad y protección para contenedores.",
+        "en": "Visibility, security and protection for containers.",
+        "pt": "Visibilidade, segurança e proteção para contentores."
+      },
+      "img": "assets/products/CT1010-VIACHAIN.png",
+      "hero": {
+        "es": "Visibility. Security. Protection.",
+        "en": "Visibility. Security. Protection.",
+        "pt": "Visibility. Security. Protection."
+      },
+      "description": {
+        "es": "El CT 1010 es un dispositivo inteligente de monitoreo de contenedores que protege la carga, reduce el riesgo de incendio y hace los contenedores más seguros. Su pod interior detecta temperatura ambiente, movimiento, luz y apertura de puertas. ATEX Zona 2 certificado. Compatible con CrewView para gestión en tiempo real a bordo.",
+        "en": "The CT 1010 is a smart container monitoring device that protects cargo, reduces fire risk, and makes containers safer. Its interior sensor pod detects ambient temperature, motion, light and door openings. ATEX Zone 2 certified. Compatible with CrewView for real-time onboard management.",
+        "pt": "O CT 1010 é um dispositivo inteligente de monitoramento de contentores que protege a carga, reduz o risco de incêndio e torna os contentores mais seguros. Seu pod interior detecta temperatura ambiente, movimento, luz e abertura de portas. ATEX Zona 2 certificado. Compatível com CrewView para gestão em tempo real a bordo."
+      },
+      "satellite": "—",
+      "cellular": "4G LTE · 3G/2G",
+      "gnss": "GPS · GLONASS · BeiDou · Galileo · QZSS",
+      "power": {
+        "es": "Li-ion + panel solar (recarga solar)",
+        "en": "Li-ion battery + solar panel (solar recharge)",
+        "pt": "Li-ion + painel solar (recarga solar)"
+      },
+      "env": "IP67 · −30 °C / +70 °C · ATEX Zone 2",
+      "dims": "213 × 53 × 51 mm",
+      "memory": ">2 000 mensajes · 90+ días",
+      "certs": "FCC/IC · PTCRB · CE RED 2014/53/EU · ATEX Zone 2 · ROHS",
+      "io": [
+        "Near-IR ToF door sensor (open/close)",
+        "Far-IR temperature sensor",
+        "Ambient temperature sensor",
+        "Ambient light sensor",
+        "Tamper detection sensor",
+        "3-axis accelerometer (×2)"
+      ],
+      "ports": [
+        "BLE",
+        "RFID EPC Gen 2"
+      ],
+      "prog": {
+        "es": "Configurable OTA",
+        "en": "Configurable OTA",
+        "pt": "Configurável OTA"
+      },
+      "backup": false,
+      "hotspots": [
+        {
+          "x": 48,
+          "y": 32,
+          "t": {
+            "es": "Pod interior — sensor de puerta, temperatura, luz y movimiento",
+            "en": "Interior pod — door, temperature, light and motion sensor",
+            "pt": "Pod interior — sensor de porta, temperatura, luz e movimento"
+          }
+        },
+        {
+          "x": 74,
+          "y": 52,
+          "t": {
+            "es": "Antena celular y GNSS integradas",
+            "en": "Integrated cellular and GNSS antennas",
+            "pt": "Antenas celular e GNSS integradas"
+          }
+        },
+        {
+          "x": 24,
+          "y": 65,
+          "t": {
+            "es": "Batería Li-ion con panel solar integrado",
+            "en": "Li-ion battery with integrated solar panel",
+            "pt": "Bateria Li-ion com painel solar integrado"
+          }
+        }
+      ]
+    },
+    {
+      "id": "ct3600",
+      "name": "CT 3600",
+      "category": {
+        "es": "Control de contenedor reefer",
+        "en": "Reefer container control",
+        "pt": "Controle de contentores reefer"
+      },
+      "role": {
+        "es": "Gestión y control remoto de contenedores refrigerados.",
+        "en": "Remote reefer container management and control.",
+        "pt": "Gestão e controle remoto de contentores refrigerados."
+      },
+      "img": "assets/products/CT3600-VIACHAIN.png",
+      "hero": {
+        "es": "Remote reefer container management and control.",
+        "en": "Remote reefer container management and control.",
+        "pt": "Remote reefer container management and control."
+      },
+      "description": {
+        "es": "El CT 3600 ofrece monitoreo, visibilidad y control completo de contenedores reefer con tiempo de despliegue reducido. Instalación sin perforación dentro del gabinete reefer. Monitoreo y corrección de temperatura, inspección pre-viaje remota y geofencing avanzado para optimizar tiempos de ciclo.",
+        "en": "The CT 3600 delivers complete reefer container monitoring, visibility and control with reduced deployment time. No-drill installation inside the reefer cabinet. Temperature monitoring and correction, remote pre-trip inspections and advanced geofencing to optimize cycle times.",
+        "pt": "O CT 3600 oferece monitoramento, visibilidade e controle completo de contentores reefer com tempo de implantação reduzido. Instalação sem perfuração dentro do gabinete reefer. Monitoramento e correção de temperatura, inspeções pré-viagem remotas e geofencing avançado para otimizar tempos de ciclo."
+      },
+      "satellite": "—",
+      "cellular": "4G LTE CAT1 · 3G/2G",
+      "gnss": "GPS · GLONASS · BeiDou · Galileo · QZSS",
+      "power": {
+        "es": "15–36 VAC / 9–32 VDC · batería interna 3.6 Ah",
+        "en": "15–36 VAC / 9–32 VDC · internal 3.6 Ah battery",
+        "pt": "15–36 VAC / 9–32 VDC · bateria interna 3.6 Ah"
+      },
+      "env": "IP54 · −40 °C / +85 °C",
+      "dims": "172.37 × 81.03 × 25.58 mm",
+      "memory": ">2 000 mensajes · >5 000 geocercas onboard",
+      "certs": "FCC/IC · PTCRB · CE Red · RCM (Australia)",
+      "io": [
+        "3-axis accelerometer",
+        "Reefer control interface (Carrier + Thermo King)"
+      ],
+      "ports": [
+        "BLE",
+        "Reefer interface connector"
+      ],
+      "prog": {
+        "es": "Configurable remoto",
+        "en": "Remote configurable",
+        "pt": "Configurável remoto"
+      },
+      "backup": true,
+      "hotspots": [
+        {
+          "x": 68,
+          "y": 38,
+          "t": {
+            "es": "Conectores naranja — interfaz al refrigerador reefer",
+            "en": "Orange connectors — reefer refrigeration interface",
+            "pt": "Conectores laranja — interface com refrigerador reefer"
+          }
+        },
+        {
+          "x": 22,
+          "y": 52,
+          "t": {
+            "es": "Antena celular/GPS + BLE cableada al exterior del gabinete",
+            "en": "Cellular/GPS + BLE antenna cabled outside cabinet",
+            "pt": "Antena celular/GPS + BLE cabeada ao exterior do gabinete"
+          }
+        },
+        {
+          "x": 45,
+          "y": 72,
+          "t": {
+            "es": "Batería interna 3.6 Ah — hasta 10 días sin alimentación",
+            "en": "Internal 3.6 Ah battery — up to 10 days without power",
+            "pt": "Bateria interna 3.6 Ah — até 10 dias sem alimentação"
+          }
+        }
+      ]
+    },
+    {
+      "id": "ct5300",
+      "name": "CT 5300",
+      "category": {
+        "es": "Rastreador con cámara de carga",
+        "en": "Cargo camera tracker",
+        "pt": "Rastreador com câmera de carga"
+      },
+      "role": {
+        "es": "Inteligencia avanzada de activos con cámara de carga integrada.",
+        "en": "Advanced asset intelligence with integrated cargo camera.",
+        "pt": "Inteligência avançada de ativos com câmera de carga integrada."
+      },
+      "img": "assets/products/CT5300-VIACHAIN.png",
+      "hero": {
+        "es": "Advanced asset intelligence with integrated cargo camera.",
+        "en": "Advanced asset intelligence with integrated cargo camera.",
+        "pt": "Advanced asset intelligence with integrated cargo camera."
+      },
+      "description": {
+        "es": "El CT 5300 es un dispositivo de inteligencia de activos que combina seguimiento, cámara de carga 1MP con visión 180° e iluminación IR. Verifica el estado de carga y disponibilidad de activos remotamente. Instalación en corrugaciones verticales u horizontales. Solar 2.5W.",
+        "en": "The CT 5300 is a comprehensive asset intelligence device combining tracking with an integrated 1MP cargo camera featuring 180° FoV and IR illumination. Verify load status and asset availability remotely. Installs on vertical or horizontal corrugations. 2.5W solar.",
+        "pt": "O CT 5300 é um dispositivo abrangente de inteligência de ativos combinando rastreamento com câmera de carga 1MP integrada com FoV de 180° e iluminação IR. Verifique o status da carga e a disponibilidade dos ativos remotamente. Instala em corrugações verticais ou horizontais. Solar 2,5W."
+      },
+      "satellite": "—",
+      "cellular": "4G LTE · 3G/2G global",
+      "gnss": "GPS · GLONASS · BeiDou · Galileo",
+      "power": {
+        "es": "Solar (2.5W) · Li-ion backup",
+        "en": "Solar (2.5W panel) · Li-ion backup",
+        "pt": "Solar (2.5W) · backup Li-ion"
+      },
+      "env": "IP67 · SAE J1455 · −40 °C / +75 °C",
+      "dims": "456 × 106 × 31 mm · 1.3 kg",
+      "memory": "",
+      "certs": "FCC · IC · CE",
+      "io": [
+        "1MP 180° FoV cargo camera",
+        "2× IR illumination LEDs",
+        "Ambient temperature sensor",
+        "Tamper detection sensor",
+        "3-axis accelerometer (×2)",
+        "Wireless door sensor (optional)"
+      ],
+      "ports": [
+        "BLE"
+      ],
+      "prog": {
+        "es": "Configurable OTA",
+        "en": "Configurable OTA",
+        "pt": "Configurável OTA"
+      },
+      "backup": false,
+      "hotspots": [
+        {
+          "x": 48,
+          "y": 42,
+          "t": {
+            "es": "Panel solar 2.5W — carga rápida incluso con luz indirecta",
+            "en": "2.5W solar panel — fast charging even in indirect light",
+            "pt": "Painel solar 2.5W — carga rápida mesmo com luz indireta"
+          }
+        },
+        {
+          "x": 75,
+          "y": 58,
+          "t": {
+            "es": "Cámara 1MP · FoV 180° · LEDs IR para visión nocturna",
+            "en": "1MP camera · 180° FoV · IR LEDs for night vision",
+            "pt": "Câmera 1MP · FoV 180° · LEDs IR para visão noturna"
+          }
+        },
+        {
+          "x": 22,
+          "y": 62,
+          "t": {
+            "es": "Instala en corrugaciones — sin perforación",
+            "en": "Installs on corrugations — no drilling",
+            "pt": "Instala em corrugações — sem perfuração"
+          }
+        }
+      ]
+    },
+    {
+      "id": "gt1030",
+      "name": "GT 1030",
+      "category": {
+        "es": "Gateway de transporte y maquinaria",
+        "en": "Transportation & machinery gateway",
+        "pt": "Gateway de transporte e maquinário"
+      },
+      "role": {
+        "es": "Visibilidad completa de tráilers, chasis, flatbeds y más.",
+        "en": "Complete visibility of trailers, chassis, flatbeds and more.",
+        "pt": "Visibilidade completa de reboques, chassis, flatbeds e mais."
+      },
+      "img": "assets/products/GT1030-VIACHAIN.png",
+      "hero": {
+        "es": "Complete visibility of transportation assets, chassis, flatbeds and more.",
+        "en": "Complete visibility of transportation assets, chassis, flatbeds and more.",
+        "pt": "Complete visibility of transportation assets, chassis, flatbeds and more."
+      },
+      "description": {
+        "es": "El GT 1030 es un dispositivo de telemática compacto y resistente diseñado para rastrear y monitorear una amplia gama de activos de transporte. Conectividad LTE global, soporte para sensores cableados e inalámbricos, conector de 7 vías y batería de respaldo de 19 Wh para hasta 10 meses de operación sin fuente externa.",
+        "en": "The GT 1030 is a rugged, compact telematics device designed to track and monitor a wide range of transport assets. Global LTE connectivity, support for wired and wireless sensors, 7-way connector and 19 Wh backup battery for up to 10 months of operation without external power.",
+        "pt": "O GT 1030 é um dispositivo de telemática robusto e compacto projetado para rastrear e monitorar uma ampla gama de ativos de transporte. Conectividade LTE global, suporte para sensores com fio e sem fio, conector de 7 vias e bateria de backup de 19 Wh para até 10 meses de operação sem fonte externa."
+      },
+      "satellite": {
+        "es": "Opcional (ST 2100)",
+        "en": "Optional (ST 2100)",
+        "pt": "Opcional (ST 2100)"
+      },
+      "cellular": "4G LTE global · 3G/2G fallback",
+      "gnss": "GPS · GLONASS · BeiDou · Galileo · SBAS · QZSS",
+      "power": {
+        "es": "9–32 VDC · batería backup 19 Wh (hasta 10 meses)",
+        "en": "9–32 VDC · 19 Wh backup battery (up to 10 months)",
+        "pt": "9–32 VDC · bateria backup 19 Wh (até 10 meses)"
+      },
+      "env": "IP67 · SAE J1455 · −40 °C / +85 °C",
+      "dims": "116 × 89 × 39 mm",
+      "memory": "",
+      "certs": "PTCRB · FCC · IC · CE · HERO · Anatel",
+      "io": [
+        "3-axis accelerometer",
+        "2× digital input",
+        "1× GPIO",
+        "1× analog input",
+        "1× 12V power output (sensors)"
+      ],
+      "ports": [
+        "Chogori 12-pin",
+        "RS-232",
+        "RS-485",
+        "BLE"
+      ],
+      "prog": {
+        "es": "Configurable OTA / RS-232",
+        "en": "Configurable OTA / RS-232",
+        "pt": "Configurável OTA / RS-232"
+      },
+      "backup": true,
+      "hotspots": [
+        {
+          "x": 48,
+          "y": 35,
+          "t": {
+            "es": "Antenas celular y GNSS integradas — instalación discreta",
+            "en": "Integrated cellular and GNSS antennas — discreet install",
+            "pt": "Antenas celular e GNSS integradas — instalação discreta"
+          }
+        },
+        {
+          "x": 72,
+          "y": 58,
+          "t": {
+            "es": "Conector Chogori 12 pines — 7 vías de conexión al activo",
+            "en": "Chogori 12-pin connector — 7-way asset connection",
+            "pt": "Conector Chogori 12 pinos — 7 vias de conexão ao ativo"
+          }
+        },
+        {
+          "x": 25,
+          "y": 62,
+          "t": {
+            "es": "Batería 19 Wh — hasta 10 meses sin alimentación externa",
+            "en": "19 Wh battery — up to 10 months without external power",
+            "pt": "Bateria 19 Wh — até 10 meses sem alimentação externa"
+          }
+        }
+      ]
+    },
+    {
+      "id": "gt1200",
+      "name": "GT 1200",
+      "category": {
+        "es": "Rastreador solar para tráileres",
+        "en": "Solar trailer tracker",
+        "pt": "Rastreador solar para reboques"
+      },
+      "role": {
+        "es": "Rastreo solar con soporte para sensores cableados. Sin sensor de carga integrado.",
+        "en": "Solar tracking with wired sensor support. No integrated cargo sensor.",
+        "pt": "Rastreamento solar com suporte para sensores com fio. Sem sensor de carga integrado."
+      },
+      "img": "assets/products/GT12XX-VIACHAIN.png",
+      "hero": {
+        "es": "Next-generation solar-powered tracking for dry trailers, containers and transport assets.",
+        "en": "Next-generation solar-powered tracking for dry trailers, containers and transport assets.",
+        "pt": "Next-generation solar-powered tracking for dry trailers, containers and transport assets."
+      },
+      "description": {
+        "es": "El GT 1200 es el rastreador solar de nueva generación para tráileres secos, contenedores y activos de transporte. Tecnología solar 20× más rápida que la generación anterior. SIM global LTE, antenas BLE duales integradas y soporte para sensores cableados vía conector 16 pines (opcional). Sin sensor de carga integrado: combina con sensores externos CS 500 o DS 300.",
+        "en": "The GT 1200 is the next-generation solar tracker for dry trailers, containers and transport assets. Solar technology 20× faster than the previous generation. Global LTE SIM, dual-integrated BLE antennas and wired sensor support via optional 16-pin connector. No integrated cargo sensor: pair with CS 500 or DS 300 external sensors.",
+        "pt": "O GT 1200 é o rastreador solar de nova geração para reboques secos, contentores e ativos de transporte. Tecnologia solar 20× mais rápida que a geração anterior. SIM global LTE, antenas BLE duplas integradas e suporte para sensores com fio via conector 16 pinos (opcional). Sem sensor de carga integrado: combina com sensores externos CS 500 ou DS 300."
+      },
+      "satellite": {
+        "es": "Opcional (accesorio)",
+        "en": "Optional (accessory)",
+        "pt": "Opcional (acessório)"
+      },
+      "cellular": "4G LTE global · 3G/2G fallback",
+      "gnss": {
+        "es": "Multi-constelación de alto rendimiento · precisión típica ≤3m",
+        "en": "High-performance multi-constellation · ≤3m typical accuracy",
+        "pt": "Multi-constelação de alto desempenho · precisão típica ≤3m"
+      },
+      "power": {
+        "es": "Panel solar integrado · 9–32 VDC",
+        "en": "Integrated solar panel · 9–32 VDC",
+        "pt": "Painel solar integrado · 9–32 VDC"
+      },
+      "env": "IP67 · SAE J1455 · −40 °C / +70 °C",
+      "dims": "381 × 94 × 25.4 mm · Con 16-pin: 414 × 94 × 25.4 mm",
+      "memory": "2KB EEPROM · 16MB Flash · 100 msg S&F (4 000+ extendido)",
+      "certs": "PTCRB · FCC · IC · CE · Anatel",
+      "io": [
+        "±16g accelerometer",
+        "Ambient temperature sensor"
+      ],
+      "io_16pin": [
+        "4× multipurpose I/O",
+        "Wired door sensor",
+        "TPMS alert light",
+        "Temperature probes (6m / 15m / 22m)",
+        "2× analog input (0–12V)"
+      ],
+      "ports": [
+        "BLE 5.0 (dual-integrated)"
+      ],
+      "ports_16pin": [
+        "RS-232"
+      ],
+      "prog": {
+        "es": "Configurable OTA",
+        "en": "Configurable OTA",
+        "pt": "Configurável OTA"
+      },
+      "backup": false,
+      "hotspots": [
+        {
+          "x": 35,
+          "y": 38,
+          "t": {
+            "es": "Panel solar de última generación — carga en luz indirecta y latitudes altas",
+            "en": "Latest-gen solar panel — charges in indirect light and high latitudes",
+            "pt": "Painel solar de última geração — carrega com luz indireta e em latitudes altas"
+          }
+        },
+        {
+          "x": 68,
+          "y": 45,
+          "t": {
+            "es": "Conector 16-pin opcional — RS-232, 4× I/O, 2× analógico, sensor puerta, TPMS",
+            "en": "Optional 16-pin connector — RS-232, 4× I/O, 2× analog, door sensor, TPMS",
+            "pt": "Conector 16 pinos opcional — RS-232, 4× I/O, 2× analógico, sensor porta, TPMS"
+          }
+        },
+        {
+          "x": 50,
+          "y": 70,
+          "t": {
+            "es": "Instala en corrugaciones verticales u horizontales sin perforación",
+            "en": "Installs on vertical or horizontal corrugations without drilling",
+            "pt": "Instala em corrugações verticais ou horizontais sem perfuração"
+          }
+        }
+      ]
+    },
+    {
+      "id": "gt1210",
+      "name": "GT 1210",
+      "category": {
+        "es": "Rastreador solar con sensor de carga",
+        "en": "Solar tracker with cargo sensor",
+        "pt": "Rastreador solar com sensor de carga"
+      },
+      "role": {
+        "es": "Todo-en-uno solar con sensor de carga integrado ultrasónico e infrarrojo.",
+        "en": "All-in-one solar tracker with integrated ultrasonic and infrared cargo sensor.",
+        "pt": "Tudo-em-um solar com sensor de carga integrado ultrassônico e infravermelho."
+      },
+      "img": "assets/products/GT12XX-VIACHAIN.png",
+      "hero": {
+        "es": "Next-generation, all-in-one solar-powered tracking device with integrated cargo sensor.",
+        "en": "Next-generation, all-in-one solar-powered tracking device with integrated cargo sensor.",
+        "pt": "Dispositivo de rastreamento solar de próxima geração, tudo-em-um, com sensor de carga integrado."
+      },
+      "description": {
+        "es": "El GT 1210 combina todas las capacidades del GT 1200 con un sensor de carga integrado de doble tecnología: ultrasónico (15 cm a >16 m) e infrarrojo de corto alcance. Detecta automáticamente la presencia de carga en tráileres sin hardware adicional. Conector 16 pines opcional para sensores cableados adicionales.",
+        "en": "The GT 1210 combines all GT 1200 capabilities with an integrated dual-technology cargo sensor: ultrasonic (6\" to >53' range) and short-range infrared. Automatically detects cargo presence in trailers without additional hardware. Optional 16-pin connector for additional wired sensors.",
+        "pt": "O GT 1210 combina todas as capacidades do GT 1200 com sensor de carga integrado de tecnologia dupla: ultrassônico (15 cm a >16 m) e infravermelho de curto alcance. Detecta automaticamente presença de carga em reboques sem hardware adicional. Conector 16 pinos opcional para sensores com fio adicionais."
+      },
+      "satellite": {
+        "es": "Opcional (accesorio)",
+        "en": "Optional (accessory)",
+        "pt": "Opcional (acessório)"
+      },
+      "cellular": "4G LTE global · 3G/2G fallback",
+      "gnss": {
+        "es": "Multi-constelación de alto rendimiento · precisión típica ≤3m",
+        "en": "High-performance multi-constellation · ≤3m typical accuracy",
+        "pt": "Multi-constelação de alto desempenho · precisão típica ≤3m"
+      },
+      "power": {
+        "es": "Panel solar integrado · 9–32 VDC",
+        "en": "Integrated solar panel · 9–32 VDC",
+        "pt": "Painel solar integrado · 9–32 VDC"
+      },
+      "env": "IP67 · SAE J1455 · −40 °C / +70 °C",
+      "dims": "381 × 94 × 25.4 mm · Con 16-pin: 414 × 94 × 25.4 mm",
+      "memory": "2KB EEPROM · 16MB Flash · 100 msg S&F (4 000+ extendido)",
+      "certs": "PTCRB · FCC · IC · CE · Anatel",
+      "io": [
+        "Ultrasonic cargo sensor (6\" – >53')",
+        "Infrared cargo sensor (short range)",
+        "±16g accelerometer",
+        "Ambient temperature sensor"
+      ],
+      "io_16pin": [
+        "4× multipurpose I/O",
+        "Wired cargo camera (CS 500 · RS-485)",
+        "Wired door sensor",
+        "TPMS alert light",
+        "Temperature probes (6m / 15m / 22m)",
+        "2× analog input (0–12V)"
+      ],
+      "ports": [
+        "BLE 5.0 (dual-integrated)"
+      ],
+      "ports_16pin": [
+        "RS-232",
+        "RS-485"
+      ],
+      "prog": {
+        "es": "Configurable OTA",
+        "en": "Configurable OTA",
+        "pt": "Configurável OTA"
+      },
+      "backup": false,
+      "hotspots": [
+        {
+          "x": 35,
+          "y": 38,
+          "t": {
+            "es": "Panel solar de última generación — carga en luz indirecta y latitudes altas",
+            "en": "Latest-gen solar panel — charges in indirect light and high latitudes",
+            "pt": "Painel solar de última geração — carrega com luz indireta e em latitudes altas"
+          }
+        },
+        {
+          "x": 68,
+          "y": 45,
+          "t": {
+            "es": "Sensor de carga integrado — ultrasónico (6\"–>53') + infrarrojo",
+            "en": "Integrated cargo sensor — ultrasonic (6\"–>53') + infrared",
+            "pt": "Sensor de carga integrado — ultrassônico (6\"–>53') + infravermelho"
+          }
+        },
+        {
+          "x": 50,
+          "y": 70,
+          "t": {
+            "es": "Conector 16-pin opcional — 4× I/O, sensor puerta cableado, TPMS, temperatura",
+            "en": "Optional 16-pin connector — 4× I/O, wired door sensor, TPMS, temp probes",
+            "pt": "Conector 16 pinos opcional — 4× I/O, sensor porta com fio, TPMS, temperatura"
+          }
+        }
+      ]
+    },
+    {
+      "id": "gt1220",
+      "name": "GT 1220",
+      "category": {
+        "es": "Rastreador solar nueva generación",
+        "en": "Next-gen solar trailer tracker",
+        "pt": "Rastreador solar nova geração"
+      },
+      "role": {
+        "es": "Nueva plataforma solar con soporte para cámara de carga cableada. Sin sensor de carga integrado.",
+        "en": "New solar platform with wired cargo camera support. No integrated cargo sensor.",
+        "pt": "Nova plataforma solar com suporte para câmera de carga com fio. Sem sensor de carga integrado."
+      },
+      "img": "assets/products/GT12XX-VIACHAIN.png",
+      "hero": {
+        "es": "Solar-powered tracking for dry trailers, containers and other transport assets.",
+        "en": "Solar-powered tracking for dry trailers, containers and other transport assets.",
+        "pt": "Solar-powered tracking for dry trailers, containers and other transport assets."
+      },
+      "description": {
+        "es": "El GT 1220 es la nueva generación de la familia GT 12xx (variante GT12 GL LTE4). Optimizado para tráileres secos y contenedores con soporte para sensor de puerta BLE inalámbrico y cámara de carga cableada CS 500 (RS-485, vía conector 16 pines). Sin sensor de carga integrado.",
+        "en": "The GT 1220 is the new-generation GT 12xx family (GT12 GL LTE4 variant). Optimized for dry trailers and containers with BLE wireless door sensor support and CS 500 wired cargo camera (RS-485, via 16-pin connector). No integrated cargo sensor.",
+        "pt": "O GT 1220 é a nova geração da família GT 12xx (variante GT12 GL LTE4). Otimizado para reboques secos e contentores com suporte para sensor de porta BLE sem fio e câmera de carga CS 500 com fio (RS-485, via conector 16 pinos). Sem sensor de carga integrado."
+      },
+      "satellite": {
+        "es": "Opcional",
+        "en": "Optional",
+        "pt": "Opcional"
+      },
+      "cellular": "4G LTE global · 3G/2G fallback",
+      "gnss": {
+        "es": "Multi-constelación de alto rendimiento · precisión típica ≤3m",
+        "en": "High-performance multi-constellation · ≤3m typical accuracy",
+        "pt": "Multi-constelação de alto desempenho · precisão típica ≤3m"
+      },
+      "power": {
+        "es": "Panel solar integrado · 9–32 VDC",
+        "en": "Integrated solar panel · 9–32 VDC",
+        "pt": "Painel solar integrado · 9–32 VDC"
+      },
+      "env": "IP67 · SAE J1455 · −40 °C / +70 °C",
+      "dims": "415.7 × 91.9 × 25.3 mm · Con 16-pin: 432.6 × 91.9 × 25.3 mm",
+      "memory": "2KB EEPROM · 16MB Flash · 100 msg S&F (4 000+ extendido)",
+      "certs": "FCC · IC",
+      "io": [
+        "Accelerometer",
+        "Ambient temperature sensor",
+        "BLE wireless door sensor support"
+      ],
+      "io_16pin": [
+        "Wired cargo camera (CS 500 · RS-485)"
+      ],
+      "ports": [
+        "BLE 5.0 (dual-integrated)"
+      ],
+      "ports_16pin": [
+        "RS-485"
+      ],
+      "prog": {
+        "es": "Configurable OTA",
+        "en": "Configurable OTA",
+        "pt": "Configurável OTA"
+      },
+      "backup": false,
+      "hotspots": [
+        {
+          "x": 35,
+          "y": 38,
+          "t": {
+            "es": "Nueva plataforma GT12 GL LTE4 — panel solar avanzado",
+            "en": "New GT12 GL LTE4 platform — advanced solar panel",
+            "pt": "Nova plataforma GT12 GL LTE4 — painel solar avançado"
+          }
+        },
+        {
+          "x": 68,
+          "y": 45,
+          "t": {
+            "es": "Conector 16-pin opcional — RS-485 para cámara CS 500 cableada",
+            "en": "Optional 16-pin connector — RS-485 for CS 500 wired cargo camera",
+            "pt": "Conector 16 pinos opcional — RS-485 para câmera CS 500 com fio"
+          }
+        },
+        {
+          "x": 50,
+          "y": 70,
+          "t": {
+            "es": "Instala en corrugaciones verticales u horizontales sin perforación",
+            "en": "Installs on vertical or horizontal corrugations without drilling",
+            "pt": "Instala em corrugações verticais ou horizontais sem perfuração"
+          }
+        }
+      ]
+    },
+    {
+      "id": "gt1230",
+      "name": "GT 1230",
+      "category": {
+        "es": "Rastreador solar nueva gen. con sensor de carga",
+        "en": "Next-gen solar tracker with cargo sensor",
+        "pt": "Rastreador solar nova gen. com sensor de carga"
+      },
+      "role": {
+        "es": "Nueva plataforma todo-en-uno con sensor de carga integrado y cámara BLE.",
+        "en": "New-generation all-in-one with integrated cargo sensor and BLE camera support.",
+        "pt": "Nova plataforma tudo-em-um com sensor de carga integrado e suporte a câmera BLE."
+      },
+      "img": "assets/products/GT12XX-VIACHAIN.png",
+      "hero": {
+        "es": "Advanced technology for ease and reliability in transport asset tracking.",
+        "en": "Advanced technology for ease and reliability in transport asset tracking.",
+        "pt": "Tecnologia avançada para facilidade e confiabilidade no rastreamento de ativos de transporte."
+      },
+      "description": {
+        "es": "El GT 1230 es la evolución todo-en-uno de la nueva plataforma GT 12xx con sensor de carga integrado. Mejora la visibilidad de carga en tráileres sin hardware adicional. Compatible con sensor de puerta BLE inalámbrico y cámara solar BLE CS 511. Incluye sello de detección de manipulación.",
+        "en": "The GT 1230 is the all-in-one evolution of the new GT 12xx platform with integrated cargo sensor. Enhances cargo visibility in trailers without additional hardware. Compatible with BLE wireless door sensor and CS 511 BLE solar cargo camera. Integrated tamper detection seal.",
+        "pt": "O GT 1230 é a evolução tudo-em-um da nova plataforma GT 12xx com sensor de carga integrado. Melhora a visibilidade da carga em reboques sem hardware adicional. Compatível com sensor de porta BLE sem fio e câmera solar BLE CS 511. Selo de detecção de adulteração integrado."
+      },
+      "satellite": {
+        "es": "Opcional",
+        "en": "Optional",
+        "pt": "Opcional"
+      },
+      "cellular": "4G LTE global · 3G/2G fallback",
+      "gnss": {
+        "es": "Multi-constelación de alto rendimiento · precisión típica ≤3m",
+        "en": "High-performance multi-constellation · ≤3m typical accuracy",
+        "pt": "Multi-constelação de alto desempenho · precisão típica ≤3m"
+      },
+      "power": {
+        "es": "Panel solar integrado · 9–32 VDC",
+        "en": "Integrated solar panel · 9–32 VDC",
+        "pt": "Painel solar integrado · 9–32 VDC"
+      },
+      "env": "IP67 · SAE J1455 · −40 °C / +70 °C",
+      "dims": "415.7 × 91.9 × 25.3 mm · Con 16-pin: 432.6 × 91.9 × 25.3 mm",
+      "memory": "2KB EEPROM · 16MB Flash · 100 msg S&F (4 000+ extendido)",
+      "certs": "FCC · IC",
+      "io": [
+        "Integrated cargo sensor",
+        "Tamper detection seal",
+        "Accelerometer",
+        "Ambient temperature sensor",
+        "BLE wireless door sensor support",
+        "BLE cargo camera support (CS 511)"
+      ],
+      "io_16pin": [
+        "Wired cargo camera (CS 500 · RS-485)"
+      ],
+      "ports": [
+        "BLE 5.0 (dual-integrated)"
+      ],
+      "ports_16pin": [
+        "RS-485"
+      ],
+      "prog": {
+        "es": "Configurable OTA",
+        "en": "Configurable OTA",
+        "pt": "Configurável OTA"
+      },
+      "backup": false,
+      "hotspots": [
+        {
+          "x": 35,
+          "y": 38,
+          "t": {
+            "es": "Nueva plataforma GT12 GL LTE4 — panel solar avanzado",
+            "en": "New GT12 GL LTE4 platform — advanced solar panel",
+            "pt": "Nova plataforma GT12 GL LTE4 — painel solar avançado"
+          }
+        },
+        {
+          "x": 68,
+          "y": 45,
+          "t": {
+            "es": "Sensor de carga integrado + sello de detección de manipulación",
+            "en": "Integrated cargo sensor + tamper detection seal",
+            "pt": "Sensor de carga integrado + selo de detecção de adulteração"
+          }
+        },
+        {
+          "x": 50,
+          "y": 70,
+          "t": {
+            "es": "Compatible CS 511 — cámara BLE solar inalámbrica de carga",
+            "en": "CS 511 compatible — wireless BLE solar cargo camera",
+            "pt": "Compatível CS 511 — câmera solar BLE sem fio de carga"
+          }
+        }
+      ]
+    },
+    {
+      "id": "pt6100",
+      "name": "PT 6100",
+      "category": {
+        "es": "Monitor de reefer para tráiler",
+        "en": "Trailer reefer monitor",
+        "pt": "Monitor reefer para reboque"
+      },
+      "role": {
+        "es": "Monitoreo y control completo de tráileres refrigerados.",
+        "en": "Complete monitoring and control of refrigerated trailers.",
+        "pt": "Monitoramento e controle completo de reboques refrigerados."
+      },
+      "img": "assets/products/PT6X00-VIACHAIN.png",
+      "hero": {
+        "es": "Complete reefer monitoring and control.",
+        "en": "Complete reefer monitoring and control.",
+        "pt": "Complete reefer monitoring and control."
+      },
+      "description": {
+        "es": "El PT 6100 ofrece gestión integral de combustible y temperatura, mantenimiento, logística y cumplimiento regulatorio para tráileres refrigerados. Compatible con Carrier Transicold y Thermo King. Soporte para hasta 3 sensores de temperatura. Batería recargable con reporte por 10 días sin alimentación vehicular.",
+        "en": "The PT 6100 delivers comprehensive fuel and temperature management, maintenance, logistics and regulatory compliance for refrigerated trailers. Compatible with Carrier Transicold and Thermo King. Support for up to 3 temperature sensors. Rechargeable battery reporting for up to 10 days without vehicle power.",
+        "pt": "O PT 6100 oferece gestão abrangente de combustível e temperatura, manutenção, logística e conformidade regulatória para reboques refrigerados. Compatível com Carrier Transicold e Thermo King. Suporte para até 3 sensores de temperatura. Bateria recarregável com relatório por até 10 dias sem alimentação veicular."
+      },
+      "satellite": "—",
+      "cellular": "4G LTE · 3G · 2G",
+      "gnss": {
+        "es": "Opcional (sensor externo)",
+        "en": "Optional (external sensor)",
+        "pt": "Opcional (sensor externo)"
+      },
+      "power": {
+        "es": "12–24 VDC · batería backup (hasta 10 días)",
+        "en": "12–24 VDC · backup battery (up to 10 days)",
+        "pt": "12–24 VDC · bateria backup (até 10 dias)"
+      },
+      "env": "IP67 · −40 °C / +70 °C",
+      "dims": "7.5 × 4.3 × 1.5 in",
+      "memory": "",
+      "io": [
+        "Carrier Transicold interface",
+        "Thermo King interface",
+        "Up to 3 temperature probes",
+        "Door sensor (optional)",
+        "Fuel sensor (optional)",
+        "GPS sensor (optional)"
+      ],
+      "ports": [
+        "RS-232",
+        "RS-485",
+        "BLE 5.0"
+      ],
+      "prog": {
+        "es": "Configurable remoto",
+        "en": "Remote configurable",
+        "pt": "Configurável remoto"
+      },
+      "backup": true,
+      "hotspots": [
+        {
+          "x": 48,
+          "y": 35,
+          "t": {
+            "es": "Interfaz directa Carrier Transicold y Thermo King",
+            "en": "Direct Carrier Transicold and Thermo King interface",
+            "pt": "Interface direta Carrier Transicold e Thermo King"
+          }
+        },
+        {
+          "x": 74,
+          "y": 55,
+          "t": {
+            "es": "RS-232 / RS-485 + BLE 5.0 para sensores externos",
+            "en": "RS-232 / RS-485 + BLE 5.0 for external sensors",
+            "pt": "RS-232 / RS-485 + BLE 5.0 para sensores externos"
+          }
+        },
+        {
+          "x": 25,
+          "y": 62,
+          "t": {
+            "es": "Enclosure IP67 — polycarbonate rugged",
+            "en": "IP67 polycarbonate rugged enclosure",
+            "pt": "Enclosure IP67 — policarbonato robusto"
+          }
+        }
+      ],
+      "certs": "PTCRB · CE"
+    },
+    {
+      "id": "pt7000",
+      "name": "PT 7000",
+      "category": {
+        "es": "Telemática para maquinaria pesada",
+        "en": "Heavy equipment telematics",
+        "pt": "Telemática para maquinário pesado"
+      },
+      "role": {
+        "es": "Telemática celular o dual satélite-celular para construcción y maquinaria.",
+        "en": "Cellular or dual satellite-cellular telematics for construction and heavy equipment.",
+        "pt": "Telemática celular ou dual satélite-celular para construção e maquinário pesado."
+      },
+      "img": "assets/products/PT7000-VIACHAIN.png",
+      "hero": {
+        "es": "Cellular or dual mode satellite-cellular telematics for heavy equipment and construction.",
+        "en": "Cellular or dual mode satellite-cellular telematics for heavy equipment and construction.",
+        "pt": "Cellular or dual mode satellite-cellular telematics for heavy equipment and construction."
+      },
+      "description": {
+        "es": "El PT 7000 rastrea equipos pesados en los entornos más exigentes. Conectividad 4G LTE con fallback 3G/2G y conectividad satelital opcional (IDP o OGx). Múltiples interfaces: 3-wire, CAN Bus, RS-232 (×2), 4 entradas digitales, 4 entradas analógicas, Bluetooth. Batería backup: 30 días.",
+        "en": "The PT 7000 tracks heavy equipment in the most demanding environments. 4G LTE connectivity with 3G/2G fallback and optional satellite connectivity (IDP or OGx). Multiple interfaces: 3-wire, CAN Bus, RS-232 (×2), 4 digital inputs, 4 analog inputs, Bluetooth. Backup battery: 30 days.",
+        "pt": "O PT 7000 rastreia equipamentos pesados nos ambientes mais exigentes. Conectividade 4G LTE com fallback 3G/2G e conectividade satelital opcional (IDP ou OGx). Múltiplas interfaces: 3 fios, CAN Bus, RS-232 (×2), 4 entradas digitais, 4 entradas analógicas, Bluetooth. Bateria de backup: 30 dias."
+      },
+      "satellite": {
+        "es": "Opcional (IDP / OGx)",
+        "en": "Optional (IDP / OGx)",
+        "pt": "Opcional (IDP / OGx)"
+      },
+      "cellular": "4G LTE · 3G/2G fallback",
+      "gnss": "GPS · GLONASS · BeiDou · Galileo",
+      "power": {
+        "es": "9–32 VDC · batería backup (hasta 30 días)",
+        "en": "9–32 VDC · backup battery (up to 30 days)",
+        "pt": "9–32 VDC · bateria backup (até 30 dias)"
+      },
+      "env": "IP67 · SAE J1455 · −40 °C / +85 °C",
+      "dims": "7.5 × 4.3 × 1.5 in (19.1 × 10.9 × 3.8 cm)",
+      "memory": "",
+      "io": [
+        "3-axis accelerometer",
+        "4× digital input",
+        "2× digital output (pull-up)",
+        "2× digital output (pull-down)",
+        "4× analog input",
+        "3-Wire",
+        "CAN Bus (×2)"
+      ],
+      "ports": [
+        "2× RS-232",
+        "CAN Bus",
+        "Bluetooth",
+        "RF FAKRA SMB",
+        "Baseband Delphi 24-pin"
+      ],
+      "prog": {
+        "es": "Configurable OTA / RS-232",
+        "en": "Configurable OTA / RS-232",
+        "pt": "Configurável OTA / RS-232"
+      },
+      "backup": true,
+      "hotspots": [
+        {
+          "x": 48,
+          "y": 35,
+          "t": {
+            "es": "Antenas celular y satelital externas — FAKRA SMB",
+            "en": "External cellular and satellite antennas — FAKRA SMB",
+            "pt": "Antenas celular e satelital externas — FAKRA SMB"
+          }
+        },
+        {
+          "x": 72,
+          "y": 55,
+          "t": {
+            "es": "CAN Bus (×2) + RS-232 (×2) para datos del motor",
+            "en": "CAN Bus (×2) + RS-232 (×2) for engine data",
+            "pt": "CAN Bus (×2) + RS-232 (×2) para dados do motor"
+          }
+        },
+        {
+          "x": 25,
+          "y": 62,
+          "t": {
+            "es": "Batería backup 30 días · IP67 polycarbonate",
+            "en": "30-day backup battery · IP67 polycarbonate",
+            "pt": "Bateria backup 30 dias · IP67 policarbonato"
+          }
+        }
+      ],
+      "certs": "PTCRB · FCC · IC · CE · Inmarsat · RoHS"
+    },
+    {
+      "id": "sc1000",
+      "name": "SC 1000",
+      "category": {
+        "es": "Rastreador solar satelital",
+        "en": "Solar satellite tracker",
+        "pt": "Rastreador solar satelital"
+      },
+      "role": {
+        "es": "Rastreo satelital solar para activos en cualquier rincón del mundo.",
+        "en": "Solar satellite tracking for assets in any corner of the world.",
+        "pt": "Rastreamento satelital solar para ativos em qualquer canto do mundo."
+      },
+      "img": "assets/products/SC1000-VIACHAIN.png",
+      "hero": {
+        "es": "Solar-powered satellite tracking for intelligent visibility.",
+        "en": "Solar-powered satellite tracking for intelligent visibility.",
+        "pt": "Solar-powered satellite tracking for intelligent visibility."
+      },
+      "description": {
+        "es": "El SC 1000 utiliza la red satelital OGx de ORBCOMM para entregar visibilidad en activos ubicados en áreas remotas sin cobertura celular. Batería solar, instalación sin cables y soporte para sensores BLE. ATEX Zona 2. IP67 + IPX9K para los entornos más hostiles del planeta.",
+        "en": "The SC 1000 uses ORBCOMM's OGx satellite network to deliver visibility for assets in remote areas without cellular coverage. Solar battery, wireless installation and BLE sensor support. ATEX Zone 2. IP67 + IPX9K for the most hostile environments on the planet.",
+        "pt": "O SC 1000 usa a rede satelital OGx da ORBCOMM para entregar visibilidade em ativos localizados em áreas remotas sem cobertura celular. Bateria solar, instalação sem fios e suporte para sensores BLE. ATEX Zona 2. IP67 + IPX9K para os ambientes mais hostis do planeta."
+      },
+      "satellite": "OGx two-way global",
+      "cellular": "—",
+      "gnss": "GPS · GLONASS · BeiDou · Galileo",
+      "power": {
+        "es": "Solar (panel integrado) · batería Li-ion",
+        "en": "Solar (integrated panel) · Li-ion battery",
+        "pt": "Solar (painel integrado) · bateria Li-ion"
+      },
+      "env": "IP67 · IPX9K · −30 °C / +70 °C · ATEX Zone 2",
+      "dims": "224 × 76 × 28 mm",
+      "memory": "",
+      "io": [
+        "3-axis accelerometer",
+        "Device temperature sensor",
+        "BLE door sensor support"
+      ],
+      "ports": [
+        "BLE 5.2"
+      ],
+      "prog": {
+        "es": "Configurable OTA",
+        "en": "Configurable OTA",
+        "pt": "Configurável OTA"
+      },
+      "backup": true,
+      "hotspots": [
+        {
+          "x": 46,
+          "y": 28,
+          "t": {
+            "es": "Panel solar integrado + batería Li-ion recargable",
+            "en": "Integrated solar panel + rechargeable Li-ion battery",
+            "pt": "Painel solar integrado + bateria Li-ion recarregável"
+          }
+        },
+        {
+          "x": 70,
+          "y": 48,
+          "t": {
+            "es": "Antena satelital OGx — cobertura global bidireccional",
+            "en": "OGx satellite antenna — global two-way coverage",
+            "pt": "Antena satelital OGx — cobertura global bidirecional"
+          }
+        },
+        {
+          "x": 22,
+          "y": 68,
+          "t": {
+            "es": "IP67 + IPX9K · ATEX Zona 2 · C1D2-Group CD T6 — entornos extremos",
+            "en": "IP67 + IPX9K · ATEX Zone 2 · C1D2-Group CD T6 — extreme environments",
+            "pt": "IP67 + IPX9K · ATEX Zona 2 · C1D2-Group CD T6 — ambientes extremos"
+          }
+        }
+      ],
+      "certs": "FCC/IC · CE RED 2014/53/EU · ATEX Zone 2 · CID2 · Inmarsat · ROHS · WEEE"
+    }
+  ],
+  "accessories": [
+    {
+      "id": "cs500",
+      "name": "CS 500",
+      "category": {
+        "es": "Sensor de cámara de carga",
+        "en": "Cargo camera sensor",
+        "pt": "Sensor de câmera de carga"
+      },
+      "img": "assets/accessories/CS500_VIACHAIN.png",
+      "hero": {
+        "es": "Camera cargo sensor for capturing images to identify the status of cargo inside a trailer.",
+        "en": "Camera cargo sensor for capturing images to identify the status of cargo inside a trailer.",
+        "pt": "Camera cargo sensor for capturing images to identify the status of cargo inside a trailer."
+      },
+      "description": {
+        "es": "El CS 500 monitorea y captura imágenes del estado interno de la carga en tráileres. Detecta apertura de puertas, inicio/fin de movimiento. Compatible con GT 1210, GT 1220 y GT 1230 mediante conector 16-pin (requerido). Incluye cámara, brackets y cable de 18m. Kit de cubierta de cable en ángulo recto recomendado. Almacena hasta 1000 imágenes localmente.",
+        "en": "The CS 500 monitors and captures images of internal trailer load status. Detects door openings, movement start/end. Compatible with GT 1210, GT 1220 and GT 1230 via 16-pin connector (required). Includes camera, mounting hardware and 60ft (18m) cable. Right-angle cable cover kit recommended. Stores up to 1000 images locally.",
+        "pt": "O CS 500 monitora e captura imagens do estado interno da carga em reboques. Detecta abertura de portas, início/fim de movimento. Compatível com GT 1210, GT 1220 e GT 1230 via conector 16 pinos (obrigatório). Inclui câmera, suportes e cabo de 18m. Kit de cobertura de cabo em ângulo reto recomendado. Armazena até 1000 imagens localmente."
+      },
+      "compatible": [
+        "GT 1210",
+        "GT 1220",
+        "GT 1230"
+      ],
+      "dims": "7.7 × 9.2 × 2.5 cm · 95 g",
+      "env": "IP67 · −40 °C / +85 °C",
+      "ports": [
+        "RS-485"
+      ],
+      "datasheet": "assets/accessories/CS500_VIACHAIN.pdf"
+    },
+    {
+      "id": "cs511",
+      "name": "CS 511",
+      "category": {
+        "es": "Sensor de cámara con solar",
+        "en": "Solar cargo camera sensor",
+        "pt": "Sensor de câmera com solar"
+      },
+      "img": "assets/accessories/CS511-VIACHAIN.png",
+      "hero": {
+        "es": "Reliable image capture for actionable cargo insights.",
+        "en": "Reliable image capture for actionable cargo insights.",
+        "pt": "Reliable image capture for actionable cargo insights."
+      },
+      "description": {
+        "es": "El CS 511 es una cámara de carga solar con sensor de puerta integrado y acelerómetro. Compatible con GT 1220 y GT 1230. Captura automática y manual. Batería Li-ion 2500 mAh.",
+        "en": "The CS 511 is a solar cargo camera with integrated door sensor and accelerometer. Compatible with GT 1220 and GT 1230. Automatic and manual capture. Li-ion 2500 mAh battery.",
+        "pt": "O CS 511 é uma câmera de carga solar com sensor de porta integrado e acelerômetro. Compatível com GT 1220 e GT 1230. Captura automática e manual. Bateria Li-ion 2500 mAh."
+      },
+      "compatible": [
+        "GT 1220",
+        "GT 1230"
+      ],
+      "dims": "233 × 75 × 25 mm · 350 g",
+      "env": "IP67 · −40 °C / +70 °C",
+      "ports": [
+        "BLE 5.0"
+      ],
+      "datasheet": "assets/accessories/CS511_VIACHAIN.pdf"
+    },
+    {
+      "id": "ds100",
+      "name": "DS 100",
+      "category": {
+        "es": "Sensor de puerta cableado",
+        "en": "Wired door sensor",
+        "pt": "Sensor de porta com fio"
+      },
+      "img": "assets/accessories/DS100-VIACHAIN.png",
+      "hero": {
+        "es": "Advanced sensor technology for trailer and container door monitoring.",
+        "en": "Advanced sensor technology for trailer and container door monitoring.",
+        "pt": "Advanced sensor technology for trailer and container door monitoring."
+      },
+      "description": {
+        "es": "Sensor magnético hermético para monitorear puertas de tráileres y contenedores. Detección de apertura no autorizada fuera de geocercas. Configuración OTA. Compatible con GT 1100.",
+        "en": "Hermetically sealed magnetic sensor for monitoring trailer and container doors. Detection of unauthorized openings outside geofences. OTA configuration. Compatible with GT 1100.",
+        "pt": "Sensor magnético hermeticamente selado para monitorar portas de reboques e contentores. Detecção de abertura não autorizada fora de geofences. Configuração OTA. Compatível com GT 1100."
+      },
+      "compatible": [
+        "GT 1100"
+      ],
+      "dims": "3\" × 1.25\" × 0.5\"",
+      "env": "−30 °C / +70 °C",
+      "ports": [
+        "Wired"
+      ],
+      "datasheet": "assets/accessories/DS100_VIACHAIN.pdf"
+    },
+    {
+      "id": "ds300",
+      "name": "DS 300",
+      "category": {
+        "es": "Sensor de puerta inalámbrico",
+        "en": "Wireless door sensor",
+        "pt": "Sensor de porta sem fio"
+      },
+      "img": "assets/accessories/DS300-VIACHAIN.png",
+      "hero": {
+        "es": "Track asset access with ease.",
+        "en": "Track asset access with ease.",
+        "pt": "Track asset access with ease."
+      },
+      "description": {
+        "es": "Sensor de puerta inalámbrico BLE para tráileres y contenedores. Sin cables, fácil instalación. Batería Li-ion 1000 mAh, hasta 5 años de operación. Compatible con CT 1000, ST 9100, GT 1100/1200/1220.",
+        "en": "BLE wireless door sensor for trailers and containers. No wires, easy installation. Li-ion 1000 mAh battery, up to 5 years of operation. Compatible with CT 1000, ST 9100, GT 1100/1200/1220.",
+        "pt": "Sensor de porta sem fio BLE para reboques e contentores. Sem fios, fácil instalação. Bateria Li-ion 1000 mAh, até 5 anos de operação. Compatível com CT 1000, ST 9100, GT 1100/1200/1220."
+      },
+      "compatible": [
+        "CT 1000",
+        "ST 9100",
+        "GT 1100",
+        "GT 1200",
+        "GT 1220"
+      ],
+      "dims": "102 × 64 × 15 mm · 97 g",
+      "env": "IP67 · −40 °C / +85 °C",
+      "ports": [
+        "BLE 4.0"
+      ],
+      "datasheet": "assets/accessories/DS300_VIACHAIN.pdf"
+    },
+    {
+      "id": "ds310",
+      "name": "DS 310",
+      "category": {
+        "es": "Sensor de puerta inalámbrico avanzado",
+        "en": "Advanced wireless door sensor",
+        "pt": "Sensor de porta sem fio avançado"
+      },
+      "img": "assets/accessories/DS310-VIACHAIN.png",
+      "hero": {
+        "es": "Ensure cargo security and enhance operations.",
+        "en": "Ensure cargo security and enhance operations.",
+        "pt": "Ensure cargo security and enhance operations."
+      },
+      "description": {
+        "es": "El DS 310 es el sensor de puerta inalámbrico de nueva generación de VIACHAIN, diseñado específicamente para condiciones intermodales exigentes. Mayor cobertura BLE 5.1, mejor eficiencia energética y conectividad mejorada detectan aperturas y cierres con mayor precisión y sin falsas alarmas. Diseño compacto y de bajo perfil IP67 para áreas de alto tráfico. Sin cables ni antenas externas.",
+        "en": "The DS 310 is VIACHAIN's next-generation wireless door sensor, designed specifically for harsh intermodal conditions. Improved BLE 5.1 coverage, better power efficiency and enhanced connectivity detect openings and closings with greater accuracy and no false alarms. Compact, low-profile IP67 design for high-traffic areas. No wires or external antennas.",
+        "pt": "O DS 310 é o sensor de porta sem fio de nova geração da VIACHAIN, projetado especificamente para condições intermodais exigentes. Cobertura BLE 5.1 melhorada, melhor eficiência energética e conectividade aprimorada detectam aberturas e fechamentos com maior precisão e sem alarmes falsos. Design compacto e de baixo perfil IP67 para áreas de alto tráfico. Sem fios ou antenas externas."
+      },
+      "compatible": [
+        "GT 1200",
+        "GT 1210",
+        "GT 1220",
+        "GT 1230",
+        "CT 5300"
+      ],
+      "dims": "102 × 64 × 15 mm · 97 g",
+      "env": "IP67 · SAE J1455 · MIL-STD-810G · −40 °C / +85 °C",
+      "ports": [
+        "BLE 5.1"
+      ],
+      "datasheet": {
+        "en": "assets/accessories/DS310_VIACHAIN.pdf"
+      }
+    },
+    {
+      "id": "ts310",
+      "name": "TS 310",
+      "category": {
+        "es": "Sensor de temperatura inalámbrico",
+        "en": "Wireless temperature sensor",
+        "pt": "Sensor de temperatura sem fio"
+      },
+      "img": "assets/accessories/TS%20310-VIACHAIN.png",
+      "hero": {
+        "es": "Reduce installation costs and deploy with minimal disruption.",
+        "en": "Reduce installation costs and deploy with minimal disruption.",
+        "pt": "Reduce installation costs and deploy with minimal disruption."
+      },
+      "description": {
+        "es": "Sensor inalámbrico BLE para monitoreo de temperatura en carga sensible. Cumple EN 12830:2018. IP69k. Precisión ±0.5°C. Batería Li-ion 1000 mAh, 5 años de vida mínima. Compatible con RT 8000, Euroscan MX2, ST 9100.",
+        "en": "BLE wireless sensor for temperature monitoring of sensitive cargo. Complies with EN 12830:2018. IP69k. ±0.5°C accuracy. Li-ion 1000 mAh battery, minimum 5-year lifespan. Compatible with RT 8000, Euroscan MX2, ST 9100.",
+        "pt": "Sensor sem fio BLE para monitoramento de temperatura de carga sensível. Cumpre EN 12830:2018. IP69k. Precisão ±0,5°C. Bateria Li-ion 1000 mAh, vida mínima de 5 anos. Compatível com RT 8000, Euroscan MX2, ST 9100."
+      },
+      "compatible": [
+        "RT 8000",
+        "RT 8110",
+        "RT 8120",
+        "Euroscan MX2",
+        "ST 9100 series"
+      ],
+      "dims": "136 × 64 × 21 mm · 120 g",
+      "env": "IP69k · −40 °C / +85 °C",
+      "ports": [
+        "BLE 5.1"
+      ],
+      "datasheet": "assets/accessories/TS310_VIACHAIN.pdf"
+    },
+    {
+      "id": "is400",
+      "name": "IS 400",
+      "category": {
+        "es": "Sensor ID de tractor",
+        "en": "Tractor ID sensor",
+        "pt": "Sensor ID de trator"
+      },
+      "img": "assets/accessories/IS400-VIACHAIN.png",
+      "hero": {
+        "es": "Tractor ID sensor for trailer pairing confirmation.",
+        "en": "Tractor ID sensor for trailer pairing confirmation.",
+        "pt": "Tractor ID sensor for trailer pairing confirmation."
+      },
+      "description": {
+        "es": "El IS 400 elimina el error de conectar el tractor equivocado al tráiler. Emparejamiento automático BLE. Batería 2700 mAh con vida de 7+ años. Compatible con GT 1200, GT 1210 y PT 6000.",
+        "en": "The IS 400 eliminates the error of hooking up the wrong tractor to the trailer. Automatic BLE pairing. 2700 mAh battery with 7+ year lifespan. Compatible with GT 1200, GT 1210 and PT 6000.",
+        "pt": "O IS 400 elimina o erro de conectar o trator errado ao reboque. Emparelhamento BLE automático. Bateria 2700 mAh com vida útil de 7+ anos. Compatível com GT 1200, GT 1210 e PT 6000."
+      },
+      "compatible": [
+        "GT 1200",
+        "GT 1210",
+        "PT 6000"
+      ],
+      "dims": "16.9 × 2.6 × 7.4 cm · 190 g",
+      "env": "IP69K · −40 °C / +85 °C",
+      "ports": [
+        "BLE 5.0"
+      ],
+      "datasheet": "assets/accessories/IS400_VIACHAIN.pdf"
+    },
+    {
+      "id": "st2100",
+      "name": "ST 2100",
+      "category": {
+        "es": "Módem satelital",
+        "en": "Satellite modem",
+        "pt": "Modem satelital"
+      },
+      "img": "assets/accessories/ST2100-VIACHAIN.png",
+      "hero": {
+        "es": "Satellite communications for monitoring vehicles and industrial equipment.",
+        "en": "Satellite communications for monitoring vehicles and industrial equipment.",
+        "pt": "Satellite communications for monitoring vehicles and industrial equipment."
+      },
+      "description": {
+        "es": "El ST 2100 agrega conectividad satelital bidireccional global a dispositivos VIACHAIN en zonas remotas sin cobertura celular. Compatible con las redes OGx e IsatData Pro (IDP) de ORBCOMM. GNSS integrado (GPS/GLONASS/BeiDou, precisión 2.0 m). Alimentación 9–32 VDC. Comunicación con el dispositivo principal vía RS-232 y set de comandos AT. Diseño sellado IP67 para vehículos, vagones y activos fijos industriales.",
+        "en": "The ST 2100 adds global two-way satellite connectivity to VIACHAIN devices in remote areas without cellular coverage. Compatible with ORBCOMM's OGx and IsatData Pro (IDP) networks. Integrated GPS/GLONASS/BeiDou GNSS (2.0 m accuracy). 9–32 VDC powered. Communicates with the host device via RS-232 and AT command set. IP67-sealed for vehicles, railcars and fixed industrial assets.",
+        "pt": "O ST 2100 adiciona conectividade satelital bidirecional global a dispositivos VIACHAIN em áreas remotas sem cobertura celular. Compatível com as redes OGx e IsatData Pro (IDP) da ORBCOMM. GNSS integrado GPS/GLONASS/BeiDou (precisão 2.0 m). Alimentação 9–32 VDC. Comunica com o dispositivo principal via RS-232 e set de comandos AT. Selado IP67 para veículos, vagões e ativos fixos industriais."
+      },
+      "compatible": [
+        "GT 1030",
+        "GT 1200",
+        "GT 1210",
+        "GT 1220",
+        "GT 1230",
+        "PT 7000"
+      ],
+      "dims": "125 × 85 × 36 mm",
+      "env": "IP67 · SAE J1455 · MIL-STD-810G · −40 °C / +85 °C",
+      "ports": [
+        "RS-232 (AT command set)",
+        "OGx · IsatData Pro (IDP)"
+      ],
+      "datasheet": {
+        "en": "assets/accessories/ST2100_VIACHAIN.pdf",
+        "es": "assets/accessories/ST2100_ES_VIACHAIN.pdf"
+      }
+    },
+    {
+      "id": "fs210",
+      "name": "FS 210",
+      "category": {
+        "es": "Sensor de combustible reefer",
+        "en": "Reefer fuel sensor",
+        "pt": "Sensor de combustível reefer"
+      },
+      "img": "assets/accessories/FS210-VIACHAIN.png",
+      "hero": {
+        "es": "Ruggedized fuel sensor for industrial cold chain monitoring solutions.",
+        "en": "Ruggedized fuel sensor for industrial cold chain monitoring solutions.",
+        "pt": "Ruggedized fuel sensor for industrial cold chain monitoring solutions."
+      },
+      "description": {
+        "es": "El FS 210 monitorea el nivel de combustible del reefer con precisión, detecta pérdida rápida de combustible y alerta sobre riesgo de robo. Compatible con tanques de 25 a 500 galones. Zona 1 (Clase I, División 1).",
+        "en": "The FS 210 accurately monitors reefer fuel levels, detects rapid fuel loss and alerts on theft risk. Compatible with tanks from 25 to 500 gallons. Zone 1 (Class I, Division 1).",
+        "pt": "O FS 210 monitora com precisão os níveis de combustível do reefer, detecta perda rápida de combustível e alerta sobre risco de roubo. Compatível com tanques de 25 a 500 galões. Zona 1 (Classe I, Divisão 1)."
+      },
+      "compatible": [
+        "Carrier reefers",
+        "Thermo King reefers"
+      ],
+      "dims": "5\" × 1.75\" diameter",
+      "env": "IP67 · −40 °C / +70 °C",
+      "ports": [
+        "Delphi Standard 150 (3-pin)"
+      ],
+      "datasheet": "assets/accessories/FS210_VIACHAIN.pdf"
+    },
+    {
+      "id": "euroscan_back",
+      "name": "Euroscan Back Door",
+      "category": {
+        "es": "Sensor puerta trasera",
+        "en": "Back door sensor",
+        "pt": "Sensor porta traseira"
+      },
+      "img": "assets/accessories/Euroscan_Back_Door-VIACHAIN.png",
+      "hero": {
+        "es": "Advanced sensor technology for refrigerated and dry transport assets.",
+        "en": "Advanced sensor technology for refrigerated and dry transport assets.",
+        "pt": "Advanced sensor technology for refrigerated and dry transport assets."
+      },
+      "description": {
+        "es": "Sensor de puerta trasera Euroscan para activos de transporte refrigerados y secos. Tolera desalineación, floormontable, aguanta el paso de vehículos. Alertas de apertura no autorizada y fuera de geocercas. IP67.",
+        "en": "Euroscan back door sensor for refrigerated and dry transport assets. Tolerates misalignment, floor-mountable, withstands vehicle drive-over. Unauthorized opening and geofence alerts. IP67.",
+        "pt": "Sensor de porta traseira Euroscan para ativos de transporte refrigerados e secos. Tolera desalinhamento, montável no piso, suporta passagem de veículos. Alertas de abertura não autorizada e fora de geofences. IP67."
+      },
+      "compatible": [
+        "Euroscan MX2",
+        "Euroscan X3",
+        "GT 1100 series",
+        "PT 6000"
+      ],
+      "dims": "Magnet: 60×35×55mm · Sensor: 135×42×12mm",
+      "env": "IP67 · −10/−40 °C / +70 °C",
+      "ports": [
+        "Wired"
+      ],
+      "datasheet": "assets/accessories/Euroscan_Back_Door_Sensor_VIACHAIN.pdf"
+    },
+    {
+      "id": "euroscan_side",
+      "name": "Euroscan Side Door",
+      "category": {
+        "es": "Sensor puerta lateral",
+        "en": "Side door sensor",
+        "pt": "Sensor porta lateral"
+      },
+      "img": "assets/accessories/Euroscan_Side_Door-VIACHAIN.png",
+      "hero": {
+        "es": "Advanced sensor technology for side door monitoring.",
+        "en": "Advanced sensor technology for side door monitoring.",
+        "pt": "Advanced sensor technology for side door monitoring."
+      },
+      "description": {
+        "es": "Sensor de puerta lateral Euroscan para activos de transporte. Detección de apertura lateral, alertas configurables y soporte para múltiples activos. Compatible con Euroscan MX2/X3 y VIACHAIN GT 1100.",
+        "en": "Euroscan side door sensor for transport assets. Lateral opening detection, configurable alerts and multi-asset support. Compatible with Euroscan MX2/X3 and VIACHAIN GT 1100.",
+        "pt": "Sensor de porta lateral Euroscan para ativos de transporte. Detecção de abertura lateral, alertas configuráveis e suporte multi-ativo. Compatível com Euroscan MX2/X3 e VIACHAIN GT 1100."
+      },
+      "compatible": [
+        "Euroscan MX2",
+        "Euroscan X3",
+        "GT 1100 series"
+      ],
+      "dims": "—",
+      "env": "IP67",
+      "ports": [
+        "Wired"
+      ],
+      "datasheet": "assets/accessories/Euroscan_Side_Door_Sensor_VIACHAIN.pdf"
+    },
+    {
+      "id": "euroscan_temp",
+      "name": "Euroscan Temp",
+      "category": {
+        "es": "Sensor temperatura Euroscan",
+        "en": "Euroscan temperature sensor",
+        "pt": "Sensor temperatura Euroscan"
+      },
+      "img": "assets/accessories/Euroscan_Temperature-VIACHAIN.png",
+      "hero": {
+        "es": "Precision temperature monitoring for cold chain assets.",
+        "en": "Precision temperature monitoring for cold chain assets.",
+        "pt": "Precision temperature monitoring for cold chain assets."
+      },
+      "description": {
+        "es": "Sensor de temperatura Euroscan para activos de cadena de frío. Alta precisión, compatible con unidades Euroscan MX2/X3 y VIACHAIN GT 1100 series.",
+        "en": "Euroscan temperature sensor for cold chain assets. High precision, compatible with Euroscan MX2/X3 units and VIACHAIN GT 1100 series.",
+        "pt": "Sensor de temperatura Euroscan para ativos de cadeia de frio. Alta precisão, compatível com unidades Euroscan MX2/X3 e VIACHAIN GT 1100 series."
+      },
+      "compatible": [
+        "Euroscan MX2",
+        "Euroscan X3",
+        "GT 1100 series"
+      ],
+      "dims": "—",
+      "env": "IP67",
+      "ports": [
+        "Wired"
+      ],
+      "datasheet": "assets/accessories/Euroscan_Temperature_Sensor_VIACHAIN.pdf"
+    }
+  ],
+  "datasheets": {
+    "ct1000": {
+      "en": "assets/datasheets/CT1000_VIACHAIN.pdf"
+    },
+    "ct1010": {
+      "en": "assets/datasheets/CT1010_VIACHAIN.pdf"
+    },
+    "ct3600": {
+      "en": "assets/datasheets/CT3600_VIACHAIN.pdf"
+    },
+    "ct5300": {
+      "en": "assets/datasheets/CT5300_VIACHAIN.pdf"
+    },
+    "gt1030": {
+      "en": "assets/datasheets/GT1030_VIACHAIN.pdf"
+    },
+    "gt1200": {
+      "en": "assets/datasheets/GT1200_VIACHAIN.pdf"
+    },
+    "gt1210": {
+      "en": "assets/datasheets/GT1210_VIACHAIN.pdf"
+    },
+    "gt1220": {
+      "en": "assets/datasheets/GT1220_VIACHAIN.pdf"
+    },
+    "gt1230": {
+      "en": "assets/datasheets/GT1230_VIACHAIN.pdf"
+    },
+    "pt6100": {
+      "en": "assets/datasheets/PT6100_VIACHAIN.pdf"
+    },
+    "pt7000": {
+      "en": "assets/datasheets/PT7000_VIACHAIN.pdf"
+    },
+    "sc1000": {
+      "en": "assets/datasheets/SC1000_VIACHAIN.pdf"
+    }
+  },
+  "hardwareGuides": {
+    "ct1010": {
+      "en": "assets/manuals/GJD128 CT 1010 Hardware Guide.pdf"
+    },
+    "ct3600": {
+      "en": "assets/manuals/GJD122 CT 360x Hardware Guide.pdf"
+    },
+    "ct5300": {
+      "en": "assets/manuals/GJD148 CT 5300 Hardware Guide.pdf"
+    },
+    "gt1200": {
+      "en": "assets/manuals/GT0023 GT 12xx Hardware Guide.pdf"
+    },
+    "gt1210": {
+      "en": "assets/manuals/GT0023 GT 12xx Hardware Guide.pdf"
+    },
+    "gt1220": {
+      "en": "assets/manuals/GT0023 GT 12xx Hardware Guide.pdf"
+    },
+    "gt1230": {
+      "en": "assets/manuals/GT0023 GT 12xx Hardware Guide.pdf"
+    },
+    "pt7000": {
+      "en": "assets/manuals/PT113 PT 7000 Hardware Guide.pdf"
+    },
+    "sc1000": {
+      "en": "assets/manuals/GJD120 SC 1000 Hardware Guide.pdf"
+    }
+  },
+  "installGuides": {
+    "ct1000": {
+      "en": "assets/manuals/GJD115 CT 1000 Installation Guide.pdf"
+    },
+    "ct1010": {
+      "en": "assets/manuals/GJD129 CT 1010 Installation Guide.pdf"
+    },
+    "ct3600": {
+      "en": "assets/manuals/GJD123 CT 360x Installation Guide.pdf"
+    },
+    "ct5300": {
+      "en": "assets/manuals/GJD145 CT 5300 Installation Guide.pdf"
+    },
+    "gt1030": {
+      "en": "assets/manuals/GT 1030 Installation Guide.pdf"
+    },
+    "pt6100": {
+      "en": "assets/manuals/PT6000 Installtion guide.pdf"
+    },
+    "pt7000": {
+      "en": "assets/manuals/PT107 PT 7000 Installation Guide.pdf"
+    },
+    "sc1000": {
+      "en": "assets/manuals/GJD125 SC 1000 Installation Guide.pdf"
+    }
+  }
+}

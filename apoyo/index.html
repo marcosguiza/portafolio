@@ -1,0 +1,541 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Material de Apoyo · Portafolio LATAM 2026</title>
+<style>
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+body{font-family:system-ui,sans-serif;background:#F5F6F8;color:#111;font-size:14px;min-height:100vh}
+
+/* Header */
+.hdr{background:#fff;border-bottom:1px solid #E5E7EB;padding:0 24px;height:60px;
+  display:flex;align-items:center;gap:16px;position:sticky;top:0;z-index:100;box-shadow:0 1px 6px rgba(0,0,0,.05)}
+.hdr-brand{display:flex;align-items:center;gap:10px}
+.hdr-dot{width:22px;height:22px;background:#BA0C2F;border-radius:5px;flex-shrink:0}
+.hdr-name{font-weight:700;font-size:14px;color:#0D0A07}
+.hdr-sub{font-size:11px;color:#888;letter-spacing:.5px;text-transform:uppercase}
+.hdr-right{margin-left:auto;display:flex;align-items:center;gap:10px}
+.back-link{font-size:12px;color:#BA0C2F;text-decoration:none;font-weight:600;
+  padding:5px 12px;border-radius:5px;border:1px solid #f5c0ca;background:#fff5f6}
+.back-link:hover{background:#fef2f2}
+.lang-sw{display:flex;gap:4px}
+.lang-sw button{padding:4px 10px;border-radius:12px;border:1px solid #D1D5DB;background:#fff;
+  font-size:11px;font-weight:600;cursor:pointer;color:#555;transition:all .15s}
+.lang-sw button.active{background:#BA0C2F;color:#fff;border-color:#BA0C2F}
+
+/* Wrap */
+.wrap{max-width:1100px;margin:0 auto;padding:24px 16px}
+
+/* Brand filter */
+.filter-bar{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:20px}
+.filter-bar .pill{padding:6px 16px;border-radius:20px;border:1px solid #D1D5DB;background:#fff;
+  font-size:12px;font-weight:600;cursor:pointer;color:#555;transition:all .15s;letter-spacing:.3px}
+.filter-bar .pill.active{background:#BA0C2F;color:#fff;border-color:#BA0C2F}
+
+/* Tabs */
+.tabs{display:flex;gap:4px;border-bottom:2px solid #E5E7EB;margin-bottom:24px}
+.tab-btn{padding:10px 22px;background:none;border:none;cursor:pointer;font-size:13px;font-weight:600;
+  color:#888;border-bottom:2px solid transparent;margin-bottom:-2px;transition:color .15s}
+.tab-btn.active{color:#BA0C2F;border-bottom-color:#BA0C2F}
+
+/* Cards grid */
+.cards-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:20px}
+
+/* Case card */
+.case-card{background:#fff;border-radius:10px;overflow:hidden;cursor:pointer;
+  box-shadow:0 1px 6px rgba(0,0,0,.06);transition:transform .15s,box-shadow .15s}
+.case-card:hover{transform:translateY(-2px);box-shadow:0 6px 20px rgba(0,0,0,.1)}
+.case-cover{width:100%;height:160px;object-fit:cover;background:#F3F4F6;display:block}
+.case-cover-ph{width:100%;height:160px;background:linear-gradient(135deg,#F3F4F6 0%,#E5E7EB 100%);
+  display:flex;align-items:center;justify-content:center;color:#CCC;font-size:36px}
+.case-body{padding:16px}
+.case-meta{display:flex;gap:6px;margin-bottom:8px;flex-wrap:wrap}
+.badge{display:inline-block;padding:2px 8px;border-radius:12px;font-size:11px;font-weight:600;
+  letter-spacing:.3px;text-transform:uppercase}
+.badge-sky{background:#EFF6FF;color:#1E40AF}
+.badge-via{background:#F0FDF4;color:#166534}
+.badge-orb{background:#FFF7ED;color:#9A3412}
+.badge-ind{background:#F5F3FF;color:#5B21B6}
+.case-title{font-size:14px;font-weight:700;color:#0D0A07;margin-bottom:6px;line-height:1.35}
+.case-desc{font-size:12px;color:#666;line-height:1.5;
+  display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
+.case-pdfs{display:flex;gap:6px;margin-top:12px;flex-wrap:wrap}
+.pdf-btn{padding:5px 12px;border-radius:5px;border:1px solid #FECACA;background:#FFF5F5;
+  font-size:11px;font-weight:700;color:#B91C1C;cursor:pointer;text-decoration:none;letter-spacing:.5px}
+.pdf-btn:hover{background:#FEF2F2}
+
+/* Gallery grid */
+.gallery-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:12px}
+.gal-item{position:relative;border-radius:8px;overflow:hidden;cursor:pointer;
+  background:#F3F4F6;aspect-ratio:4/3}
+.gal-item img{width:100%;height:100%;object-fit:cover;display:block;transition:transform .2s}
+.gal-item:hover img{transform:scale(1.03)}
+.gal-overlay{position:absolute;inset:0;background:linear-gradient(to top,rgba(0,0,0,.65) 0%,transparent 60%);
+  opacity:0;transition:opacity .2s;display:flex;align-items:flex-end;padding:10px}
+.gal-item:hover .gal-overlay{opacity:1}
+.gal-caption{color:#fff;font-size:12px;font-weight:600;line-height:1.3}
+.gal-badge-wrap{position:absolute;top:8px;left:8px;display:flex;gap:4px}
+
+/* Video grid */
+.vid-card{background:#fff;border-radius:10px;overflow:hidden;cursor:pointer;
+  box-shadow:0 1px 6px rgba(0,0,0,.06);transition:transform .15s,box-shadow .15s}
+.vid-card:hover{transform:translateY(-2px);box-shadow:0 6px 20px rgba(0,0,0,.1)}
+.vid-thumb-wrap{position:relative;width:100%;aspect-ratio:16/9;background:#111}
+.vid-thumb-wrap img{width:100%;height:100%;object-fit:cover;display:block}
+.vid-play{position:absolute;inset:0;display:flex;align-items:center;justify-content:center}
+.vid-play-btn{width:52px;height:52px;background:rgba(186,12,47,.85);border-radius:50%;
+  display:flex;align-items:center;justify-content:center;transition:background .15s}
+.vid-card:hover .vid-play-btn{background:#BA0C2F}
+.vid-play-btn svg{width:20px;height:20px;fill:#fff;margin-left:3px}
+.vid-body{padding:12px 14px}
+.vid-title{font-size:13px;font-weight:700;color:#0D0A07;margin-bottom:4px;line-height:1.35}
+.vid-desc{font-size:12px;color:#666;line-height:1.4;
+  display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+
+/* Gallery secondary filter */
+.ind-filter{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:16px}
+.ind-filter .pill{font-size:11px;padding:4px 12px}
+
+/* Empty state */
+.empty{padding:60px;text-align:center;color:#9CA3AF}
+.empty-icon{font-size:40px;margin-bottom:10px}
+.empty p{font-size:14px}
+
+/* Loading */
+.loading{padding:60px;text-align:center;color:#888}
+.spinner{width:32px;height:32px;border:3px solid #E5E7EB;border-top-color:#BA0C2F;
+  border-radius:50%;animation:spin .7s linear infinite;margin:0 auto 12px}
+@keyframes spin{to{transform:rotate(360deg)}}
+
+/* Modal */
+.modal-backdrop{position:fixed;inset:0;background:rgba(0,0,0,.55);z-index:200;
+  display:flex;align-items:center;justify-content:center;padding:20px}
+.modal-backdrop.hidden{display:none}
+.modal{background:#fff;border-radius:12px;box-shadow:0 10px 48px rgba(0,0,0,.2);
+  width:100%;max-width:700px;max-height:90vh;overflow-y:auto}
+.modal-hdr{padding:20px 24px 16px;border-bottom:1px solid #E5E7EB;
+  display:flex;align-items:flex-start;justify-content:space-between;gap:12px;position:sticky;top:0;background:#fff}
+.modal-close{background:none;border:none;font-size:22px;cursor:pointer;color:#888;
+  line-height:1;flex-shrink:0;padding:0 4px}
+.modal-close:hover{color:#333}
+.modal-body{padding:20px 24px 24px}
+/* PDF viewer */
+.pdf-lang-tabs{display:flex;gap:6px;margin-bottom:12px;flex-wrap:wrap}
+.pdf-lang-tab{padding:5px 14px;border-radius:20px;border:1px solid #D1D5DB;background:#fff;
+  font-size:12px;font-weight:700;cursor:pointer;letter-spacing:.5px;transition:all .15s}
+.pdf-lang-tab.active{background:#BA0C2F;color:#fff;border-color:#BA0C2F}
+.pdf-viewer{width:100%;height:560px;border:1px solid #E5E7EB;border-radius:8px;
+  display:block;background:#F9FAFB}
+.pdf-dl-btn{display:inline-flex;align-items:center;gap:6px;margin-top:10px;padding:8px 16px;
+  background:#FFF5F5;border:1px solid #FECACA;border-radius:6px;color:#B91C1C;
+  font-size:12px;font-weight:700;text-decoration:none;letter-spacing:.5px}
+.pdf-dl-btn:hover{background:#FEF2F2}
+.cs-desc{font-size:13px;color:#444;line-height:1.7;white-space:pre-wrap;
+  margin-bottom:16px;padding-bottom:16px;border-bottom:1px solid #F3F4F6}
+/* Lightbox */
+.lightbox-img{width:100%;border-radius:8px;display:block;max-height:60vh;object-fit:contain}
+.lightbox-cap{margin-top:14px;font-size:13px;color:#555;line-height:1.5}
+/* Lightbox nav */
+.lb-nav-wrap{display:flex;align-items:center;justify-content:center;gap:16px;margin-top:14px}
+.lb-nav{width:36px;height:36px;border-radius:50%;border:1px solid #E5E7EB;background:#fff;
+  font-size:20px;cursor:pointer;display:flex;align-items:center;justify-content:center;
+  color:#555;transition:all .15s;flex-shrink:0;line-height:1}
+.lb-nav:hover:not(:disabled){background:#F3F4F6;border-color:#D1D5DB}
+.lb-nav:disabled{opacity:.3;cursor:not-allowed}
+.lb-counter{font-size:13px;color:#888;min-width:40px;text-align:center}
+/* Multi-photo badge on grid */
+.photo-count{position:absolute;bottom:8px;right:8px;background:rgba(0,0,0,.6);color:#fff;
+  font-size:11px;font-weight:700;padding:3px 8px;border-radius:10px;letter-spacing:.3px}
+/* YouTube embed */
+.yt-wrap{position:relative;width:100%;padding-top:56.25%}
+.yt-wrap iframe{position:absolute;inset:0;width:100%;height:100%;border-radius:8px;border:none}
+</style>
+</head>
+<body>
+
+<div class="hdr">
+  <div class="hdr-brand">
+    <div class="hdr-dot"></div>
+    <div>
+      <div class="hdr-name" data-i18n="title">Material de Apoyo</div>
+      <div class="hdr-sub">LATAM 2026</div>
+    </div>
+  </div>
+  <div class="hdr-right">
+    <a class="back-link" href="/" data-i18n="back">← Portafolio</a>
+    <div class="lang-sw">
+      <button onclick="setLang('es')" id="lbtn-es">ES</button>
+      <button onclick="setLang('en')" id="lbtn-en">EN</button>
+      <button onclick="setLang('pt')" id="lbtn-pt">PT</button>
+    </div>
+  </div>
+</div>
+
+<div class="wrap">
+  <div id="app">
+    <div class="loading"><div class="spinner"></div><div>Cargando...</div></div>
+  </div>
+</div>
+
+<div class="modal-backdrop hidden" id="modal-backdrop" onclick="handleBackdropClick(event)">
+  <div class="modal" id="modal-box"></div>
+</div>
+
+<script>
+/* ─── I18N ─── */
+const STRINGS = {
+  es: {
+    title:'Material de Apoyo', back:'← Portafolio',
+    tabs:['Casos de Estudio','Galería','Videos'],
+    filterAll:'Todos', filterBrands:'Todas las marcas',
+    emptyCase:'No hay casos de estudio disponibles todavía.',
+    emptyGal:'No hay imágenes en la galería todavía.',
+    emptyVid:'No hay videos disponibles todavía.',
+    download:'Descargar PDF',
+    allIndustries:'Todas las industrias',
+    dateLabel:'Fecha',
+  },
+  en: {
+    title:'Support Materials', back:'← Portfolio',
+    tabs:['Case Studies','Gallery','Videos'],
+    filterAll:'All', filterBrands:'All brands',
+    emptyCase:'No case studies available yet.',
+    emptyGal:'No gallery images yet.',
+    emptyVid:'No videos available yet.',
+    download:'Download PDF',
+    allIndustries:'All industries',
+    dateLabel:'Date',
+  },
+  pt: {
+    title:'Material de Apoio', back:'← Portfólio',
+    tabs:['Casos de Estudo','Galeria','Vídeos'],
+    filterAll:'Todos', filterBrands:'Todas as marcas',
+    emptyCase:'Nenhum caso de estudo disponível ainda.',
+    emptyGal:'Nenhuma imagem na galeria ainda.',
+    emptyVid:'Nenhum vídeo disponível ainda.',
+    download:'Baixar PDF',
+    allIndustries:'Todas as indústrias',
+    dateLabel:'Data',
+  },
+};
+
+const BRAND_LABELS = { skywave:'Skywave', viachain:'VIACHAIN', orbcomm:'ORBCOMM' };
+const BRAND_CLS    = { skywave:'badge-sky', viachain:'badge-via', orbcomm:'badge-orb' };
+
+let content = null;
+let lang    = localStorage.getItem('apoyo_lang') || 'es';
+let tab     = 'casestudies';
+let brandFilter = 'all';
+let indFilter   = 'all';
+
+function s(k){ return (STRINGS[lang]||STRINGS.es)[k] || k; }
+function tl(obj){ return (obj&&obj[lang]) || (obj&&obj.es) || ''; }
+function esc(str){ return String(str||'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;'); }
+
+/* ─── LANG ─── */
+function setLang(l){
+  lang = l;
+  localStorage.setItem('apoyo_lang', l);
+  document.querySelectorAll('[data-i18n]').forEach(el => { el.textContent = s(el.dataset.i18n); });
+  document.querySelectorAll('#lbtn-es,#lbtn-en,#lbtn-pt').forEach(b => {
+    b.classList.toggle('active', b.id === 'lbtn-' + l);
+  });
+  if (content) renderApp();
+}
+
+/* ─── FETCH ─── */
+fetch('./content.json')
+  .then(r => r.json())
+  .then(d => { content = d; initApp(); })
+  .catch(() => {
+    document.getElementById('app').innerHTML = '<div class="empty"><div class="empty-icon">⚠️</div><p>Error al cargar el contenido.</p></div>';
+  });
+
+function initApp(){
+  setLang(lang); // init lang buttons
+  renderApp();
+}
+
+/* ─── RENDER APP ─── */
+function renderApp(){
+  const cases  = (content.casestudies || []).filter(x => x.active);
+  const gallery= (content.gallery || []).filter(x => x.active);
+  const videos = (content.videos || []).filter(x => x.active);
+
+  // Collect unique brand filters
+  const allItems = [...cases, ...gallery, ...videos];
+  const usedBrands = [...new Set(allItems.map(x=>x.brand))];
+
+  // Industry options for gallery
+  const galFiltered = gallery.filter(g => brandFilter === 'all' || g.brand === brandFilter);
+  const usedInds = [...new Set(galFiltered.map(g=>g.industry).filter(Boolean))];
+
+  const tabLabels = s('tabs');
+
+  document.getElementById('app').innerHTML = `
+    <div class="filter-bar" id="brand-filter">
+      <div class="pill ${brandFilter==='all'?'active':''}" onclick="setBrand('all')">${s('filterAll')}</div>
+      ${usedBrands.map(b=>`<div class="pill ${brandFilter===b?'active':''}" onclick="setBrand('${b}')">${esc(BRAND_LABELS[b]||b)}</div>`).join('')}
+    </div>
+    <div class="tabs">
+      <button class="tab-btn ${tab==='casestudies'?'active':''}" onclick="setTab('casestudies')">${tabLabels[0]}</button>
+      <button class="tab-btn ${tab==='gallery'?'active':''}" onclick="setTab('gallery')">${tabLabels[1]}</button>
+      <button class="tab-btn ${tab==='videos'?'active':''}" onclick="setTab('videos')">${tabLabels[2]}</button>
+    </div>
+    <div id="tab-content"></div>
+  `;
+
+  renderTabContent();
+}
+
+function renderTabContent(){
+  const el = document.getElementById('tab-content');
+  if (!el) return;
+  if (tab === 'casestudies') el.innerHTML = renderCases();
+  if (tab === 'gallery')     el.innerHTML = renderGallery();
+  if (tab === 'videos')      el.innerHTML = renderVideos();
+}
+
+/* ─── CASES ─── */
+let _casCache = {};
+
+function renderCases(){
+  let items = (content.casestudies||[]).filter(c => c.active && (brandFilter==='all' || c.brand===brandFilter));
+  items.forEach(c => { _casCache[c.id] = c; });
+  if (!items.length) return `<div class="empty"><div class="empty-icon">📄</div><p>${s('emptyCase')}</p></div>`;
+  return `<div class="cards-grid">${items.map(caseCard).join('')}</div>`;
+}
+
+function caseCard(cs){
+  const pdfs = cs.pdf ? ['es','en','pt'].filter(l=>cs.pdf[l]) : [];
+  const cover = cs.cover
+    ? `<img class="case-cover" src="${esc(cs.cover)}" alt="${esc(tl(cs.title))}" loading="lazy">`
+    : `<div class="case-cover-ph">📋</div>`;
+  const pdfIndicator = pdfs.length
+    ? `<div class="case-pdfs"><span style="font-size:11px;color:#888">PDF: ${pdfs.map(l=>l.toUpperCase()).join(' · ')}</span></div>`
+    : '';
+  return `<div class="case-card" onclick="openCaseById('${cs.id}')">
+    ${cover}
+    <div class="case-body">
+      <div class="case-meta">
+        <span class="badge ${BRAND_CLS[cs.brand]||''}">${esc(BRAND_LABELS[cs.brand]||cs.brand)}</span>
+      </div>
+      <div class="case-title">${esc(tl(cs.title))}</div>
+      <div class="case-desc">${esc(tl(cs.description))}</div>
+      ${pdfIndicator}
+    </div>
+  </div>`;
+}
+
+function openCaseById(id){
+  const cs = _casCache[id];
+  if (!cs) return;
+  const pdfs = cs.pdf ? ['es','en','pt'].filter(l=>cs.pdf[l]) : [];
+  // Pick best PDF language: current UI lang → es → first available
+  const bestLang = pdfs.includes(lang) ? lang : (pdfs.includes('es') ? 'es' : pdfs[0]);
+
+  const cover = cs.cover ? `<img src="${esc(cs.cover)}" style="width:100%;border-radius:8px;margin-bottom:16px;display:block" alt="">` : '';
+  const desc = tl(cs.description) ? `<p class="cs-desc">${esc(tl(cs.description))}</p>` : '';
+
+  let pdfSection = '';
+  if (pdfs.length) {
+    const langTabs = pdfs.map(l => `
+      <button class="pdf-lang-tab ${l===bestLang?'active':''}" data-lang="${l}"
+        onclick="switchPdfLang('${cs.pdf[l]}',this)">${l.toUpperCase()}</button>`).join('');
+    pdfSection = `
+      <div class="pdf-lang-tabs">${langTabs}</div>
+      <iframe id="pdf-frame" class="pdf-viewer" src="${esc(cs.pdf[bestLang])}"
+        title="${esc(tl(cs.title))}"></iframe>
+      <a class="pdf-dl-btn" href="${esc(cs.pdf[bestLang])}" id="pdf-dl-link" download target="_blank">
+        ↓ Descargar PDF
+      </a>`;
+  }
+
+  document.getElementById('modal-box').innerHTML = `
+    <div class="modal-hdr">
+      <div>
+        <div style="font-size:15px;font-weight:700;color:#0D0A07;margin-bottom:4px">${esc(tl(cs.title))}</div>
+        <div style="display:flex;gap:6px;flex-wrap:wrap">
+          <span class="badge ${BRAND_CLS[cs.brand]||''}">${esc(BRAND_LABELS[cs.brand]||cs.brand)}</span>
+          ${cs.date?`<span style="font-size:11px;color:#888;align-self:center">${esc(cs.date)}</span>`:''}
+        </div>
+      </div>
+      <button class="modal-close" onclick="closeModal()">✕</button>
+    </div>
+    <div class="modal-body">
+      ${cover}${desc}${pdfSection}
+    </div>`;
+  document.getElementById('modal-backdrop').classList.remove('hidden');
+}
+
+function switchPdfLang(url, btn){
+  document.getElementById('pdf-frame').src = url;
+  document.getElementById('pdf-dl-link').href = url;
+  document.querySelectorAll('.pdf-lang-tab').forEach(b => b.classList.remove('active'));
+  btn.classList.add('active');
+}
+
+/* ─── GALLERY ─── */
+let _galCache = {};
+function getImgs(g){ return (g.images && g.images.length) ? g.images : (g.image ? [g.image] : []); }
+
+function renderGallery(){
+  const galItems = (content.gallery||[]).filter(g => g.active && (brandFilter==='all' || g.brand===brandFilter));
+  galItems.forEach(g => { _galCache[g.id] = g; });
+  const usedInds = [...new Set(galItems.map(g=>g.industry).filter(Boolean))];
+  const visible  = galItems.filter(g => indFilter==='all' || g.industry===indFilter);
+
+  const indPills = usedInds.length > 1 ? `
+    <div class="ind-filter">
+      <div class="pill ${indFilter==='all'?'active':''}" onclick="setInd('all')">${s('allIndustries')}</div>
+      ${usedInds.map(k=>`<div class="pill ${indFilter===k?'active':''}" onclick="setInd('${k}')">${esc(IND_LABELS[k]||k)}</div>`).join('')}
+    </div>` : '';
+
+  if (!visible.length) return indPills + `<div class="empty"><div class="empty-icon">🖼</div><p>${s('emptyGal')}</p></div>`;
+
+  const grid = visible.map(g => {
+    const imgs = getImgs(g);
+    const countBadge = imgs.length > 1 ? `<div class="photo-count">📷 ${imgs.length}</div>` : '';
+    return `
+    <div class="gal-item" onclick="openGalleryById('${g.id}')">
+      <img src="${esc(imgs[0]||'')}" alt="${esc(tl(g.title))}" loading="lazy">
+      <div class="gal-badge-wrap">
+        <span class="badge ${BRAND_CLS[g.brand]||''}" style="font-size:10px">${esc(BRAND_LABELS[g.brand]||g.brand)}</span>
+      </div>
+      ${countBadge}
+      <div class="gal-overlay"><div class="gal-caption">${esc(tl(g.title))}</div></div>
+    </div>`;
+  }).join('');
+
+  return indPills + `<div class="gallery-grid">${grid}</div>`;
+}
+
+// Lightbox state
+let _lb = { imgs:[], idx:0, g:null };
+
+function openGalleryById(id){
+  const g = _galCache[id];
+  if (!g) return;
+  _lb = { imgs: getImgs(g), idx: 0, g };
+  renderLightbox();
+  document.getElementById('modal-backdrop').classList.remove('hidden');
+}
+
+function renderLightbox(){
+  const { imgs, idx, g } = _lb;
+  const hasNav = imgs.length > 1;
+  document.getElementById('modal-box').innerHTML = `
+    <div class="modal-hdr">
+      <div>
+        <div style="font-size:15px;font-weight:700;color:#0D0A07">${esc(tl(g.title))}</div>
+        <div style="display:flex;gap:6px;margin-top:4px">
+          <span class="badge ${BRAND_CLS[g.brand]||''}">${esc(BRAND_LABELS[g.brand]||g.brand)}</span>
+          ${g.device?`<span class="badge badge-ind">${esc(g.device)}</span>`:''}
+        </div>
+      </div>
+      <button class="modal-close" onclick="closeModal()">✕</button>
+    </div>
+    <div class="modal-body">
+      <img class="lightbox-img" src="${esc(imgs[idx])}" alt="${esc(tl(g.title))}">
+      ${tl(g.caption)?`<p class="lightbox-cap">${esc(tl(g.caption))}</p>`:''}
+      ${hasNav ? `
+        <div class="lb-nav-wrap">
+          <button class="lb-nav" onclick="lbNav(-1)" ${idx===0?'disabled':''}>‹</button>
+          <span class="lb-counter">${idx+1} / ${imgs.length}</span>
+          <button class="lb-nav" onclick="lbNav(1)"  ${idx===imgs.length-1?'disabled':''}>›</button>
+        </div>` : ''}
+    </div>`;
+}
+
+function lbNav(dir){
+  _lb.idx = Math.max(0, Math.min(_lb.imgs.length - 1, _lb.idx + dir));
+  renderLightbox();
+}
+
+/* ─── VIDEOS ─── */
+let _vidCache = {};
+
+function renderVideos(){
+  const items = (content.videos||[]).filter(v => v.active && (brandFilter==='all' || v.brand===brandFilter));
+  items.forEach(v => { _vidCache[v.id] = v; });
+  if (!items.length) return `<div class="empty"><div class="empty-icon">▶️</div><p>${s('emptyVid')}</p></div>`;
+  const cards = items.map(v=>`
+    <div class="vid-card" onclick="openVideoById('${v.id}')">
+      <div class="vid-thumb-wrap">
+        <img src="https://img.youtube.com/vi/${esc(v.youtube_id)}/mqdefault.jpg" alt="${esc(tl(v.title))}" loading="lazy">
+        <div class="vid-play"><div class="vid-play-btn">
+          <svg viewBox="0 0 24 24"><polygon points="5,3 19,12 5,21"/></svg>
+        </div></div>
+      </div>
+      <div class="vid-body">
+        <div class="case-meta"><span class="badge ${BRAND_CLS[v.brand]||''}">${esc(BRAND_LABELS[v.brand]||v.brand)}</span></div>
+        <div class="vid-title">${esc(tl(v.title))}</div>
+        ${tl(v.description)?`<div class="vid-desc">${esc(tl(v.description))}</div>`:''}
+      </div>
+    </div>`).join('');
+  return `<div class="cards-grid">${cards}</div>`;
+}
+
+function openVideoById(id){
+  const v = _vidCache[id];
+  if (!v) return;
+  document.getElementById('modal-box').innerHTML = `
+    <div class="modal-hdr">
+      <div>
+        <div style="font-size:15px;font-weight:700;color:#0D0A07;margin-bottom:4px">${esc(tl(v.title))}</div>
+        <span class="badge ${BRAND_CLS[v.brand]||''}">${esc(BRAND_LABELS[v.brand]||v.brand)}</span>
+      </div>
+      <button class="modal-close" onclick="closeModal()">✕</button>
+    </div>
+    <div class="modal-body">
+      <div class="yt-wrap">
+        <iframe src="https://www.youtube.com/embed/${esc(v.youtube_id)}?autoplay=1&rel=0"
+          allow="autoplay; encrypted-media" allowfullscreen></iframe>
+      </div>
+      ${tl(v.description)?`<p style="margin-top:14px;font-size:13px;color:#555;line-height:1.6">${esc(tl(v.description))}</p>`:''}
+    </div>`;
+  document.getElementById('modal-backdrop').classList.remove('hidden');
+}
+
+/* ─── FILTERS / NAV ─── */
+function setTab(t){ tab = t; renderApp(); }
+function setBrand(b){ brandFilter = b; indFilter = 'all'; renderApp(); }
+function setInd(i){ indFilter = i; renderTabContent(); }
+
+/* ─── MODAL ─── */
+function closeModal(){
+  const iframe = document.querySelector('#modal-box iframe');
+  if (iframe) iframe.src = '';
+  document.getElementById('modal-backdrop').classList.add('hidden');
+}
+function handleBackdropClick(e){
+  if (e.target === document.getElementById('modal-backdrop')) closeModal();
+}
+
+/* ─── INDUSTRY LABELS (inline copy) ─── */
+const IND_LABELS = {
+  container:'Containers / Intermodal', coldchain:'Cold Chain',
+  drytrailer:'Dry Trailer', heavyequip:'Heavy Equipment',
+  maritime:'Maritime / Ports', rail:'Rail',
+  agro:'Agro / Agriculture', oilgas:'Oil & Gas',
+  mining:'Mining', general:'General / Cross-industry', other:'Other',
+};
+
+/* ─── KEYBOARD NAV ─── */
+document.addEventListener('keydown', e => {
+  if (document.getElementById('modal-backdrop').classList.contains('hidden')) return;
+  if (_lb.imgs.length > 1){
+    if (e.key === 'ArrowLeft')  { lbNav(-1); e.preventDefault(); }
+    if (e.key === 'ArrowRight') { lbNav(1);  e.preventDefault(); }
+  }
+  if (e.key === 'Escape') closeModal();
+});
+
+/* ─── INIT LANG BUTTONS ─── */
+document.querySelectorAll('#lbtn-es,#lbtn-en,#lbtn-pt').forEach(b => {
+  b.classList.toggle('active', b.id === 'lbtn-' + lang);
+});
+</script>
+</body>
+</html>

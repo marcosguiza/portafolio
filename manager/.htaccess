@@ -1,0 +1,17 @@
+Options -Indexes
+
+# Block direct HTTP access to JSON and sensitive PHP helpers
+<FilesMatch "\.(json)$">
+    Order Allow,Deny
+    Deny from all
+</FilesMatch>
+<FilesMatch "^(auth|config)\.php$">
+    Order Allow,Deny
+    Deny from all
+</FilesMatch>
+
+DirectoryIndex index.php
+
+Header always set X-Frame-Options "DENY"
+Header always set X-Content-Type-Options "nosniff"
+Header always set X-Robots-Tag "noindex, nofollow"

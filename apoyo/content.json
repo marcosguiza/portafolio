@@ -1,0 +1,507 @@
+{
+    "casestudies": [
+        {
+            "id": "cs_c6f4525d",
+            "title": {
+                "es": "PONCE",
+                "en": "PONCE",
+                "pt": "PONCE"
+            },
+            "description": {
+                "es": "Eficiencia en la gestión de riego agrícola por satélite.\n\nDel total de agua en la tierra solo el 2,5% es dulce, de la cual solo un 1% es\naccesible, según National Geographic. A pesar de la escasez de este recurso,\nla Organización para la Cooperación y el Desarrollo Económicos (OCDE) dice\nque la industria agrícola consume alrededor del 70 % del suministro mundial.\nLos sistemas de riego de precisión que usan soluciones de telemetría son\nfundamentales no solo para la preservación de este valioso recurso, sino\ntambién para optimizar la producción de cultivos.",
+                "en": "Enabling Efficient Agricultural Irrigation via Satellite.\n\nOnly 2.5% of the water on Earth is freshwater, of which only 1% is accessible,\naccording to National Geographic. Despite the scarcity of this resource,\nthe OECD says that the agriculture industry consumes about 70% of the\nworld’s supply. Precision irrigation systems using telemetry solutions are\nfundamental not only to the preservation of this precious resource, but to\noptimizing crop output and monitoring equipment for farmers.",
+                "pt": "Capacitação da irrigação agrícola eficiente via satélite.\n\nApenas 2,5% da água da Terra é de água doce, mas de acordo com a\nNational Geographic, só temos acesso a 1%. Apesar da escassez desse\nrecurso, a OCDE afirma que o setor agrícola consome cerca de 70% da\noferta mundial. Os sistemas de irrigação de precisão usando soluções\nde telemetria são fundamentais não apenas para a preservação desse\nrecurso precioso, mas também para otimizar a produção agrícola e\nmonitorar os equipamentos dos agricultores."
+            },
+            "brand": "skywave",
+            "industry": "agro",
+            "pdf": {
+                "es": "\/apoyo\/assets\/docs\/doc_20260425_63b0b27135.pdf",
+                "en": "\/apoyo\/assets\/docs\/doc_20260425_34be116f42.pdf",
+                "pt": "\/apoyo\/assets\/docs\/doc_20260425_4ff7dec149.pdf"
+            },
+            "cover": "\/apoyo\/assets\/images\/thumb_20260425_452fc2224d.jpg",
+            "date": "2026-04-25",
+            "active": true
+        },
+        {
+            "id": "cs_5c585588",
+            "title": {
+                "es": "RANCHBOT",
+                "en": "RANCHBOT",
+                "pt": "RANCHBOT"
+            },
+            "description": {
+                "es": "Descubra cómo la solución de monitorización Ranchbot utiliza la tecnología IoT satelital de ORBCOMM para ayudar a proporcionar soluciones de gestión remota del agua para un futuro más sostenible en la ganadería.",
+                "en": "Discover how Ranchbot monitoring solution uses ORBCOMM’s satellite IoT technology to help provide remote water management solutions for a more sustainable future in ranching.",
+                "pt": "Descubra como a solução de monitoramento Ranchbot utiliza a tecnologia de IoT via satélite da ORBCOMM para ajudar a fornecer soluções remotas de gestão de água para um futuro mais sustentável na pecuária."
+            },
+            "brand": "skywave",
+            "industry": "agro",
+            "pdf": {
+                "es": "\/apoyo\/assets\/docs\/doc_20260425_5245ab4ee4.pdf",
+                "en": "\/apoyo\/assets\/docs\/doc_20260425_b1c1778271.pdf",
+                "pt": "\/apoyo\/assets\/docs\/doc_20260425_ed6dc73f5d.pdf"
+            },
+            "cover": "\/apoyo\/assets\/images\/thumb_20260425_dd806b39d2.jpg",
+            "date": "2026-04-25",
+            "active": true
+        },
+        {
+            "id": "cs_64df1582",
+            "title": {
+                "es": "AAMG",
+                "en": "AAMG",
+                "pt": "AAMG"
+            },
+            "description": {
+                "es": "",
+                "en": "",
+                "pt": ""
+            },
+            "brand": "skywave",
+            "industry": "mining",
+            "pdf": {
+                "es": "\/apoyo\/assets\/docs\/doc_20260425_6170a41715.pdf",
+                "en": "\/apoyo\/assets\/docs\/doc_20260425_30460bdc29.pdf",
+                "pt": "\/apoyo\/assets\/docs\/doc_20260425_fbddcc6c42.pdf"
+            },
+            "cover": "\/apoyo\/assets\/images\/thumb_20260425_fed83baf83.jpg",
+            "date": "2026-04-25",
+            "active": true
+        },
+        {
+            "id": "cs_b875fed2",
+            "title": {
+                "es": "GOST",
+                "en": "GOST",
+                "pt": "GOST"
+            },
+            "description": {
+                "es": "",
+                "en": "",
+                "pt": ""
+            },
+            "brand": "skywave",
+            "industry": "maritime",
+            "pdf": {
+                "es": "\/apoyo\/assets\/docs\/doc_20260425_27163357e0.pdf",
+                "en": "\/apoyo\/assets\/docs\/doc_20260425_1795cf50f8.pdf",
+                "pt": "\/apoyo\/assets\/docs\/doc_20260425_e90fe66db9.pdf"
+            },
+            "cover": "\/apoyo\/assets\/images\/thumb_20260425_ff406c2733.jpg",
+            "date": "2026-04-25",
+            "active": true
+        },
+        {
+            "id": "cs_308de0d1",
+            "title": {
+                "es": "KUCHERA",
+                "en": "KUCHERA",
+                "pt": "KUCHERA"
+            },
+            "description": {
+                "es": "",
+                "en": "",
+                "pt": ""
+            },
+            "brand": "skywave",
+            "industry": "mining",
+            "pdf": {
+                "es": "\/apoyo\/assets\/docs\/doc_20260425_80c5b600db.pdf",
+                "en": "\/apoyo\/assets\/docs\/doc_20260425_49d0ec0dd9.pdf",
+                "pt": "\/apoyo\/assets\/docs\/doc_20260425_f84906e939.pdf"
+            },
+            "cover": "\/apoyo\/assets\/images\/thumb_20260425_0726e9df98.jpg",
+            "date": "2026-04-25",
+            "active": true
+        },
+        {
+            "id": "cs_d8f2f728",
+            "title": {
+                "es": "NUMERICA",
+                "en": "NUMERICA",
+                "pt": "NUMERICA"
+            },
+            "description": {
+                "es": "",
+                "en": "",
+                "pt": ""
+            },
+            "brand": "skywave",
+            "industry": "oilgas",
+            "pdf": {
+                "es": "\/apoyo\/assets\/docs\/doc_20260425_2a670106dc.pdf",
+                "en": "\/apoyo\/assets\/docs\/doc_20260425_d4153ff54c.pdf",
+                "pt": "\/apoyo\/assets\/docs\/doc_20260425_6c3b98e341.pdf"
+            },
+            "cover": "\/apoyo\/assets\/images\/thumb_20260425_1ca55762cf.jpg",
+            "date": "2026-04-25",
+            "active": true
+        },
+        {
+            "id": "cs_d6a33eb1",
+            "title": {
+                "es": "CR ENGLAND",
+                "en": "CR ENGLAND",
+                "pt": ""
+            },
+            "description": {
+                "es": "",
+                "en": "",
+                "pt": ""
+            },
+            "brand": "viachain",
+            "industry": "coldchain",
+            "pdf": {
+                "es": "\/apoyo\/assets\/docs\/doc_20260425_bf86076c59.pdf",
+                "en": "\/apoyo\/assets\/docs\/doc_20260425_e3a7f36fa1.pdf",
+                "pt": null
+            },
+            "cover": "\/apoyo\/assets\/images\/thumb_20260425_fb6da0c405.jpg",
+            "date": "2026-04-25",
+            "active": true
+        },
+        {
+            "id": "cs_bab062d6",
+            "title": {
+                "es": "SWING TRANSPORT",
+                "en": "SWING TRANSPORT",
+                "pt": ""
+            },
+            "description": {
+                "es": "",
+                "en": "",
+                "pt": ""
+            },
+            "brand": "viachain",
+            "industry": "other",
+            "pdf": {
+                "es": "\/apoyo\/assets\/docs\/doc_20260425_6ab16d9c5b.pdf",
+                "en": "\/apoyo\/assets\/docs\/doc_20260425_ee3fb4e429.pdf",
+                "pt": null
+            },
+            "cover": "\/apoyo\/assets\/images\/thumb_20260425_8309da1f8e.jpg",
+            "date": "2026-04-25",
+            "active": true
+        },
+        {
+            "id": "cs_179d7cf2",
+            "title": {
+                "es": "UNIT 45",
+                "en": "UNIT 45",
+                "pt": "UNIT 45"
+            },
+            "description": {
+                "es": "",
+                "en": "",
+                "pt": ""
+            },
+            "brand": "viachain",
+            "industry": "container",
+            "pdf": {
+                "es": null,
+                "en": "\/apoyo\/assets\/docs\/doc_20260425_80ef6752ae.pdf",
+                "pt": null
+            },
+            "cover": "\/apoyo\/assets\/images\/thumb_20260425_77483c30d1.jpg",
+            "date": "2026-04-25",
+            "active": true
+        },
+        {
+            "id": "cs_81eaa369",
+            "title": {
+                "es": "KEELINGS REATIL",
+                "en": "KEELINGS REATIL",
+                "pt": "KEELINGS REATIL"
+            },
+            "description": {
+                "es": "",
+                "en": "",
+                "pt": ""
+            },
+            "brand": "viachain",
+            "industry": "coldchain",
+            "pdf": {
+                "es": null,
+                "en": "\/apoyo\/assets\/docs\/doc_20260425_c093f7c54b.pdf",
+                "pt": null
+            },
+            "cover": "\/apoyo\/assets\/images\/thumb_20260425_eb3808cd9b.jpg",
+            "date": "2026-04-25",
+            "active": true
+        }
+    ],
+    "gallery": [
+        {
+            "id": "gal_1e317095",
+            "title": {
+                "es": "Saesa",
+                "en": "",
+                "pt": ""
+            },
+            "caption": {
+                "es": "Manejo de Reconectadores.",
+                "en": "",
+                "pt": ""
+            },
+            "brand": "skywave",
+            "industry": "other",
+            "device": "ST6100",
+            "images": [
+                "\/apoyo\/assets\/images\/img_20260425_e9a9efe82e.jpg",
+                "\/apoyo\/assets\/images\/img_20260425_eb3b8c58ad.jpg",
+                "\/apoyo\/assets\/images\/img_20260425_28aeb56869.jpg"
+            ],
+            "active": true
+        },
+        {
+            "id": "gal_be2ea44f",
+            "title": {
+                "es": "Tesacom",
+                "en": "",
+                "pt": ""
+            },
+            "caption": {
+                "es": "Monitoreo de GAS",
+                "en": "",
+                "pt": ""
+            },
+            "brand": "skywave",
+            "industry": "container",
+            "device": "",
+            "images": [
+                "\/apoyo\/assets\/images\/img_20260425_f9f26c6b68.jpg",
+                "\/apoyo\/assets\/images\/img_20260425_4d7bd7206a.jpg",
+                "\/apoyo\/assets\/images\/img_20260425_0183142926.jpg"
+            ],
+            "active": true
+        }
+    ],
+    "videos": [
+        {
+            "id": "vid_b8a267a1",
+            "title": {
+                "es": "CT 1010",
+                "en": "CT 1010 Installation",
+                "pt": ""
+            },
+            "description": {
+                "es": "Instalación de CT 1010 en Container.",
+                "en": "General - Using Field Support Tool (FST)",
+                "pt": ""
+            },
+            "brand": "viachain",
+            "youtube_id": "F_nkj31WJQQ",
+            "date": "2026-04-25",
+            "active": true
+        },
+        {
+            "id": "vid_856e86ca",
+            "title": {
+                "es": "SC 1000",
+                "en": "SC 1000 Installation",
+                "pt": ""
+            },
+            "description": {
+                "es": "",
+                "en": "",
+                "pt": ""
+            },
+            "brand": "viachain",
+            "youtube_id": "sW4otWV-Pls",
+            "date": "2026-04-25",
+            "active": true
+        },
+        {
+            "id": "vid_b7db03a2",
+            "title": {
+                "es": "CT 1000",
+                "en": "",
+                "pt": ""
+            },
+            "description": {
+                "es": "Instalación en Trailer Seco.",
+                "en": "",
+                "pt": ""
+            },
+            "brand": "viachain",
+            "youtube_id": "G5I-E-X36tY",
+            "date": "2026-04-25",
+            "active": true
+        },
+        {
+            "id": "vid_20dc014f",
+            "title": {
+                "es": "PT 6000",
+                "en": "",
+                "pt": ""
+            },
+            "description": {
+                "es": "Instalación de un equipo PT6000 en un equipo Carrier.",
+                "en": "",
+                "pt": ""
+            },
+            "brand": "viachain",
+            "youtube_id": "DDwn6Hgxi8o",
+            "date": "2026-04-25",
+            "active": true
+        },
+        {
+            "id": "vid_4d4b7958",
+            "title": {
+                "es": "CT 3600",
+                "en": "",
+                "pt": ""
+            },
+            "description": {
+                "es": "Instalación de un CT 3600 en un container refrigerado STAR COOL",
+                "en": "",
+                "pt": ""
+            },
+            "brand": "viachain",
+            "youtube_id": "emyWHVGWnfk",
+            "date": "2026-04-25",
+            "active": true
+        },
+        {
+            "id": "vid_bc0c020c",
+            "title": {
+                "es": "RANCHBOT",
+                "en": "RANCHBOT",
+                "pt": "RANCHBOT"
+            },
+            "description": {
+                "es": "Descubra cómo la solución de monitorización de Ranchbot utiliza la tecnología IoT satelital de ORBCOMM para ayudar a proporcionar soluciones de gestión remota del agua para un futuro más sostenible en la ganadería.",
+                "en": "Discover how Ranchbot monitoring solution uses ORBCOMM satellite IoT technology to help provide remote water management solutions for a more sustainable future in ranching.",
+                "pt": "Descubra como a solução de monitoramento Ranchbot utiliza a tecnologia IoT via satélite da ORBCOMM para ajudar a fornecer soluções remotas de gestão de água para um futuro mais sustentável na pecuária."
+            },
+            "brand": "skywave",
+            "youtube_id": "jyyNeJidXks",
+            "date": "2026-04-25",
+            "active": true
+        },
+        {
+            "id": "vid_6b3754a6",
+            "title": {
+                "es": "OGx: la nueva generación de IoT por satélite",
+                "en": "OGx: the new generation of satellite IoT",
+                "pt": "OGx: a nova geração de IoT via satélite"
+            },
+            "description": {
+                "es": "Libere todo su potencial con OGx. Eleve su negocio a nuevas alturas (y sectores) con precios flexibles, velocidades de entrega más rápidas, mensajes de mayor tamaño y menor consumo de energía que con nuestro anterior servicio por satélite. Desarrolle ofertas más flexibles, personalizables y competitivas que le permitan abrir nuevas vías de ingresos y superar las expectativas de los clientes.",
+                "en": "Unlock your full potential with OGx. Take your business to new heights (and into new sectors) with flexible pricing, faster delivery speeds, larger message sizes, and lower energy consumption than our previous satellite service. Develop more flexible, customizable, and competitive offerings that enable you to open new revenue streams and exceed customer expectations.",
+                "pt": "Desbloqueie todo o seu potencial com a OGx. Leve seu negócio a novos patamares (e a novos setores) com preços flexíveis, velocidades de entrega mais rápidas, mensagens de maior tamanho e menor consumo de energia do que nosso serviço de satélite anterior. Desenvolva ofertas mais flexíveis, personalizáveis ​​e competitivas que permitam abrir novas fontes de receita e superar as expectativas dos clientes."
+            },
+            "brand": "skywave",
+            "youtube_id": "iKvZ6dJNOdY",
+            "date": "2026-04-25",
+            "active": true
+        },
+        {
+            "id": "vid_e1e98965",
+            "title": {
+                "es": "CT 5300",
+                "en": "CT 5300",
+                "pt": "CT 5300"
+            },
+            "description": {
+                "es": "",
+                "en": "",
+                "pt": ""
+            },
+            "brand": "viachain",
+            "youtube_id": "HxqtpYgHr1Q",
+            "date": "2026-04-25",
+            "active": true
+        },
+        {
+            "id": "vid_960bbec1",
+            "title": {
+                "es": "GT 1230",
+                "en": "GT 1230",
+                "pt": "GT 1230"
+            },
+            "description": {
+                "es": "",
+                "en": "",
+                "pt": ""
+            },
+            "brand": "viachain",
+            "youtube_id": "UrrddBU9ogc",
+            "date": "2026-04-25",
+            "active": true
+        },
+        {
+            "id": "vid_8a39a71c",
+            "title": {
+                "es": "VIACHAIN - Inteligencia inteligente para remolques",
+                "en": "VIACHAIN - Smart Trailer Intelligence",
+                "pt": "VIACHAIN - Inteligência de Reboque Inteligente"
+            },
+            "description": {
+                "es": "",
+                "en": "",
+                "pt": ""
+            },
+            "brand": "viachain",
+            "youtube_id": "7qfxzYap2RY",
+            "date": "2026-04-25",
+            "active": true
+        },
+        {
+            "id": "vid_5772856e",
+            "title": {
+                "es": "AVL Agent Trailer",
+                "en": "",
+                "pt": ""
+            },
+            "description": {
+                "es": "",
+                "en": "",
+                "pt": ""
+            },
+            "brand": "skywave",
+            "youtube_id": "N0Um_OXXFMg",
+            "date": "2026-04-26",
+            "active": true
+        },
+        {
+            "id": "vid_20ce9c25",
+            "title": {
+                "es": "SCADA Connection",
+                "en": "",
+                "pt": ""
+            },
+            "description": {
+                "es": "",
+                "en": "",
+                "pt": ""
+            },
+            "brand": "skywave",
+            "youtube_id": "okUW_HXAa5k",
+            "date": "2026-04-26",
+            "active": true
+        },
+        {
+            "id": "vid_a6dfb224",
+            "title": {
+                "es": "Stress Tess",
+                "en": "Stress Tess",
+                "pt": "Stress Tess"
+            },
+            "description": {
+                "es": "",
+                "en": "",
+                "pt": ""
+            },
+            "brand": "viachain",
+            "youtube_id": "QQqRlBJE1Rj-GOmr",
+            "date": "2026-05-05",
+            "active": true
+        }
+    ],
+    "meta": {
+        "updated": "2026-05-05T16:04:18+00:00",
+        "version": 38
+    }
+}

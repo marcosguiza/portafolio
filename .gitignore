@@ -1,0 +1,20 @@
+node_modules/
+memory/
+*.log
+.DS_Store
+
+# Credentials & runtime secrets
+manager/users.json
+manager/settings.json
+manager/leads.json
+
+# User-uploaded runtime files
+apoyo/assets/
+assets/cards/
+
+# Router backups (may contain credentials)
+router_backup/
+
+# Old backup files
+*.old
+*.old.*

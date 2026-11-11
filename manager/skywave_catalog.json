@@ -1,0 +1,929 @@
+{
+  "hero": {
+    "eyebrow": {
+      "es": "Portafolio ST & SC · Módems y Terminales",
+      "en": "ST & SC Portfolio · Modems and Terminals",
+      "pt": "Portfólio ST & SC · Modems e Terminais"
+    },
+    "title": {
+      "es": [
+        "Conectividad satelital",
+        "para activos que",
+        "no pueden fallar"
+      ],
+      "en": [
+        "Satellite connectivity",
+        "for assets that",
+        "cannot fail"
+      ],
+      "pt": [
+        "Conectividade satelital",
+        "para ativos que",
+        "não podem falhar"
+      ]
+    },
+    "sub": {
+      "es": "Un portafolio completo de módems y terminales IoT híbridos satélite–celular, con más de 30 años de red operativa y 800,000+ activos críticos conectados a nivel global.",
+      "en": "A complete portfolio of hybrid satellite–cellular IoT modems and terminals, with 30+ years of operational network and 800K+ critical assets connected worldwide.",
+      "pt": "Um portfólio completo de modems e terminais IoT híbridos satélite–celular, com mais de 30 anos de rede operacional e 800.000+ ativos críticos conectados globalmente."
+    },
+    "scroll": {
+      "es": "Explorar portafolio",
+      "en": "Explore portfolio",
+      "pt": "Explorar portfólio"
+    }
+  },
+  "closing": {
+    "title": {
+      "es": "Red probada. Activos que no pueden fallar.",
+      "en": "Proven network. Assets that cannot fail.",
+      "pt": "Rede comprovada. Ativos que não podem falhar."
+    },
+    "sub": {
+      "es": "Más de 30 años de operación continua, 800,000+ activos críticos conectados y una red de 500+ partners en 90+ países.",
+      "en": "30+ years of continuous operation, 800K+ critical assets connected, and a network of 500+ partners across 90+ countries.",
+      "pt": "Mais de 30 anos de operação contínua, 800.000+ ativos críticos conectados e uma rede de 500+ parceiros em 90+ países."
+    },
+    "cta": {
+      "es": "Solicitar una demo técnica",
+      "en": "Request a technical demo",
+      "pt": "Solicitar uma demo técnica"
+    },
+    "contact": {
+      "es": "Ingeniero de preventa · SKYWAVE LATAM",
+      "en": "Pre-sales engineer · SKYWAVE LATAM",
+      "pt": "Engenheiro de pré-vendas · SKYWAVE LATAM"
+    }
+  },
+  "products": [
+    {
+      "id": "st2100",
+      "name": "ST 2100",
+      "category": {
+        "es": "Módem satelital robusto",
+        "en": "Rugged satellite modem",
+        "pt": "Modem satelital robusto"
+      },
+      "role": {
+        "es": "Módem sellado para integración en controladores externos.",
+        "en": "Enclosed modem for integration in external controllers.",
+        "pt": "Modem selado para integração em controladores externos."
+      },
+      "img": "assets/products/ST2100.png",
+      "hero": {
+        "es": "El módem satelital base de la familia ST.",
+        "en": "The foundational satellite modem of the ST family.",
+        "pt": "O modem satelital base da família ST."
+      },
+      "description": {
+        "es": "Módem bidireccional IDP/OGx pensado para OEMs que embeben su aplicación en un controlador externo. Entrega conectividad satelital robusta con carcasa sellada IP67.",
+        "en": "IDP/OGx bidirectional modem for OEMs that embed their application in an external controller. Delivers robust satellite connectivity in an IP67 sealed enclosure.",
+        "pt": "Modem bidirecional IDP/OGx para OEMs que embarcam sua aplicação em um controlador externo. Entrega conectividade satelital robusta com carcaça selada IP67."
+      },
+      "satellite": "IDP/OGx",
+      "cellular": "—",
+      "gnss": "GPS · GLONASS · Galileo · BeiDou",
+      "power": "9–32 V",
+      "env": "IP67 · −40 °C / +85 °C",
+      "dims": "",
+      "memory": "",
+      "io": [
+        "Reset out/in",
+        "Event notifications",
+        "1 PPS",
+        "Accelerometer"
+      ],
+      "ports": [
+        "RS232"
+      ],
+      "prog": {
+        "es": "App externa",
+        "en": "External app",
+        "pt": "App externa"
+      },
+      "backup": false,
+      "hotspots": [
+        {
+          "x": 50,
+          "y": 40,
+          "t": {
+            "es": "Antena satelital integrada",
+            "en": "Integrated satellite antenna",
+            "pt": "Antena satelital integrada"
+          }
+        },
+        {
+          "x": 72,
+          "y": 60,
+          "t": {
+            "es": "Interfaz RS232 al controlador",
+            "en": "RS232 interface to controller",
+            "pt": "Interface RS232 ao controlador"
+          }
+        }
+      ]
+    },
+    {
+      "id": "st4000",
+      "name": "ST 4000",
+      "category": {
+        "es": "Módulo dual embebible",
+        "en": "Embeddable dual module",
+        "pt": "Módulo dual embarcável"
+      },
+      "role": {
+        "es": "Módulo OEM dual satelital + LTE-M para alta integración.",
+        "en": "OEM dual satellite + LTE-M module for high integration.",
+        "pt": "Módulo OEM dual satelital + LTE-M para alta integração."
+      },
+      "img": "assets/products/ST4000.png",
+      "hero": {
+        "es": "Módulo dual satelital + celular para embebido OEM.",
+        "en": "Dual satellite + cellular module for OEM embedding.",
+        "pt": "Módulo dual satelital + celular para embarque OEM."
+      },
+      "description": {
+        "es": "Módulo en formato placa que combina IDP/OGx con LTE-M para integradores que necesitan reducir tamaño y costo en soluciones híbridas de alto volumen.",
+        "en": "Board-format module combining IDP/OGx with LTE-M for integrators that need to reduce size and cost in high-volume hybrid solutions.",
+        "pt": "Módulo em formato placa que combina IDP/OGx com LTE-M para integradores que precisam reduzir tamanho e custo em soluções híbridas de alto volume."
+      },
+      "satellite": "IDP/OGx",
+      "cellular": "LTE-M",
+      "gnss": "GPS · GLONASS · Galileo · BeiDou",
+      "power": "3.8 VDC",
+      "env": "−40 °C / +85 °C",
+      "dims": "",
+      "memory": "",
+      "io": [
+        "4× IO (DIO/AIN) 3V TTL",
+        "1 PPS",
+        "Accelerometer"
+      ],
+      "ports": [
+        "UART",
+        "I²C"
+      ],
+      "prog": {
+        "es": "OEM / embebido",
+        "en": "OEM / embedded",
+        "pt": "OEM / embarcado"
+      },
+      "backup": false,
+      "hotspots": [
+        {
+          "x": 30,
+          "y": 40,
+          "t": {
+            "es": "Sección satelital IDP/OGx",
+            "en": "IDP/OGx satellite section",
+            "pt": "Seção satelital IDP/OGx"
+          }
+        },
+        {
+          "x": 70,
+          "y": 50,
+          "t": {
+            "es": "Módulo LTE-M integrado",
+            "en": "Integrated LTE-M module",
+            "pt": "Módulo LTE-M integrado"
+          }
+        },
+        {
+          "x": 50,
+          "y": 75,
+          "t": {
+            "es": "Conexión al host vía UART / I²C",
+            "en": "Host connection via UART / I²C",
+            "pt": "Conexão ao host via UART / I²C"
+          }
+        }
+      ]
+    },
+    {
+      "id": "st4300",
+      "name": "ST 4300",
+      "category": {
+        "es": "Módulo dual embebible · Nuevo",
+        "en": "Embeddable dual module · New",
+        "pt": "Módulo dual embarcável · Novo"
+      },
+      "role": {
+        "es": "Módulo módem integrado híbrido satelital-celular.",
+        "en": "Hybrid satellite-cellular integrated modem module.",
+        "pt": "Módulo modem integrado híbrido satélite-celular."
+      },
+      "img": "assets/products/ST4300.png",
+      "hero": {
+        "es": "Conectividad IoT global integrada, diseñada para acelerar la integración.",
+        "en": "Embedded global IoT connectivity, designed to fast-track integration.",
+        "pt": "Conectividade IoT global integrada, criada para acelerar a integração."
+      },
+      "description": {
+        "es": "La Serie ST 4300 facilita agregar conectividad híbrida satelital-celular a productos IoT industriales en formato de placa hija, simplificando la integración y acelerando el tiempo de salida al mercado. Ideal para OEMs que necesitan la capacidad del ST 4000 sin diseñar directamente alrededor del módulo de montaje superficial.",
+        "en": "The ST 4300 Series makes it easy to add hybrid satellite-cellular connectivity to industrial IoT products in a daughter-board form factor, simplifying integration and accelerating time to market. Ideal for OEMs who need ST 4000 capability without having to design directly around the surface mount module.",
+        "pt": "A Série ST 4300 facilita adicionar conectividade híbrida satélite-celular a produtos IoT industriais em formato de placa filha, simplificando a integração e acelerando o tempo de chegada ao mercado. Ideal para OEMs que precisam da capacidade do ST 4000 sem projetar diretamente em torno do módulo de montagem em superfície."
+      },
+      "satellite": "OGx",
+      "cellular": "LTE Cat M1",
+      "gnss": "GPS/QZSS · GLONASS · BeiDou · Galileo",
+      "power": "3.8 V (idle 200 µA)",
+      "env": "−40 °C / +85 °C",
+      "dims": "72.3 × 37.1 × 7.4 mm · 19 g",
+      "memory": "",
+      "io": [
+        "GPIO6 (eventos satelitales)",
+        "SIM dual (embebida + Nano)"
+      ],
+      "ports": [
+        "UART AT commands",
+        "Antenas U.FL (cel · sat/GNSS)"
+      ],
+      "prog": {
+        "es": "OEM / AT commands",
+        "en": "OEM / AT commands",
+        "pt": "OEM / AT commands"
+      },
+      "backup": false,
+      "hotspots": [
+        {
+          "x": 30,
+          "y": 40,
+          "t": {
+            "es": "Módulo OGx satelital",
+            "en": "OGx satellite module",
+            "pt": "Módulo OGx satelital"
+          }
+        },
+        {
+          "x": 70,
+          "y": 45,
+          "t": {
+            "es": "Módulo LTE Cat M1 multi-banda",
+            "en": "Multi-band LTE Cat M1 module",
+            "pt": "Módulo LTE Cat M1 multi-banda"
+          }
+        },
+        {
+          "x": 50,
+          "y": 75,
+          "t": {
+            "es": "GNSS u-blox M10 cuatro constelaciones",
+            "en": "Four-constellation u-blox M10 GNSS",
+            "pt": "GNSS u-blox M10 quatro constelações"
+          }
+        }
+      ]
+    },
+    {
+      "id": "st6000",
+      "name": "ST 6000",
+      "category": {
+        "es": "Terminal programable OEM",
+        "en": "OEM programmable terminal",
+        "pt": "Terminal programável OEM"
+      },
+      "role": {
+        "es": "Terminal programable sin carcasa para integración OEM directa.",
+        "en": "Programmable terminal without enclosure for direct OEM integration.",
+        "pt": "Terminal programável sem carcaça para integração OEM direta."
+      },
+      "img": "assets/products/ST6000.png",
+      "hero": {
+        "es": "Toda la potencia del ST 6100, sin carcasa.",
+        "en": "All the power of the ST 6100, without an enclosure.",
+        "pt": "Toda a potência do ST 6100, sem carcaça."
+      },
+      "description": {
+        "es": "Plataforma programable Lua que entrega la funcionalidad completa del ST 6100 en formato OEM, lista para integrarse en el ensamblaje final del fabricante.",
+        "en": "Lua programmable platform delivering the full ST 6100 functionality in OEM format, ready to be integrated into the final manufacturer's assembly.",
+        "pt": "Plataforma programável Lua que entrega a funcionalidade completa do ST 6100 em formato OEM, pronta para ser integrada na montagem final do fabricante."
+      },
+      "satellite": "IDP/OGx",
+      "cellular": "—",
+      "gnss": "GPS · GLONASS · BeiDou",
+      "power": "9–32 V",
+      "env": "−40 °C / +85 °C",
+      "dims": "",
+      "memory": "",
+      "io": [
+        "4× GPIO (DIO/AIN)",
+        "2× DOUT",
+        "1 PPS",
+        "Accelerometer"
+      ],
+      "ports": [
+        "RS-232",
+        "RS-485"
+      ],
+      "prog": "Lua · SDK · SOTA",
+      "backup": false,
+      "hotspots": [
+        {
+          "x": 32,
+          "y": 45,
+          "t": {
+            "es": "Módulo satelital IDP/OGx",
+            "en": "IDP/OGx satellite module",
+            "pt": "Módulo satelital IDP/OGx"
+          }
+        },
+        {
+          "x": 68,
+          "y": 45,
+          "t": {
+            "es": "Plano de tierra RF blindado",
+            "en": "Shielded RF ground plane",
+            "pt": "Plano de terra RF blindado"
+          }
+        }
+      ]
+    },
+    {
+      "id": "sc1000",
+      "name": "SC 1000",
+      "category": {
+        "es": "Rastreador solar satelital",
+        "en": "Solar satellite tracker",
+        "pt": "Rastreador solar satelital"
+      },
+      "role": {
+        "es": "Rastreador solar de bajo costo para activos que antes no se podían rastrear.",
+        "en": "Cost-effective solar tracker for previously untrackable assets.",
+        "pt": "Rastreador solar de baixo custo para ativos antes não rastreáveis."
+      },
+      "img": "assets/products/SC1000.png",
+      "hero": {
+        "es": "Visibilidad inteligente alimentada por el sol.",
+        "en": "Smart visibility, powered by the sun.",
+        "pt": "Visibilidade inteligente alimentada pelo sol."
+      },
+      "description": {
+        "es": "Terminal configurable, alimentado por panel solar y batería recargable. Instalación sin cables, soporte para sensores BLE. Diseñado para OGx.",
+        "en": "Configurable terminal powered by solar panel and rechargeable battery. Wireless installation, support for BLE sensors. Designed for OGx.",
+        "pt": "Terminal configurável, alimentado por painel solar e bateria recarregável. Instalação sem fios, suporte para sensores BLE. Projetado para OGx."
+      },
+      "satellite": "OGx",
+      "cellular": "—",
+      "gnss": "GPS · GLONASS · Galileo · BeiDou",
+      "power": {
+        "es": "Panel solar + batería Li-ion",
+        "en": "Solar panel + Li-ion battery",
+        "pt": "Painel solar + bateria Li-ion"
+      },
+      "env": "IP67 · IPX9K · −35 °C / +75 °C · ATEX Z2 · CID2",
+      "dims": "224 × 76 × 28 mm",
+      "memory": "",
+      "io": [
+        "3-axis accelerometer"
+      ],
+      "ports": [
+        "BLE 5.2"
+      ],
+      "prog": {
+        "es": "Configurable",
+        "en": "Configurable",
+        "pt": "Configurável"
+      },
+      "backup": true,
+      "hotspots": [
+        {
+          "x": 46,
+          "y": 28,
+          "t": {
+            "es": "Panel solar integrado",
+            "en": "Integrated solar panel",
+            "pt": "Painel solar integrado"
+          }
+        },
+        {
+          "x": 70,
+          "y": 45,
+          "t": {
+            "es": "Antena satelital OGx",
+            "en": "OGx satellite antenna",
+            "pt": "Antena satelital OGx"
+          }
+        },
+        {
+          "x": 20,
+          "y": 70,
+          "t": {
+            "es": "Montaje directo sin cables",
+            "en": "Wireless direct mounting",
+            "pt": "Montagem direta sem fios"
+          }
+        }
+      ]
+    },
+    {
+      "id": "st6100",
+      "name": "ST 6100",
+      "category": {
+        "es": "Terminal programable esencial",
+        "en": "Essential programmable terminal",
+        "pt": "Terminal programável essencial"
+      },
+      "role": {
+        "es": "Terminal satelital bidireccional para seguimiento, monitoreo y control.",
+        "en": "Bidirectional satellite terminal for tracking, monitoring and control.",
+        "pt": "Terminal satelital bidirecional para rastreamento, monitoramento e controle."
+      },
+      "img": "assets/products/ST6100.png",
+      "hero": {
+        "es": "La próxima generación de terminales satelitales.",
+        "en": "The next generation of satellite terminals.",
+        "pt": "A próxima geração de terminais satelitais."
+      },
+      "description": {
+        "es": "Terminal totalmente programable con motor Lua, SDK y Terminal Apps. Antena interna de bajo ángulo de elevación para aplicaciones terrestres y marítimas.",
+        "en": "Fully programmable terminal with Lua engine, SDK and Terminal Apps. Low-elevation internal antenna for land and maritime applications.",
+        "pt": "Terminal totalmente programável com motor Lua, SDK e Terminal Apps. Antena interna de baixo ângulo de elevação para aplicações terrestres e marítimas."
+      },
+      "satellite": "IDP/OGx",
+      "cellular": "—",
+      "gnss": "GPS · GLONASS · BeiDou",
+      "power": "9–32 V",
+      "env": "IP67 · −40 °C / +85 °C",
+      "dims": "126 × 126 × 49 mm",
+      "memory": "RAM 4MB · NVM 6MB",
+      "io": [
+        "4× I/O analog/digital",
+        "3-axis accelerometer"
+      ],
+      "ports": [
+        "RS-232",
+        "RS-485"
+      ],
+      "prog": "Lua · SDK · SOTA",
+      "backup": false,
+      "hotspots": [
+        {
+          "x": 48,
+          "y": 35,
+          "t": {
+            "es": "Antena satelital de bajo ángulo de elevación",
+            "en": "Low-elevation satellite antenna",
+            "pt": "Antena satelital de baixo ângulo de elevação"
+          }
+        },
+        {
+          "x": 74,
+          "y": 62,
+          "t": {
+            "es": "Carcasa sellada IP67",
+            "en": "IP67 sealed enclosure",
+            "pt": "Carcaça selada IP67"
+          }
+        },
+        {
+          "x": 25,
+          "y": 55,
+          "t": {
+            "es": "Conector lateral o inferior",
+            "en": "Side or bottom connector",
+            "pt": "Conector lateral ou inferior"
+          }
+        }
+      ]
+    },
+    {
+      "id": "st8100",
+      "name": "ST 8100",
+      "category": {
+        "es": "Terminal dual solar · Nuevo",
+        "en": "Dual solar terminal · New",
+        "pt": "Terminal dual solar · Novo"
+      },
+      "role": {
+        "es": "Terminal de modo dual satelital + celular con energía solar.",
+        "en": "Dual-mode satellite + cellular terminal, solar-powered.",
+        "pt": "Terminal modo dual satelital + celular com energia solar."
+      },
+      "img": "assets/products/ST8100.png",
+      "hero": {
+        "es": "Programable, solar, dual. Donde no hay energía externa.",
+        "en": "Programmable, solar, dual. Where there is no external power.",
+        "pt": "Programável, solar, dual. Onde não há energia externa."
+      },
+      "description": {
+        "es": "Ideal para activos sin alimentación externa. Enruta por celular cuando está disponible y por satélite cuando no. Soporta sensores BLE integrados; la variante Advanced añade interfaz cableada de 16-pin.",
+        "en": "Ideal for assets with no external power. Routes via cellular when available and satellite when not. Supports integrated BLE sensors; the Advanced variant adds a 16-pin wired interface.",
+        "pt": "Ideal para ativos sem alimentação externa. Roteia por celular quando disponível e por satélite quando não. Suporta sensores BLE integrados; a variante Advanced adiciona interface cabeada de 16 pinos."
+      },
+      "satellite": "IDP · OGx",
+      "cellular": "LTE-M · NB-IoT · 2G",
+      "gnss": "GPS · GLONASS · BeiDou · Galileo",
+      "power": {
+        "es": "Solar 0.86 W + batería Li-ion 1100 mAh",
+        "en": "Solar 0.86 W + Li-ion 1100 mAh battery",
+        "pt": "Solar 0.86 W + bateria Li-ion 1100 mAh"
+      },
+      "env": "IP67 · IPX9K · −35 °C / +75 °C",
+      "dims": "285 × 93 × 35 mm",
+      "memory": "PSRAM 8MB · NVM 16MB",
+      "io": [
+        "Acelerómetro 3 ejes"
+      ],
+      "ports": [
+        "BLE 5.0"
+      ],
+      "io_16pin": [
+        "2× IO config.",
+        "2× AIN voltaje (0-15V)",
+        "2× AIN 4-20 mA",
+        "2× salida 24V / 30mA"
+      ],
+      "ports_16pin": [
+        "RS-232",
+        "RS-485/J1708",
+        "1-Wire"
+      ],
+      "prog": "Lua · SDK · SOTA/FOTA",
+      "backup": true,
+      "hotspots": [
+        {
+          "x": 48,
+          "y": 30,
+          "t": {
+            "es": "Panel solar 0.86 W integrado",
+            "en": "Integrated 0.86 W solar panel",
+            "pt": "Painel solar 0.86 W integrado"
+          }
+        },
+        {
+          "x": 70,
+          "y": 55,
+          "t": {
+            "es": "Conector 16-pin variante Advanced",
+            "en": "Advanced variant 16-pin connector",
+            "pt": "Conector 16 pinos variante Advanced"
+          }
+        },
+        {
+          "x": 25,
+          "y": 60,
+          "t": {
+            "es": "BLE 5.0 para sensores y app móvil",
+            "en": "BLE 5.0 for sensors and mobile app",
+            "pt": "BLE 5.0 para sensores e app móvel"
+          }
+        }
+      ]
+    },
+    {
+      "id": "st9100",
+      "name": "ST 9100",
+      "category": {
+        "es": "Terminal dual multi-interfaz",
+        "en": "Multi-interface dual terminal",
+        "pt": "Terminal dual multi-interface"
+      },
+      "role": {
+        "es": "Terminal programable con 2 buses CAN, 3 SIMs y respaldo 48h.",
+        "en": "Programmable terminal with 2 CAN buses, 3 SIMs and 48h backup.",
+        "pt": "Terminal programável com 2 barramentos CAN, 3 SIMs e backup 48h."
+      },
+      "img": "assets/products/ST9100.png",
+      "hero": {
+        "es": "El terminal más versátil del portafolio.",
+        "en": "The most versatile terminal of the portfolio.",
+        "pt": "O terminal mais versátil do portfólio."
+      },
+      "description": {
+        "es": "Terminal dual satelital + 4G LTE con fallback 3G/2G. 2 buses CAN, 3 SIMs, batería de respaldo >48 h.",
+        "en": "Dual terminal satellite + 4G LTE with 3G/2G fallback. 2 CAN buses, 3 SIMs, backup battery >48 h.",
+        "pt": "Terminal dual satelital + 4G LTE com fallback 3G/2G. 2 barramentos CAN, 3 SIMs, bateria de backup >48 h."
+      },
+      "satellite": "IDP/OGx",
+      "cellular": "4G LTE · 3G · 2G fallback",
+      "gnss": "GPS · GLONASS · BeiDou · Galileo",
+      "power": "9–32 V",
+      "env": "IP67 · −40 °C / +85 °C",
+      "dims": "181 × 113 × 47 mm",
+      "memory": "Li-ion 2000 mAh",
+      "io": [
+        "4× I/O",
+        "2× dedicated out",
+        "4× A/D in",
+        "2× AIN 4-20 mA"
+      ],
+      "ports": [
+        "2× RS-232",
+        "RS-485/J1708",
+        "2× CAN",
+        "1-Wire",
+        "BLE 5.0"
+      ],
+      "prog": "Lua · SDK · SOTA",
+      "backup": true,
+      "hotspots": [
+        {
+          "x": 40,
+          "y": 25,
+          "t": {
+            "es": "LEDs programables de estado",
+            "en": "Programmable status LEDs",
+            "pt": "LEDs programáveis de estado"
+          }
+        },
+        {
+          "x": 72,
+          "y": 60,
+          "t": {
+            "es": "Conector industrial multipin",
+            "en": "Industrial multipin connector",
+            "pt": "Conector industrial multipin"
+          }
+        },
+        {
+          "x": 20,
+          "y": 75,
+          "t": {
+            "es": "Pies de montaje reforzados",
+            "en": "Reinforced mounting feet",
+            "pt": "Pés de montagem reforçados"
+          }
+        }
+      ]
+    }
+  ],
+  "accessories": [
+    {
+      "id": "db300",
+      "name": "DB 300",
+      "category": {
+        "es": "Botón de pánico",
+        "en": "Panic Button",
+        "pt": "Boton de Panico"
+      },
+      "img": "assets/accessories/DB300_SKYWAVE.png",
+      "hero": {
+        "es": "Alerta de auxilio inmediata vía Bluetooth 6.0 con 10+ años de autonomía.",
+        "en": "Immediate panic alert via Bluetooth 6.0 with 10+ year battery life.",
+        "pt": "Alerta de auxílio imediato via Bluetooth 6.0 com 10+ anos de autonomia."
+      },
+      "description": {
+        "es": "El DB 300 (Botón de pánico) es un botón de auxilio Bluetooth 6.0 que permite a trabajadores en campo enviar una alerta de emergencia a la terminal Skywave más cercana con un solo toque. Basado en el SoC Nordic nRF54L15, incluye acelerómetro de 3 ejes para detección de caída e impacto. La batería Li-SOCl2 de 10400 mAh (reemplazable) garantiza más de 10 años de operación sin mantenimiento. Bluetooth Channel Sounding permite mediciones de distancia precisas para localización indoor. PA opcional eleva la potencia de transmisión hasta +20 dBm para mayor alcance en exteriores.",
+        "en": "The DB 300 (Panic Button) is a Bluetooth 6.0 panic button that allows field workers to send an emergency alert to the nearest Skywave terminal with a single press. Based on the Nordic nRF54L15 SoC, it includes a 3-axis accelerometer for fall and impact detection. The 10400 mAh Li-SOCl2 battery (replaceable) guarantees 10+ years of operation without maintenance. Bluetooth Channel Sounding enables precise distance measurements for indoor location. Optional PA boosts transmit power to +20 dBm for extended outdoor range.",
+        "pt": "O DB 300 (Boton de Panico) é um botão de auxílio Bluetooth 6.0 que permite a trabalhadores em campo enviar um alerta de emergência para o terminal Skywave mais próximo com um único toque. Baseado no SoC Nordic nRF54L15, inclui acelerômetro de 3 eixos para detecção de queda e impacto. A bateria Li-SOCl2 de 10400 mAh (substituível) garante mais de 10 anos de operação sem manutenção. Bluetooth Channel Sounding permite medições de distância precisas para localização indoor. PA opcional eleva a potência de transmissão até +20 dBm para maior alcance externo."
+      },
+      "compatible": [
+        "ST 8100",
+        "ST 9100",
+        "SC 1000"
+      ],
+      "dims": "74 × 74 × 23 mm · 125 g",
+      "env": "IP67 · −20 °C / +60 °C",
+      "ports": [
+        "BLE 6.0"
+      ],
+      "datasheet": "assets/accessories/GJD139 DB 300 Installation Guide_SKYWAVE.pdf"
+    },
+    {
+      "id": "ts310",
+      "name": "TS 310",
+      "category": {
+        "es": "Sensor de temperatura",
+        "en": "Temperature sensor",
+        "pt": "Sensor de temperatura"
+      },
+      "img": "assets/accessories/TS%20310-VIACHAIN.png",
+      "hero": {
+        "es": "Monitoreo de temperatura de alta precisión para cadena de frío.",
+        "en": "High-precision temperature monitoring for cold chain.",
+        "pt": "Monitoramento de temperatura de alta precisão para cadeia de frio."
+      },
+      "description": {
+        "es": "El TS 310 es un sensor de temperatura de alta precisión para monitoreo de cadena de frío en tráilers refrigerados, contenedores y almacenes. Transmite lecturas en tiempo real a la terminal Skywave vía BLE para reportes continuos de temperatura. Compartido con la plataforma VIACHAIN.",
+        "en": "The TS 310 is a high-precision temperature sensor for cold chain monitoring in refrigerated trailers, containers and warehouses. Transmits real-time readings to the Skywave terminal via BLE for continuous temperature reporting. Shared with the VIACHAIN platform.",
+        "pt": "O TS 310 é um sensor de temperatura de alta precisão para monitoramento de cadeia de frio em reboques refrigerados, contentores e armazéns. Transmite leituras em tempo real para o terminal Skywave via BLE para relatórios contínuos de temperatura. Compartilhado com a plataforma VIACHAIN."
+      },
+      "compatible": [
+        "ST 8100",
+        "ST 9100"
+      ],
+      "dims": "—",
+      "env": "IP67",
+      "ports": [
+        "BLE"
+      ],
+      "datasheet": "assets/accessories/TS310_VIACHAIN.pdf"
+    },
+    {
+      "id": "ds300",
+      "name": "DS 300",
+      "category": {
+        "es": "Sensor de puerta inalámbrico",
+        "en": "Wireless door sensor",
+        "pt": "Sensor de porta sem fio"
+      },
+      "img": "assets/accessories/DS300-VIACHAIN.png",
+      "hero": {
+        "es": "Monitoreo de acceso BLE sin cables para tráilers y contenedores.",
+        "en": "Wire-free BLE access monitoring for trailers and containers.",
+        "pt": "Monitoramento de acesso BLE sem fios para reboques e contentores."
+      },
+      "description": {
+        "es": "El DS 300 es un sensor de puerta inalámbrico BLE que detecta aperturas y cierres en tráilers y contenedores sin necesidad de cableado. Batería Li-ion de 1000 mAh con hasta 5 años de operación continua. Compatible con terminales Skywave ST 9100 y SC 1000. Genera alertas ante aperturas no autorizadas y fuera de geocercas. Compartido con la plataforma VIACHAIN.",
+        "en": "The DS 300 is a BLE wireless door sensor that detects openings and closings in trailers and containers without wiring. Li-ion 1000 mAh battery with up to 5 years of continuous operation. Compatible with Skywave ST 9100 and SC 1000 terminals. Generates alerts for unauthorized openings and geofence violations. Shared with the VIACHAIN platform.",
+        "pt": "O DS 300 é um sensor de porta sem fio BLE que detecta aberturas e fechamentos em reboques e contentores sem necessidade de fiação. Bateria Li-ion de 1000 mAh com até 5 anos de operação contínua. Compatível com terminais Skywave ST 9100 e SC 1000. Gera alertas para aberturas não autorizadas e violações de geofence. Compartilhado com a plataforma VIACHAIN."
+      },
+      "compatible": [
+        "ST 8100",
+        "ST 9100",
+        "SC 1000"
+      ],
+      "dims": "102 × 64 × 15 mm · 97 g",
+      "env": "IP67 · −40 °C / +85 °C",
+      "ports": [
+        "BLE 4.0"
+      ],
+      "datasheet": "assets/accessories/DS300_VIACHAIN.pdf"
+    },
+    {
+      "id": "ds310",
+      "name": "DS 310",
+      "category": {
+        "es": "Sensor de puerta inalámbrico avanzado",
+        "en": "Advanced wireless door sensor",
+        "pt": "Sensor de porta sem fio avançado"
+      },
+      "compatible": [
+        "ST 8100",
+        "ST 9100"
+      ],
+      "featured": true
+    },
+    {
+      "id": "bt610",
+      "name": "Sentrius BT610",
+      "thirdParty": true,
+      "category": {
+        "es": "Sensor BLE industrial",
+        "en": "Industrial BLE sensor",
+        "pt": "Sensor BLE industrial"
+      },
+      "img": "assets/accessories/Sentrius_BT610-SKYWAVE.png",
+      "hero": {
+        "es": "Sensor BLE industrial de Laird Connectivity para monitoreo de temperatura y humedad.",
+        "en": "Laird Connectivity industrial BLE sensor for temperature and humidity monitoring.",
+        "pt": "Sensor BLE industrial Laird Connectivity para monitoramento de temperatura e umidade."
+      },
+      "description": {
+        "es": "El Sentrius BT610 de Laird Connectivity es un sensor BLE 5 industrial certificado para ambientes exigentes. Mide temperatura, humedad y aceleración. Su larga duración de batería y encapsulado IP67 lo hacen ideal para monitoreo de activos en transporte refrigerado, almacenes y entornos industriales. Certificado para instalación con terminales Skywave.",
+        "en": "The Laird Connectivity Sentrius BT610 is a certified industrial BLE 5 sensor for demanding environments. Measures temperature, humidity and acceleration. Its long battery life and IP67 enclosure make it ideal for asset monitoring in refrigerated transport, warehouses and industrial environments. Certified for installation with Skywave terminals.",
+        "pt": "O Sentrius BT610 da Laird Connectivity é um sensor BLE 5 industrial certificado para ambientes exigentes. Mede temperatura, umidade e aceleração. Sua longa duração de bateria e encapsulamento IP67 o tornam ideal para monitoramento de ativos em transporte refrigerado, armazéns e ambientes industriais. Certificado para instalação com terminais Skywave."
+      },
+      "compatible": [
+        "ST 8100",
+        "ST 9100"
+      ],
+      "dims": "86 × 43 × 26 mm",
+      "env": "IP67 · −40 °C / +85 °C",
+      "ports": [
+        "BLE 5"
+      ],
+      "datasheet": "assets/accessories/Sentrius_BT610_SKYWAVE.pdf"
+    },
+    {
+      "id": "btsmp1",
+      "name": "BTSMP1 Eye Sensor",
+      "thirdParty": true,
+      "category": {
+        "es": "Sensor BLE multifunción",
+        "en": "Multi-function BLE sensor",
+        "pt": "Sensor BLE multifunção"
+      },
+      "img": "assets/accessories/BTSMP1_Eye_Sensor-SKYWAVE.png",
+      "hero": {
+        "es": "Sensor BLE multifunción para monitoreo ambiental y de activos en campo.",
+        "en": "Multi-function BLE sensor for environmental and asset monitoring in the field.",
+        "pt": "Sensor BLE multifunção para monitoramento ambiental e de ativos em campo."
+      },
+      "description": {
+        "es": "El BTSMP1 Eye Sensor es un sensor BLE compacto y multifunción que mide temperatura, humedad, presión atmosférica y aceleración. Diseñado para monitoreo en tiempo real de condiciones ambientales de carga y activos. Certificado para instalación con terminales Skywave ST y SC, comunicándose vía BLE para reporte continuo.",
+        "en": "The BTSMP1 Eye Sensor is a compact, multi-function BLE sensor measuring temperature, humidity, atmospheric pressure and acceleration. Designed for real-time monitoring of cargo and asset environmental conditions. Certified for installation with Skywave ST and SC terminals, communicating via BLE for continuous reporting.",
+        "pt": "O BTSMP1 Eye Sensor é um sensor BLE compacto e multifunção que mede temperatura, umidade, pressão atmosférica e aceleração. Projetado para monitoramento em tempo real das condições ambientais de carga e ativos. Certificado para instalação com terminais Skywave ST e SC, comunicando via BLE para relatórios contínuos."
+      },
+      "compatible": [
+        "ST 8100",
+        "ST 9100"
+      ],
+      "dims": "—",
+      "env": "IP67",
+      "ports": [
+        "BLE"
+      ],
+      "datasheet": "assets/accessories/BTSMP1_EYE_SENSOR_SKYWAVE.pdf"
+    },
+    {
+      "id": "dute_s7",
+      "name": "DUT-E S7 BLE",
+      "thirdParty": true,
+      "category": {
+        "es": "Sensor de nivel de combustible",
+        "en": "Fuel level sensor",
+        "pt": "Sensor de nível de combustível"
+      },
+      "img": "assets/accessories/dute_s7_ble_SKYWAVE.png",
+      "hero": {
+        "es": "Medición capacitiva de combustible de alta precisión con transmisión BLE.",
+        "en": "High-precision capacitive fuel measurement with BLE transmission.",
+        "pt": "Medição capacitiva de combustível de alta precisão com transmissão BLE."
+      },
+      "description": {
+        "es": "El DUT-E S7 BLE mide el nivel de combustible en tanques de vehículos y objetos estacionarios con principio capacitivo — sin partes móviles para mayor durabilidad. Inaccuracy ≤ 0.2% (estacionario) / ≤ 1% (en movimiento). Longitud de sonda: 350–1000 mm (ajustable en campo). Transmisión vía BLE a la terminal Skywave para monitoreo continuo de consumo y detección de fugas o drenajes no autorizados. Tensión de alimentación 10–50 V DC. Temperatura de operación: −40 °C / +85 °C. Corrección térmica automática configurable. Sin necesidad de recalibración ante reducciones de longitud de hasta 30%.",
+        "en": "The DUT-E S7 BLE measures fuel level in vehicle tanks and stationary objects using a capacitive principle — no moving parts for greater durability. Inaccuracy ≤ 0.2% (stationary) / ≤ 1% (in motion). Probe length: 350–1000 mm (field-adjustable). Transmits via BLE to the Skywave terminal for continuous consumption monitoring and detection of unauthorized drainage or leaks. Power supply 10–50 V DC. Operating temperature: −40 °C / +85 °C. Configurable thermal correction. No recalibration required for probe length reductions up to 30%.",
+        "pt": "O DUT-E S7 BLE mede o nível de combustível em tanques de veículos e objetos estacionários com princípio capacitivo — sem peças móveis para maior durabilidade. Inaccuracy ≤ 0,2% (estacionário) / ≤ 1% (em movimento). Comprimento da sonda: 350–1000 mm (ajustável em campo). Transmite via BLE para o terminal Skywave para monitoramento contínuo de consumo e detecção de drenagens não autorizadas ou vazamentos. Tensão de alimentação 10–50 V DC. Temperatura de operação: −40 °C / +85 °C. Correção térmica automática configurável. Sem necessidade de recalibração para reduções de comprimento de até 30%."
+      },
+      "compatible": [
+        "ST 8100",
+        "ST 9100"
+      ],
+      "dims": "Probe: 350–1000 mm (field-adjustable)",
+      "env": "−40 °C / +85 °C",
+      "ports": [
+        "BLE",
+        "Analog",
+        "RS-232",
+        "RS-485",
+        "CAN J1939"
+      ],
+      "datasheet": "assets/accessories/dute_s7_ble_SKYWAVE.pdf"
+    }
+  ],
+  "hardwareGuides": {
+    "st2100": {
+      "en": "assets/manuals/T412 ST 21xx Hardware Guide.pdf"
+    },
+    "st6000": {
+      "en": "assets/manuals/T407 ST 60xx Hardware Guide.pdf"
+    },
+    "st6100": {
+      "en": "assets/manuals/T406 ST 61xx Hardware Guide.pdf"
+    },
+    "st8100": {
+      "en": "assets/manuals/T416 ST 8100 Hardware Guide.pdf"
+    },
+    "st9100": {
+      "en": "assets/manuals/T413 ST 91xx Hardware Guide.pdf"
+    },
+    "sc1000": {
+      "en": "assets/manuals/GJD131 SC 1000 Hardware Guide (for Partners).pdf"
+    }
+  },
+  "installGuides": {
+    "st2100": {
+      "en": "assets/manuals/T411 ST 21xx Installation Guide.pdf"
+    },
+    "st6100": {
+      "en": "assets/manuals/R9015 ST 61xx Installation Guide.pdf"
+    },
+    "st8100": {
+      "en": "assets/manuals/T417 ST 8100 Installation Guide.pdf"
+    },
+    "st9100": {
+      "en": "assets/manuals/T414 ST 91xx Installation Guide.pdf"
+    },
+    "sc1000": {
+      "en": "assets/manuals/GJD119 SC 1000 Installation Guide (for Partners).pdf"
+    }
+  },
+  "datasheets": {
+    "st2100": {
+      "es": "assets/datasheets/ST2100_SPA.pdf",
+      "en": "assets/datasheets/ST2100_ENG.pdf",
+      "pt": "assets/datasheets/ST2100_PTB.pdf"
+    },
+    "st4000": {
+      "es": "assets/datasheets/ST4000_SPA.pdf",
+      "en": "assets/datasheets/ST4000_ENG.pdf",
+      "pt": "assets/datasheets/ST4000_PTB.pdf"
+    },
+    "st6000": {
+      "es": "assets/datasheets/ST6000_SPA.pdf",
+      "en": "assets/datasheets/ST6000_ENG.pdf",
+      "pt": "assets/datasheets/ST6000_PTB.pdf"
+    },
+    "st6100": {
+      "es": "assets/datasheets/ST6100_SPA.pdf",
+      "en": "assets/datasheets/ST6100_ENG.pdf",
+      "pt": "assets/datasheets/ST6100_PTB.pdf"
+    },
+    "st8100": {
+      "es": "assets/datasheets/ST8100_SPA.pdf",
+      "en": "assets/datasheets/ST8100_ENG.pdf",
+      "pt": "assets/datasheets/ST8100_PTB.pdf"
+    },
+    "st9100": {
+      "es": "assets/datasheets/ST9100_SPA.pdf",
+      "en": "assets/datasheets/ST9100_ENG.pdf",
+      "pt": "assets/datasheets/ST9100_PTB.pdf"
+    },
+    "sc1000": {
+      "es": "assets/datasheets/SC1000_SPA.pdf",
+      "en": "assets/datasheets/SC1000_ENG.pdf",
+      "pt": "assets/datasheets/SC1000_PTB.pdf"
+    }
+  }
+}
