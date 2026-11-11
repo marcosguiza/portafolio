@@ -7,6 +7,7 @@ memory/
 manager/users.json
 manager/settings.json
 manager/leads.json
+deploy.php
 
 # User-uploaded runtime files
 apoyo/assets/
