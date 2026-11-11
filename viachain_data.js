@@ -199,6 +199,9 @@ window.VIACHAIN_DATA = {
           "env": "IP67 · −30 °C / +70 °C · ATEX Zone 2",
           "dims": "213 × 53 × 51 mm",
           "sku": "SM202907-003",
+          "bundles": [
+              { "sku": "SM202907-003", "name": "CT1010 ORBC WHT ATT GS SINGLE UNIT" }
+          ],
           "kits": [
               { "sku": "ST101728-002", "name": "KIT INSTALL CT1010 TEMPLATE ONLY" }
           ],
@@ -291,9 +294,15 @@ window.VIACHAIN_DATA = {
           "dims": "172.37 × 81.03 × 25.58 mm",
           "sku": "SM202884-001",
           "bundles": [
-              { "sku": "SM202983-001", "name": "CT3600 GL LTE ORBC — kit con cables de interfaz y antena externa" }
+              { "sku": "SM202884-001", "name": "CT3600 GL LTE ORBC ATT GS SINGLE UNIT" },
+              { "sku": "SM202983-001", "name": "CT3600 GL LTE ORBC ATT GS SINGLE UNIT" },
+              { "sku": "SM202983-204", "name": "CT3601 DAIKIN FACTORY INSTALL GL LTE ORBC ATT GS" }
           ],
-          "kits": [],
+          "kits": [
+              { "sku": "ST101651-001", "name": "NT CT3600 INT LTE/GNSS IP54 FAKRA 1m 360x Antenna" },
+              { "sku": "ST101659", "name": "CT3600 INSTALL HARDWARE KIT" },
+              { "sku": "MD702425", "name": "LOCKING BRACKET FOR CT360x" }
+          ],
           "memory": ">2 000 mensajes · >5 000 geocercas onboard",
           "certs": "FCC/IC · PTCRB · CE Red · RCM (Australia)",
           "io": [
@@ -379,7 +388,8 @@ window.VIACHAIN_DATA = {
           "dims": "456 × 106 × 31 mm · 1.3 kg",
           "sku": "CT5300-0120-H",
           "bundles": [
-              { "sku": "CT5300-0110-H", "name": "CT 5300 DEVICE STUD MOUNT KIT" }
+              { "sku": "CT5300-0110-H", "name": "CT 5300 DEVICE STUD MOUNT KIT" },
+              { "sku": "CT5300-0120-H", "name": "CT 5300 DEVICE RIVET MOUNT KIT" }
           ],
           "kits": [
               { "sku": "ST101836", "name": "KIT STUD BRACKETS CT5300" }
@@ -471,6 +481,9 @@ window.VIACHAIN_DATA = {
           "dims": "116 × 89 × 39 mm",
           "sku": "GT1030-1700-S",
           "bundles": [
+              { "sku": "GT1030-1700-S", "name": "GT1030 12P GL LTE ORBC ADV GS" },
+              { "sku": "1001272659", "name": "GT1030 12P GL LTE CLEARSKY ADVGS" },
+              { "sku": "GT1030-NGT", "name": "GT1030 12P GL LTE ORBC ADV GS NGT" },
               { "sku": "SM202804-001", "name": "KIT GT1030 + INSTALL KIT + CABLE 12P BLUNT CUT" }
           ],
           "kits": [
@@ -584,20 +597,37 @@ window.VIACHAIN_DATA = {
           "env": "IP67 · SAE J1455 · −40 °C / +70 °C",
           "dims": "415.7 × 91.9 × 25.3 mm · Con 16-pin: 432.6 × 91.9 × 25.3 mm",
           "sku": "GT1220-0701-H · GT1220-1701-H",
+          "bundles": [
+              { "sku": "GT1220-0701-H", "name": "GT1220 NO CON GL LTE VHB MNT ATT GS" },
+              { "sku": "GT1220-0701-S", "name": "GT1220 NO CON GL LTE VHB MNT GS" },
+              { "sku": "GT1220-1101-C", "name": "GT1220 16P NA LTE/3G/2G VHB MNT TMO" },
+              { "sku": "GT1220-1701-H", "name": "GT1220 16P GL LTE VHB MNT ATT GS" },
+              { "sku": "SM202222-002", "name": "CS210 & GT1220 ON BRACKET TMO SHIP MODE" },
+              { "sku": "SM202510-001", "name": "GT1200-5132-C SHELF ST2100 CS500 CEILING DS300 ROLL DOOR" },
+              { "sku": "SM202510-001-RK", "name": "R/K GT1220-5132-C SHELF ST2100 ADAPTER CABLE" }
+          ],
           "kits": [
-              { "sku": "ST101026-001", "name": "C/A GT12 EXT PWR STRIP AND TINNED, 20FT" },
+              { "sku": "MD701563-C", "name": "GT12 MID BRACKET WITH RIVET" },
+              { "sku": "ST100859-001", "name": "C/A GT12 16-WIRE BLUNT-CUT 4ft" },
+              { "sku": "ST100887-001", "name": "KIT NEW INSTALL GT12" },
+              { "sku": "ST100904-001", "name": "KIT GT12 MAGNET MNT W/CARABINER TETHER" },
+              { "sku": "ST101002-001", "name": "KIT TETHER GENERIC" },
+              { "sku": "ST101018-001", "name": "KIT REPLACEMENT MOUNTING GT12" },
               { "sku": "ST101025-001", "name": "C/A GT12 EXT PWR DOOR TIRE INFLATION LIGHT RING/BULLET TERM" },
+              { "sku": "ST101026-001", "name": "C/A GT12 EXT PWR STRIP AND TINNED, 20FT" },
+              { "sku": "ST101030-001", "name": "KIT CABLE COVER RIGHT ANGLE GT12" },
               { "sku": "ST101074-001", "name": "C/A GT12 FOUR IO BLUNT CUT" },
-              { "sku": "ST101152-001", "name": "C/A GT12 DOOR EXT 75' BLUNT CUT" },
               { "sku": "ST101135-001", "name": "C/A GT1200 TO ST2100 2ft" },
+              { "sku": "ST101152-001", "name": "C/A GT12 DOOR EXT 75' BLUNT CUT" },
               { "sku": "ST101162-001", "name": "C/A GT12-ST2100 EXT PWR TIRE INFLAT LIGHT RING/BULLET TERM" },
               { "sku": "ST101196-001", "name": "C/A GT12 TO CS500 PVC 60FT" },
               { "sku": "ST101213-001", "name": "KIT CEILING MOUNT CS500 CAMERAWIRED" },
-              { "sku": "ST101443-001", "name": "C/A GT12 ST2100 CS500" },
               { "sku": "ST101250-001", "name": "C/A GT12-ST21 CS500 EXT PWR TPMS LIGHT RING/BULL TERM" },
               { "sku": "ST101342-001", "name": "C/A GT12 SHELF ST21 CS500 EXT PWR TPMS LIGHT RING/BULL" },
-              { "sku": "ST101030-001", "name": "KIT CABLE COVER RIGHT ANGLE GT12" },
-              { "sku": "ST101018-001", "name": "KIT REPLACEMENT MOUNTING GT12" }
+              { "sku": "ST101441", "name": "KIT MNTING BRACKET SINGLE FOR CS210 & GT11/12 ON BRACKET" },
+              { "sku": "ST101443-001", "name": "C/A GT12 ST2100 CS500" },
+              { "sku": "ST101564-001-RK", "name": "R/K DS300 MAGNET" },
+              { "sku": "CA301178-001", "name": "C/A GT11 16-PIN DUAL TEMP PROBE 48in" }
           ],
           "memory": "2KB EEPROM · 16MB Flash · 100 msg S&F (4 000+ extendido)",
           "certs": "CE · FCC · IC · PTCRB · Anatel · RoHS",
@@ -703,23 +733,39 @@ window.VIACHAIN_DATA = {
           "env": "IP67 · SAE J1455 · −40 °C / +70 °C",
           "dims": "415.7 × 91.9 × 25.3 mm · Con 16-pin: 432.6 × 91.9 × 25.3 mm",
           "sku": "GT1230-0700-H · GT1230-1700-H",
+          "bundles": [
+              { "sku": "GT1230-0700-S", "name": "GT1230 NO CON GL LTE VHB MNT GS" },
+              { "sku": "GT1230-0700-H", "name": "GT1230 NO CON GL LTE VHB MNT ATT GS" },
+              { "sku": "GT1230-1700-H", "name": "GT1230 16P GL LTE VHB MNT ATT GS" }
+          ],
           "kits": [
-              { "sku": "ST101026-001", "name": "C/A GT12 EXT PWR STRIP AND TINNED, 20FT" },
+              { "sku": "MD701563-C", "name": "GT12 MID BRACKET WITH RIVET" },
+              { "sku": "ST100859-001", "name": "C/A GT12 16-WIRE BLUNT-CUT 4ft" },
+              { "sku": "ST100887-001", "name": "KIT NEW INSTALL GT12" },
+              { "sku": "ST100904-001", "name": "KIT GT12 MAGNET MNT W/CARABINER TETHER" },
+              { "sku": "ST100931", "name": "KIT GT1210 DRILL TEMPLATE" },
+              { "sku": "ST100965-001", "name": "HORN SHEET AND POST (2 1/8\" to 2 1/2\") GT1210" },
+              { "sku": "ST100965-002", "name": "HORN SHEET AND POST (1 3/4\" to 2 1/8\") GT1210" },
+              { "sku": "ST100965-003", "name": "TWO HORN SHEET AND POST (1 3/4\" to 2 1/2\") GT1210" },
+              { "sku": "ST101002-001", "name": "KIT TETHER GENERIC" },
+              { "sku": "ST101018-001", "name": "KIT REPLACEMENT MOUNTING GT12" },
               { "sku": "ST101025-001", "name": "C/A GT12 EXT PWR DOOR TIRE INFLATION LIGHT RING/BULLET TERM" },
+              { "sku": "ST101026-001", "name": "C/A GT12 EXT PWR STRIP AND TINNED, 20FT" },
+              { "sku": "ST101030-001", "name": "KIT CABLE COVER RIGHT ANGLE GT12" },
+              { "sku": "ST101043-001", "name": "KIT CARGO SENSOR HOLE PLUG GT1210" },
               { "sku": "ST101074-001", "name": "C/A GT12 FOUR IO BLUNT CUT" },
-              { "sku": "ST101152-001", "name": "C/A GT12 DOOR EXT 75' BLUNT CUT" },
               { "sku": "ST101135-002", "name": "C/A GT1210 TO ST2100 8ft" },
+              { "sku": "ST101152-001", "name": "C/A GT12 DOOR EXT 75' BLUNT CUT" },
               { "sku": "ST101162-001", "name": "C/A GT12-ST2100 EXT PWR TIRE INFLAT LIGHT RING/BULLET TERM" },
               { "sku": "ST101196-001", "name": "C/A GT12 TO CS500 PVC 60FT" },
               { "sku": "ST101213-001", "name": "KIT CEILING MOUNT CS500 CAMERAWIRED" },
-              { "sku": "ST101443-001", "name": "C/A GT12 ST2100 CS500" },
+              { "sku": "ST101230-001", "name": "KIT HORN ADAPTER GT1210" },
               { "sku": "ST101250-001", "name": "C/A GT12-ST21 CS500 EXT PWR TPMS LIGHT RING/BULL TERM" },
               { "sku": "ST101342-001", "name": "C/A GT12 SHELF ST21 CS500 EXT PWR TPMS LIGHT RING/BULL" },
-              { "sku": "ST100931", "name": "KIT GT1210 DRILL TEMPLATE" },
-              { "sku": "ST101230-001", "name": "KIT HORN ADAPTER GT1210" },
-              { "sku": "ST101043-001", "name": "KIT CARGO SENSOR HOLE PLUG GT1210" },
-              { "sku": "ST101030-001", "name": "KIT CABLE COVER RIGHT ANGLE GT12" },
-              { "sku": "ST101018-001", "name": "KIT REPLACEMENT MOUNTING GT12" }
+              { "sku": "ST101441", "name": "KIT MNTING BRACKET SINGLE FOR CS210 & GT11/12 ON BRACKET" },
+              { "sku": "ST101443-001", "name": "C/A GT12 ST2100 CS500" },
+              { "sku": "ST101564-001-RK", "name": "R/K DS300 MAGNET" },
+              { "sku": "CA301178-001", "name": "C/A GT11 16-PIN DUAL TEMP PROBE 48in" }
           ],
           "memory": "2KB EEPROM · 16MB Flash · 100 msg S&F (4 000+ extendido)",
           "certs": "CE · FCC · IC · PTCRB · Anatel · RoHS",
@@ -1028,6 +1074,9 @@ window.VIACHAIN_DATA = {
           "env": "IP67 · IPX9K · −30 °C / +70 °C · ATEX Zone 2",
           "dims": "224 × 76 × 28 mm",
           "sku": "SC1000-0100",
+          "bundles": [
+              { "sku": "SC1000-0100", "name": "SC1000 ORBC" }
+          ],
           "kits": [
               { "sku": "ST101687", "name": "KIT MAGNET MOUNT SC1000" }
           ],
